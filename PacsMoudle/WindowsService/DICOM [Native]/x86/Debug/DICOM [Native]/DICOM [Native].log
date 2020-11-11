@@ -1,0 +1,57 @@
+﻿  header.cpp
+  interface.cpp
+  jpegls.cpp
+  stdafx.cpp
+  正在生成代码...
+  Dicom.Imaging.Codec.Jpeg.cpp
+  Dicom.Imaging.Codec.Jpeg2000.cpp
+  Dicom.Imaging.Codec.JpegLS.cpp
+  Dicom.Imaging.Codec.Jpeg_12.cpp
+  Dicom.Imaging.Codec.Jpeg_16.cpp
+  Dicom.Imaging.Codec.Jpeg_8.cpp
+  Dicom.Imaging.Codec.Rle.cpp
+  DicomNativeExt.cpp
+  正在生成代码...
+  bio.c
+  cidx_manager.c
+  cio.c
+  dwt.c
+  event.c
+..\OpenJPEG\event.c(112): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“vsprintf”的声明
+  image.c
+  j2k.c
+..\OpenJPEG\j2k.c(2065): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+  j2k_lib.c
+  jp2.c
+  jpt.c
+  mct.c
+  mqc.c
+  openjpeg.c
+  phix_manager.c
+  pi.c
+..\OpenJPEG\pi.c(740): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+..\OpenJPEG\pi.c(742): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+..\OpenJPEG\pi.c(744): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+..\OpenJPEG\pi.c(746): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+..\OpenJPEG\pi.c(748): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          D:\d\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+  ppix_manager.c
+  raw.c
+  t1.c
+  t2.c
+  tcd.c
+  正在生成代码...
+  正在编译...
+  tgt.c
+  thix_manager.c
+  tpix_manager.c
+  正在生成代码...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+libijg12.x86.lib(jdmarker.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  DICOM [Native].vcxproj -> E:\SVN\mobilehis\service\MobileWs\Pacs\DICOM [Native]\x86\..\Debug\Dicom.Native.dll

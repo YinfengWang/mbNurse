@@ -1,0 +1,20 @@
+2014/11/20 14:16:37
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104
+2014/11/20 14:16:43
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104
+2014/11/20 14:17:12
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104
+2014/11/20 14:46:43
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104
+2014/11/20 14:46:48
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104

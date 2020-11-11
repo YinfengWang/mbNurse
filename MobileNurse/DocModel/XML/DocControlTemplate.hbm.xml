@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.DocControlTemplate, DocModel" table="DOC_CONTROL_TEMPLATE" lazy="false">
+		<id name="Id" type="Decimal" unsaved-value="0">
+			<column name="ID" sql-type="NUMBER" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="Name" type="String">
+			<column name="NAME" length="40" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="ControlFont" type="String">
+			<column name="CONTROL_FONT" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ControlWidth" type="Decimal">
+			<column name="CONTROL_WIDTH" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlHeight" type="Decimal">
+			<column name="CONTROL_HEIGHT" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlOffset" type="Decimal">
+			<column name="CONTROL_OFFSET" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="IsEnabled" type="Byte">
+			<column name="IS_ENABLED" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="Remark" type="String">
+			<column name="REMARK" length="800" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<many-to-one name="DocControlType" class="HISPlus.DocControlType, DocModel">
+			<column name="CONTROL_TYPE_ID" sql-type="NUMBER" not-null="false"/>
+		</many-to-one>
+	</class>
+</hibernate-mapping>

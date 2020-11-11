@@ -1,0 +1,116 @@
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISComm.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.ErrDspForm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.ProcessForm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.FormDo.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.FormDoInfo.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.SplashScreen1.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.WaitForm1.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcButton.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcComboBox.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcDatePicker.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcGridView.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextBox.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextArea.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTreeList.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISPlus.UserControls.UCGridView_CellMerge.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISComm.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISComm.dll.licenses
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Common\HISComm\obj\Debug\HISComm.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\HISComm.pdb
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ErrDspForm.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ProcessForm.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDo.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDoInfo.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.SplashScreen1.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.WaitForm1.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcButton.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcComboBox.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcDatePicker.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcGridView.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextBox.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextArea.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTreeList.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UCGridView_CellMerge.resources
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll.licenses
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.pdb
+E:\SVN\mobilenurse\MobileNurse\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse\HISComm.pdb
+E:\SVN\mobilenurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.csprojResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ErrDspForm.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ProcessForm.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDo.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDoInfo.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.SplashScreen1.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.WaitForm1.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.Properties.Resources.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcButton.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcComboBox.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcDatePicker.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcGridView.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextBox.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextArea.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTreeList.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UCGridView_CellMerge.resources
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\GenerateResource.read.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\GenerateResource.write.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll.licenses
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll
+C:\svnProject\mobileNurse\MobileNurse\Common\HISComm\obj\Debug\HISComm.pdb
+C:\svnProject\mobileNurse\MobileNurse\HISComm.dll
+C:\svnProject\mobileNurse\MobileNurse\HISComm.pdb
+C:\nurseCf\MobileNurse\HISComm.dll
+C:\nurseCf\MobileNurse\HISComm.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISComm.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISComm.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISGlobalVariant.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\bin\Debug\Oracle.DataAccess.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.csprojResolveAssemblyReference.cache
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ErrDspForm.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ProcessForm.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDo.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDoInfo.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.SplashScreen1.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.WaitForm1.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcButton.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcComboBox.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcDatePicker.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcGridView.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextBox.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextArea.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTreeList.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UCGridView_CellMerge.resources
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll.licenses
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.pdb
+C:\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISComm.dll
+C:\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISComm.pdb
+C:\nurseCf\MobileNurse\Common\HISComm\bin\Debug\HISGlobalVariant.dll
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ErrDspForm.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.ProcessForm.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDo.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.FormDoInfo.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.SplashScreen1.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.WaitForm1.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.Properties.Resources.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcButton.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcComboBox.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcDatePicker.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcGridView.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextBox.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTextArea.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UcTreeList.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISPlus.UserControls.UCGridView_CellMerge.resources
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll.licenses
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.dll
+C:\nurseCf\MobileNurse\Common\HISComm\obj\Debug\HISComm.pdb

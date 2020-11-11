@@ -1,0 +1,592 @@
+2015/4/29 16:29:25
+登录系统	1482
+2015/4/29 16:32:03
+正常退出	1482
+2015/4/29 16:41:22
+登录系统	1482
+2015/4/29 16:44:10
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/29 16:44:12
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/29 16:44:13
+登录系统	1482
+2015/4/29 16:44:47
+正常退出	1482
+2015/4/29 16:45:23
+登录系统	1482
+2015/4/29 16:49:15
+登录系统	1482
+2015/4/29 16:51:09
+登录系统	1482
+2015/4/29 16:51:43
+正常退出	1482
+2015/4/29 16:52:19
+登录系统	1482
+2015/4/29 16:54:58
+登录系统	1482
+2015/4/29 16:55:58
+登录系统	1482
+2015/4/29 16:57:41
+登录系统	1482
+2015/4/29 16:58:18
+正常退出	1482
+2015/4/29 16:58:36
+登录系统	1482
+2015/4/29 16:59:03
+正常退出	1482
+2015/4/29 16:59:23
+登录系统	1482
+2015/4/29 17:00:49
+正常退出	1482
+2015/4/29 17:06:55
+登录系统	1482
+2015/4/29 17:07:43
+正常退出	1482
+2015/4/29 17:09:03
+登录系统	1482
+2015/4/29 17:12:25
+登录系统	1482
+2015/4/29 17:13:45
+登录系统	1482
+2015/4/29 17:14:43
+正常退出	1482
+2015/4/29 17:15:24
+登录系统	1482
+2015/4/29 17:25:43
+登录系统	1482
+2015/4/29 17:27:25
+登录系统	1482
+2015/4/29 17:28:03
+未将对象引用设置到对象的实例。
+   在 DevExpress.XtraGrid.Columns.GridColumn.set_AbsoluteIndex(Int32 value)
+   在 HISPlus.UserControls.UcGridView.Add(String caption, String fieldName, Object dataSource, String valueName, String displayName, Int32 width, Int32 minWidth) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 769
+   在 HISPlus.OrdersExecuteBilFrm.initDisp() 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 563
+   在 HISPlus.OrdersExecuteBilFrm.OrdersExecuteBilFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 63
+2015/4/29 17:28:06
+未将对象引用设置到对象的实例。
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 171
+2015/4/29 17:28:07
+正常退出	1482
+2015/4/29 17:39:29
+登录系统	1482
+2015/4/29 17:41:24
+登录系统	1482
+2015/4/29 17:41:57
+正常退出	1482
+2015/4/29 17:42:54
+登录系统	1482
+2015/4/29 17:44:45
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:33
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:38
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:43
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:44
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:45
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:45
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:46
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:46
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:47
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:47
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:47
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:53
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:54
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:55
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:56
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:56
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:56
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:57
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:57
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:57
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:57
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:45:58
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:45:58
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:05
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:05
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:06
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:06
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:06
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:06
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:06
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:07
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:07
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:07
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:07
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:07
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:08
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:08
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:08
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:09
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:09
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:09
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:09
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:10
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:10
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:10
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:10
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:12
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:12
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:13
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:14
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:15
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1334
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:16
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:17
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:18
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:19
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:19
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:19
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:19
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:19
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:20
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:46:25
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1328
+2015/4/29 17:49:40
+登录系统	1482
+2015/4/29 17:53:38
+登录系统	1482
+2015/4/29 18:02:44
+登录系统	1482
+2015/4/29 18:02:56
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.gcDefault_DataSourceChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1358
+   在 DevExpress.XtraGrid.GridControl.RaiseDataSourceChanged()
+   在 HISPlus.UserControls.UcGridView.set_DataSource(Object value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 148
+   在 DXApplication2.PatientListWardFrm.lookUpEdit1_EditValueChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 551
+2015/4/29 18:03:06
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.gcDefault_DataSourceChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1358
+   在 DevExpress.XtraGrid.GridControl.RaiseDataSourceChanged()
+   在 HISPlus.UserControls.UcGridView.set_DataSource(Object value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 148
+   在 HISPlus.DocSetting1.Init() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 199
+   在 HISPlus.DocSetting1.DocSetting_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 102
+2015/4/29 18:04:06
+登录系统	1482
+2015/4/29 18:05:05
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1327
+2015/4/29 18:05:11
+给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 HISPlus.UserControls.UcGridView.gvDefault_RowStyle(Object sender, RowStyleEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1327
+2015/4/29 18:06:29
+登录系统	1482
+2015/4/29 18:09:21
+登录系统	1482
+2015/4/29 18:15:19
+登录系统	1482
+2015/4/29 18:16:13
+正常退出	1482
+2015/4/29 18:20:12
+登录系统	1482
+2015/4/29 18:21:19
+正常退出	1482
+2015/4/29 18:22:11
+登录系统	1482
+2015/4/29 18:22:49
+正常退出	1482
+2015/4/29 18:23:35
+登录系统	1482
+2015/4/29 18:29:38
+登录系统	1482
+2015/4/29 18:35:04
+登录系统	1482
+2015/4/29 18:35:31
+值不能为 null。
+参数名: key
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 HISPlus.UserControls.UcGridView.set_ColumnsEvenOldRowColor(String value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 1104
+   在 HISPlus.OrdersExecuteBilFrm.initDisp() 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 582
+   在 HISPlus.OrdersExecuteBilFrm.OrdersExecuteBilFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 63
+2015/4/29 18:36:30
+登录系统	1482
+2015/4/29 18:37:11
+正常退出	1482

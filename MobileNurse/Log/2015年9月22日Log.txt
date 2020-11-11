@@ -1,0 +1,64 @@
+2015/9/22 11:42:00
+登录失败	
+2015/9/22 16:07:39
+ORA-12154: TNS:could not resolve the connect identifier specified
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 M:\移动护理\nurseCf\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 M:\移动护理\nurseCf\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 M:\移动护理\nurseCf\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 M:\移动护理\nurseCf\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 M:\移动护理\nurseCf\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 M:\移动护理\nurseCf\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/9/22 16:07:52
+登录系统	0351
+2015/9/22 16:08:01
+Unable to load type 'NHibernate.ByteCode.LinFu.ProxyFactoryFactory, NHibernate.ByteCode.LinFu' during configuration of proxy factory class.
+Possible causes are:
+- The NHibernate.Bytecode provider assembly was not deployed.
+- The typeName used to initialize the 'proxyfactory.factory_class' property of the session-factory section is not well formed.
+
+Solution:
+Confirm that your deployment folder contains one of the following assemblies:
+NHibernate.ByteCode.LinFu.dll
+NHibernate.ByteCode.Castle.dll
+   在 NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+   在 NHibernate.Cfg.Configuration.ConfigureProxyFactoryFactory()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 HISPlus.EntityOper..ctor() 位置 M:\移动护理\nurseCf\MobileNurse\CommonEntity\EntityOper.cs:行号 46
+   在 HISPlus.EntityOper.GetInstance() 位置 M:\移动护理\nurseCf\MobileNurse\CommonEntity\EntityOper.cs:行号 34
+   在 DXApplication2.MdiFrm.d()
+   在 DXApplication2.MdiFrm.l(Object A_0, EventArgs A_1)未能加载文件或程序集“NHibernate.ByteCode.LinFu”或它的某一个依赖项。系统找不到指定的文件。
+2015/9/22 16:08:05
+正常退出	0351
+2015/9/22 16:10:30
+登录系统	0351
+2015/9/22 16:10:34
+Unable to load type 'NHibernate.ByteCode.LinFu.ProxyFactoryFactory, NHibernate.ByteCode.LinFu' during configuration of proxy factory class.
+Possible causes are:
+- The NHibernate.Bytecode provider assembly was not deployed.
+- The typeName used to initialize the 'proxyfactory.factory_class' property of the session-factory section is not well formed.
+
+Solution:
+Confirm that your deployment folder contains one of the following assemblies:
+NHibernate.ByteCode.LinFu.dll
+NHibernate.ByteCode.Castle.dll
+   在 NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+   在 NHibernate.Cfg.Configuration.ConfigureProxyFactoryFactory()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 HISPlus.EntityOper..ctor() 位置 M:\移动护理\nurseCf\MobileNurse\CommonEntity\EntityOper.cs:行号 46
+   在 HISPlus.EntityOper.GetInstance() 位置 M:\移动护理\nurseCf\MobileNurse\CommonEntity\EntityOper.cs:行号 34
+   在 DXApplication2.MdiFrm.d()
+   在 DXApplication2.MdiFrm.l(Object A_0, EventArgs A_1)未能加载文件或程序集“NHibernate.ByteCode.LinFu”或它的某一个依赖项。系统找不到指定的文件。
+2015/9/22 16:10:36
+正常退出	0351

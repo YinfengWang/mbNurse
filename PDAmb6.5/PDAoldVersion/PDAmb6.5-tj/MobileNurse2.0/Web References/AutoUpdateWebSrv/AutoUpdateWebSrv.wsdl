@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CheckUpdated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUpdatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckUpdatedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerFileList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerFileListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServerFileListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServerFileResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="base64Binary" nillable="true" type="s:base64Binary" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckUpdatedSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckUpdated" />
+  </wsdl:message>
+  <wsdl:message name="CheckUpdatedSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckUpdatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerFileList" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerFileListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerFile" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListHttpGetIn">
+    <wsdl:part name="appCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileHttpGetIn">
+    <wsdl:part name="appCode" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListHttpPostIn">
+    <wsdl:part name="appCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileHttpPostIn">
+    <wsdl:part name="appCode" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:portType name="AutoUpdateWebSrvSoap">
+    <wsdl:operation name="CheckUpdated">
+      <wsdl:input message="tns:CheckUpdatedSoapIn" />
+      <wsdl:output message="tns:CheckUpdatedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFileList">
+      <wsdl:input message="tns:GetServerFileListSoapIn" />
+      <wsdl:output message="tns:GetServerFileListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <wsdl:input message="tns:GetServerFileSoapIn" />
+      <wsdl:output message="tns:GetServerFileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AutoUpdateWebSrvHttpGet">
+    <wsdl:operation name="GetServerFileList">
+      <wsdl:input message="tns:GetServerFileListHttpGetIn" />
+      <wsdl:output message="tns:GetServerFileListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <wsdl:input message="tns:GetServerFileHttpGetIn" />
+      <wsdl:output message="tns:GetServerFileHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AutoUpdateWebSrvHttpPost">
+    <wsdl:operation name="GetServerFileList">
+      <wsdl:input message="tns:GetServerFileListHttpPostIn" />
+      <wsdl:output message="tns:GetServerFileListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <wsdl:input message="tns:GetServerFileHttpPostIn" />
+      <wsdl:output message="tns:GetServerFileHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AutoUpdateWebSrvSoap" type="tns:AutoUpdateWebSrvSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckUpdated">
+      <soap:operation soapAction="http://tempuri.org/CheckUpdated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFileList">
+      <soap:operation soapAction="http://tempuri.org/GetServerFileList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <soap:operation soapAction="http://tempuri.org/GetServerFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutoUpdateWebSrvSoap12" type="tns:AutoUpdateWebSrvSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckUpdated">
+      <soap12:operation soapAction="http://tempuri.org/CheckUpdated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFileList">
+      <soap12:operation soapAction="http://tempuri.org/GetServerFileList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <soap12:operation soapAction="http://tempuri.org/GetServerFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutoUpdateWebSrvHttpGet" type="tns:AutoUpdateWebSrvHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetServerFileList">
+      <http:operation location="/GetServerFileList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <http:operation location="/GetServerFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutoUpdateWebSrvHttpPost" type="tns:AutoUpdateWebSrvHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetServerFileList">
+      <http:operation location="/GetServerFileList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerFile">
+      <http:operation location="/GetServerFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AutoUpdateWebSrv">
+    <wsdl:port name="AutoUpdateWebSrvSoap" binding="tns:AutoUpdateWebSrvSoap">
+      <soap:address location="http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutoUpdateWebSrvSoap12" binding="tns:AutoUpdateWebSrvSoap12">
+      <soap12:address location="http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutoUpdateWebSrvHttpGet" binding="tns:AutoUpdateWebSrvHttpGet">
+      <http:address location="http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutoUpdateWebSrvHttpPost" binding="tns:AutoUpdateWebSrvHttpPost">
+      <http:address location="http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

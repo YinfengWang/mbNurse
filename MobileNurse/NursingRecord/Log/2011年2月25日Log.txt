@@ -1,0 +1,40 @@
+2011-2-25 11:23:56
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\移动护理项目1104\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\移动护理项目1104\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 11:24:17
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 11:24:32
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 11:25:03
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 14:06:23
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 14:08:15
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 14:09:04
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103
+2011-2-25 14:15:14
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\移动护理项目1104\移动护理报表系统3.0\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingRecordFrm.initFrmVal() 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm_Data.cs:行号 46
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\标准版系统\移动护理标准版\移动护理报表系统3.0\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 103

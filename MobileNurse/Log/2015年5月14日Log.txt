@@ -1,0 +1,220 @@
+2015/5/14 11:01:43
+登录系统	1482
+2015/5/14 11:07:09
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 11:08:26
+登录系统	1482
+2015/5/14 11:12:46
+登录系统	1482
+2015/5/14 11:15:05
+登录系统	1482
+2015/5/14 11:28:04
+登录系统	1482
+2015/5/14 11:36:22
+登录系统	1482
+2015/5/14 11:42:30
+正常退出	1482
+2015/5/14 11:44:45
+登录系统	1482
+2015/5/14 11:45:30
+列“USER_ID”不属于表 USER_DICT。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HISPlus.UserManagerFrm.gvUser_SelectionChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm.cs:行号 198
+2015/5/14 11:49:57
+登录系统	1482
+2015/5/14 11:53:09
+登录系统	1482
+2015/5/14 12:01:00
+登录系统	1482
+2015/5/14 12:06:22
+登录系统	1482
+2015/5/14 12:08:18
+登录系统	1482
+2015/5/14 12:12:34
+正常退出	1482
+2015/5/14 15:55:19
+System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 16:35:37
+System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 16:35:39
+System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 16:35:39
+登录失败	1482
+2015/5/14 16:48:29
+System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 16:48:31
+System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 16:48:33
+登录失败	1482
+2015/5/14 16:54:23
+登录系统	1482
+2015/5/14 16:56:40
+登录系统	1482
+2015/5/14 16:57:26
+正常退出	1482
+2015/5/14 16:58:02
+登录系统	1482
+2015/5/14 16:59:23
+登录系统	1482
+2015/5/14 17:01:44
+登录系统	1482
+2015/5/14 17:02:06
+正常退出	1482
+2015/5/14 17:04:06
+登录系统	1482
+2015/5/14 17:06:19
+正常退出	1482
+2015/5/14 17:19:32
+登录系统	1482
+2015/5/14 17:25:28
+登录系统	1482
+2015/5/14 17:28:58
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 17:29:00
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 17:29:01
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/14 17:29:03
+登录系统	1482
+2015/5/14 17:30:50
+登录系统	1482
+2015/5/14 17:32:47
+正常退出	1482
+2015/5/14 17:35:50
+登录系统	1482
+2015/5/14 17:36:25
+正常退出	1482
+2015/5/14 17:38:27
+登录系统	1482
+2015/5/14 17:44:35
+正常退出	1482

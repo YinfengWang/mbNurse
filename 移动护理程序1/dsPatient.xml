@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NAME" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SEX" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DATE_OF_BIRTH" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DIAGNOSIS" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="80" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VISIT_ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PATIENT_ID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="INP_NO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CHARGE_TYPE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BED_NO" type="xs:decimal" />
+                <xs:element name="BED_LABEL" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ROOM_NO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ADMISSION_DATE_TIME" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="DEPT_NAME" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Table1" />
+        <xs:field xpath="PATIENT_ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <NAME>李一一</NAME>
+    <SEX>男</SEX>
+    <DATE_OF_BIRTH>1999-09-09T01:00:00+08:00</DATE_OF_BIRTH>
+    <DIAGNOSIS>鞍鼻</DIAGNOSIS>
+    <VISIT_ID>1</VISIT_ID>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <INP_NO>Z000149</INP_NO>
+    <CHARGE_TYPE>自费</CHARGE_TYPE>
+    <BED_NO>2</BED_NO>
+    <BED_LABEL>2</BED_LABEL>
+    <ROOM_NO>02</ROOM_NO>
+    <ADMISSION_DATE_TIME>2008-08-11T15:53:27+08:00</ADMISSION_DATE_TIME>
+    <DEPT_NAME>内一</DEPT_NAME>
+  </Table1>
+</NewDataSet>

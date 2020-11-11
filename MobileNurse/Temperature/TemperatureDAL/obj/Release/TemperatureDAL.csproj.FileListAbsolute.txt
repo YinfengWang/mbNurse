@@ -1,0 +1,6 @@
+C:\svnProject\mobileNurse\移动护理程序1\TemperatureDAL.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureDAL\obj\Release\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureDAL\obj\Release\TemperatureDAL.dll
+C:\svnProject\mbNurseFull\trunk\mbNursePC\移动护理程序1\TemperatureDAL.dll
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\Temperature\TemperatureDAL\obj\Release\ResolveAssemblyReference.cache
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\Temperature\TemperatureDAL\obj\Release\TemperatureDAL.dll

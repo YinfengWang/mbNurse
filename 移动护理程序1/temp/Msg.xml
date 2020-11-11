@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<MSG>
+  <xs:schema id="MSG" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="MSG" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MSG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MSG_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MSG_CONTENT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MSG>
+    <MSG_ID>W01</MSG_ID>
+    <MSG_CONTENT>消息示例</MSG_CONTENT>
+  </MSG>
+</MSG>

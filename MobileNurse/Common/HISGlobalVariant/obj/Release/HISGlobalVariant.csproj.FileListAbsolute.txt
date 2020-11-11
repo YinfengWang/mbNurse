@@ -1,0 +1,12 @@
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\bin\Release\HISGlobalVariant.dll
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\bin\Release\HISGlobalVariant.pdb
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\bin\Release\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\bin\Release\HISComm.pdb
+E:\SVN\mobilenurse\移动护理程序1\HISGlobalVariant.dll
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\obj\Release\HISGlobalVariant.dll
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\obj\Release\HISGlobalVariant.csprojResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\HISGlobalVariant\obj\Release\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\HISGlobalVariant\obj\Release\HISGlobalVariant.dll
+C:\nurseCf\移动护理程序1\HISGlobalVariant.dll
+C:\nurseCf\MobileNurse\Common\HISGlobalVariant\obj\Release\HISGlobalVariant.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\Common\HISGlobalVariant\obj\Release\HISGlobalVariant.dll

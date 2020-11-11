@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<Application>
+  <xs:schema id="Application" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Application" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Application">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PropertyName" type="xs:string" minOccurs="0" />
+                <xs:element name="PropertyValue" type="xs:string" minOccurs="0" />
+                <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Application>
+    <PropertyName>TITLE</PropertyName>
+    <PropertyValue>应用程序名称</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>NAME</PropertyName>
+    <PropertyValue>Not Set</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>RIGHT_ID</PropertyName>
+    <PropertyValue>2</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>VERSION</PropertyName>
+    <PropertyValue>版本1.0</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>COPY_RIGHT</PropertyName>
+    <PropertyValue>版权所有：北京天健源达科技有限公司</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>QUESTION_EXIT</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>退出前询问 是否退出</Comment>
+  </Application>
+  <Application>
+    <PropertyName>ONE_INSTANCE</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>是否只运行一个实例 1:是 0:否</Comment>
+  </Application>
+  <Application>
+    <PropertyName>INI_FILE</PropertyName>
+    <PropertyValue>MOBILE_NURSE.INI</PropertyValue>
+    <Comment>ini文件</Comment>
+  </Application>
+  <Application>
+    <PropertyName>SYN_LOCAL_DATETIME</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>是否用服务器时间更正本地时间</Comment>
+  </Application>
+</Application>

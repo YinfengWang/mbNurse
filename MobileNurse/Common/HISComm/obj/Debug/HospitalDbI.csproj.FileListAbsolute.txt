@@ -1,0 +1,51 @@
+F:\开发空间\源代码\数据接口\HospitalDbI\HospitalDbI\obj\Debug\ResolveAssemblyReference.cache
+F:\开发空间\源代码\数据接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+F:\开发空间\源代码\数据接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+F:\开发空间\源代码\数据接口\HospitalDbI.dll
+F:\开发空间\源代码\数据接口\HospitalDbI.pdb
+E:\移动护理项目\数据接口\HospitalDbI\HospitalDbI\obj\Debug\ResolveAssemblyReference.cache
+E:\移动护理项目\数据接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\移动护理项目\数据接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\移动护理项目\数据接口\HospitalDbI.dll
+E:\移动护理项目\数据接口\HospitalDbI.pdb
+E:\移动护理项目1104\移动护理报表系统3.0\接口\HospitalDbI\HospitalDbI\obj\Debug\ResolveAssemblyReference.cache
+E:\移动护理项目1104\移动护理报表系统3.0\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\移动护理项目1104\移动护理报表系统3.0\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\移动护理项目1104\移动护理报表系统3.0\HospitalDbI.dll
+E:\移动护理项目1104\移动护理报表系统3.0\HospitalDbI.pdb
+E:\各医院项目\瓦房店\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\ResolveAssemblyReference.cache
+E:\各医院项目\瓦房店\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\各医院项目\瓦房店\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\各医院项目\瓦房店\移动护理PC\HospitalDbI.dll
+E:\各医院项目\瓦房店\移动护理PC\HospitalDbI.pdb
+E:\各医院项目\瓦房店中心医院\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\ResolveAssemblyReference.cache
+E:\各医院项目\瓦房店中心医院\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\各医院项目\瓦房店中心医院\移动护理PC\接口\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\各医院项目\瓦房店中心医院\移动护理PC\HospitalDbI.dll
+E:\各医院项目\瓦房店中心医院\移动护理PC\HospitalDbI.pdb
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.csprojResolveAssemblyReference.cache
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\HospitalDbI.dll
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\HospitalDbI.pdb
+\\ser08\MobileNurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.csprojResolveAssemblyReference.cache
+\\ser08\MobileNurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+\\ser08\MobileNurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+\\ser08\MobileNurse\MobileNurse\HospitalDbI.dll
+\\ser08\MobileNurse\MobileNurse\HospitalDbI.pdb
+E:\文档\桌面\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.csprojResolveAssemblyReference.cache
+E:\文档\桌面\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\文档\桌面\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\文档\桌面\MobileNurse\HospitalDbI.dll
+E:\文档\桌面\MobileNurse\HospitalDbI.pdb
+E:\SVN\mobilehis\service\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.csprojResolveAssemblyReference.cache
+E:\SVN\mobilehis\service\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\SVN\mobilehis\service\MobileNurse\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\SVN\mobilehis\service\MobileNurse\HospitalDbI.dll
+E:\SVN\mobilehis\service\MobileNurse\HospitalDbI.pdb
+E:\SVN\mobilenurse\HospitalDbI.dll
+E:\SVN\mobilenurse\HospitalDbI.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Interface\HospitalDbI\HospitalDbI\obj\Debug\HospitalDbI.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\HospitalDbI.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\HospitalDbI.pdb

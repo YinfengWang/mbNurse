@@ -1,0 +1,30 @@
+F:\开发空间\源代码\数据接口\EvaluationDbI\EvaluationDbI\obj\Debug\ResolveAssemblyReference.cache
+F:\开发空间\源代码\数据接口\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+F:\开发空间\源代码\数据接口\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+F:\开发空间\源代码\数据接口\EvaluationDbI.dll
+F:\开发空间\源代码\数据接口\EvaluationDbI.pdb
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.csprojResolveAssemblyReference.cache
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\EvaluationDbI.dll
+E:\文档\桌面\logo_2014年5月10日\logo_2014年5月10日\logo1\Interface\EvaluationDbI.pdb
+\\ser08\MobileNurse\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.csprojResolveAssemblyReference.cache
+\\ser08\MobileNurse\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+\\ser08\MobileNurse\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+\\ser08\MobileNurse\MobileNurse\EvaluationDbI.dll
+\\ser08\MobileNurse\MobileNurse\EvaluationDbI.pdb
+E:\文档\桌面\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.csprojResolveAssemblyReference.cache
+E:\文档\桌面\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+E:\文档\桌面\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+E:\文档\桌面\MobileNurse\EvaluationDbI.dll
+E:\文档\桌面\MobileNurse\EvaluationDbI.pdb
+E:\SVN\mobilehis\service\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.csprojResolveAssemblyReference.cache
+E:\SVN\mobilehis\service\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+E:\SVN\mobilehis\service\MobileNurse\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+E:\SVN\mobilehis\service\MobileNurse\EvaluationDbI.dll
+E:\SVN\mobilehis\service\MobileNurse\EvaluationDbI.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\Interface\EvaluationDbI\EvaluationDbI\obj\Debug\EvaluationDbI.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\EvaluationDbI.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\EvaluationDbI.pdb

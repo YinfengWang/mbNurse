@@ -1,0 +1,155 @@
+﻿生成启动时间为 2015/6/11 13:10:37。
+     1>项目“M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\libijg8.x64.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libijg8.x64\libijg8.x64.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         h:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libijg8.x64\\" /Fd"Debug\libijg8.x64\vc100.pdb" /Gd /TC /errorReport:prompt ..\libijg8\jaricom.c ..\libijg8\jcapimin.c ..\libijg8\jcapistd.c ..\libijg8\jcarith.c ..\libijg8\jccoefct.c ..\libijg8\jccolor.c ..\libijg8\jcdctmgr.c ..\libijg8\jcdiffct.c ..\libijg8\jchuff.c ..\libijg8\jcinit.c ..\libijg8\jclhuff.c ..\libijg8\jclossls.c ..\libijg8\jclossy.c ..\libijg8\jcmainct.c ..\libijg8\jcmarker.c ..\libijg8\jcmaster.c ..\libijg8\jcodec.c ..\libijg8\jcomapi.c ..\libijg8\jcparam.c ..\libijg8\jcphuff.c ..\libijg8\jcpred.c ..\libijg8\jcprepct.c ..\libijg8\jcsample.c ..\libijg8\jcscale.c ..\libijg8\jcshuff.c ..\libijg8\jctrans.c ..\libijg8\jdapimin.c ..\libijg8\jdapistd.c ..\libijg8\jdarith.c ..\libijg8\jdatadst.c ..\libijg8\jdatasrc.c ..\libijg8\jdcoefct.c ..\libijg8\jdcolor.c ..\libijg8\jddctmgr.c ..\libijg8\jddiffct.c ..\libijg8\jdhuff.c ..\libijg8\jdinput.c ..\libijg8\jdlhuff.c ..\libijg8\jdlossls.c ..\libijg8\jdlossy.c ..\libijg8\jdmainct.c ..\libijg8\jdmarker.c ..\libijg8\jdmaster.c ..\libijg8\jdmerge.c ..\libijg8\jdphuff.c ..\libijg8\jdpostct.c ..\libijg8\jdpred.c ..\libijg8\jdsample.c ..\libijg8\jdscale.c ..\libijg8\jdshuff.c ..\libijg8\jdtrans.c ..\libijg8\jerror.c ..\libijg8\jfdctflt.c ..\libijg8\jfdctfst.c ..\libijg8\jfdctint.c ..\libijg8\jidctflt.c ..\libijg8\jidctfst.c ..\libijg8\jidctint.c ..\libijg8\jidctred.c ..\libijg8\jmemmgr.c ..\libijg8\jmemnobs.c ..\libijg8\jquant1.c ..\libijg8\jquant2.c ..\libijg8\jutils.c
+         jutils.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+     1>..\libijg8\jmemmgr.c(307): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg8\jmemmgr.c(367): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg8\jmemmgr.c(1029): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg8\jmemmgr.c(1043): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+         jdtrans.c
+         jdshuff.c
+         jdscale.c
+         jdsample.c
+         jdpred.c
+         jdpostct.c
+         jdphuff.c
+         Generating Code...
+         Compiling...
+         jdmerge.c
+         jdmaster.c
+         jdmarker.c
+         jdmainct.c
+         jdlossy.c
+         jdlossls.c
+         jdlhuff.c
+         jdinput.c
+         jdhuff.c
+         jddiffct.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdarith.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcshuff.c
+         Generating Code...
+         Compiling...
+         jcscale.c
+         jcsample.c
+         jcprepct.c
+         jcpred.c
+         jcphuff.c
+         jcparam.c
+         jcomapi.c
+         jcodec.c
+         jcmaster.c
+         jcmarker.c
+         jcmainct.c
+         jclossy.c
+         jclossls.c
+         jclhuff.c
+         jcinit.c
+         jchuff.c
+         jcdiffct.c
+         jcdctmgr.c
+         jccolor.c
+         jccoefct.c
+         Generating Code...
+         Compiling...
+         jcarith.c
+         jcapistd.c
+         jcapimin.c
+         jaricom.c
+         Generating Code...
+       Lib:
+         h:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"Debug\libijg8.x64\libijg8.x64.lib" /NOLOGO Debug\libijg8.x64\jaricom.obj
+         Debug\libijg8.x64\jcapimin.obj
+         Debug\libijg8.x64\jcapistd.obj
+         Debug\libijg8.x64\jcarith.obj
+         Debug\libijg8.x64\jccoefct.obj
+         Debug\libijg8.x64\jccolor.obj
+         Debug\libijg8.x64\jcdctmgr.obj
+         Debug\libijg8.x64\jcdiffct.obj
+         Debug\libijg8.x64\jchuff.obj
+         Debug\libijg8.x64\jcinit.obj
+         Debug\libijg8.x64\jclhuff.obj
+         Debug\libijg8.x64\jclossls.obj
+         Debug\libijg8.x64\jclossy.obj
+         Debug\libijg8.x64\jcmainct.obj
+         Debug\libijg8.x64\jcmarker.obj
+         Debug\libijg8.x64\jcmaster.obj
+         Debug\libijg8.x64\jcodec.obj
+         Debug\libijg8.x64\jcomapi.obj
+         Debug\libijg8.x64\jcparam.obj
+         Debug\libijg8.x64\jcphuff.obj
+         Debug\libijg8.x64\jcpred.obj
+         Debug\libijg8.x64\jcprepct.obj
+         Debug\libijg8.x64\jcsample.obj
+         Debug\libijg8.x64\jcscale.obj
+         Debug\libijg8.x64\jcshuff.obj
+         Debug\libijg8.x64\jctrans.obj
+         Debug\libijg8.x64\jdapimin.obj
+         Debug\libijg8.x64\jdapistd.obj
+         Debug\libijg8.x64\jdarith.obj
+         Debug\libijg8.x64\jdatadst.obj
+         Debug\libijg8.x64\jdatasrc.obj
+         Debug\libijg8.x64\jdcoefct.obj
+         Debug\libijg8.x64\jdcolor.obj
+         Debug\libijg8.x64\jddctmgr.obj
+         Debug\libijg8.x64\jddiffct.obj
+         Debug\libijg8.x64\jdhuff.obj
+         Debug\libijg8.x64\jdinput.obj
+         Debug\libijg8.x64\jdlhuff.obj
+         Debug\libijg8.x64\jdlossls.obj
+         Debug\libijg8.x64\jdlossy.obj
+         Debug\libijg8.x64\jdmainct.obj
+         Debug\libijg8.x64\jdmarker.obj
+         Debug\libijg8.x64\jdmaster.obj
+         Debug\libijg8.x64\jdmerge.obj
+         Debug\libijg8.x64\jdphuff.obj
+         Debug\libijg8.x64\jdpostct.obj
+         Debug\libijg8.x64\jdpred.obj
+         Debug\libijg8.x64\jdsample.obj
+         Debug\libijg8.x64\jdscale.obj
+         Debug\libijg8.x64\jdshuff.obj
+         Debug\libijg8.x64\jdtrans.obj
+         Debug\libijg8.x64\jerror.obj
+         Debug\libijg8.x64\jfdctflt.obj
+         Debug\libijg8.x64\jfdctfst.obj
+         Debug\libijg8.x64\jfdctint.obj
+         Debug\libijg8.x64\jidctflt.obj
+         Debug\libijg8.x64\jidctfst.obj
+         Debug\libijg8.x64\jidctint.obj
+         Debug\libijg8.x64\jidctred.obj
+         Debug\libijg8.x64\jmemmgr.obj
+         Debug\libijg8.x64\jmemnobs.obj
+         Debug\libijg8.x64\jquant1.obj
+         Debug\libijg8.x64\jquant2.obj
+         Debug\libijg8.x64\jutils.obj
+         libijg8.x64.vcxproj -> M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\Debug\libijg8.x64\libijg8.x64.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libijg8.x64\libijg8.x64.unsuccessfulbuild”。
+         正在对“Debug\libijg8.x64\libijg8.x64.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\libijg8.x64.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.82

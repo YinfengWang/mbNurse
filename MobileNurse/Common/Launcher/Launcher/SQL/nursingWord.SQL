@@ -1,0 +1,1 @@
+ select * from vital_signs_rec where TIME_POINT >={DATE_BEGIN} AND TIME_POINT < {DATE_END}

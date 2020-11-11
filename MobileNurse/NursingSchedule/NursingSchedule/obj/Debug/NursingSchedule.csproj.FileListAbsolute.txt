@@ -1,0 +1,94 @@
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemSelectFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOListFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOSettingFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecViewFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrmOld.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.TreeNodeSelectorFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm1.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm2.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll.licenses
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.pdb
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemSelectFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOListFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOSettingFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecViewFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrmOld.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.TreeNodeSelectorFrm.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm1.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm2.resources
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll.licenses
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.pdb
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule.dll
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule.pdb
+E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csprojResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemSelectFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOListFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOSettingFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.Properties.Resources.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecViewFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrmOld.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.TreeNodeSelectorFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm1.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm2.resources
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\GenerateResource.read.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\GenerateResource.write.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll.licenses
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.pdb
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule.dll
+C:\svnProject\mobileNurse\MobileNurse\NursingSchedule.pdb
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csprojResolveAssemblyReference.cache
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemSelectFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOListFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOSettingFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecViewFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrmOld.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.TreeNodeSelectorFrm.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm1.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm2.resources
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll.licenses
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.pdb
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule.dll
+M:\移动护理\nurseCf\MobileNurse\NursingSchedule.pdb
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemSelectFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOListFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIOSettingFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.Properties.Resources.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecViewFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.PIORecFrmOld.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.TreeNodeSelectorFrm.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm1.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\HISPlus.DictItemMatchFrm2.resources
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll.licenses
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.dll
+C:\nurseCf\MobileNurse\NursingSchedule\NursingSchedule\obj\Debug\NursingSchedule.pdb
+C:\nurseCf\MobileNurse\NursingSchedule.dll
+C:\nurseCf\MobileNurse\NursingSchedule.pdb

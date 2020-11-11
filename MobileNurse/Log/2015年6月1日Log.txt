@@ -1,0 +1,42 @@
+2015/6/1 10:48:57
+登录系统	1482
+2015/6/1 10:50:00
+No persister for: System.Collections.Generic.List`1[[HISPlus.DocTemplateElement, DocModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   在 NHibernate.Impl.SessionFactoryImpl.GetEntityPersister(String entityName)
+   在 NHibernate.Impl.SessionImpl.GetEntityPersister(String entityName, Object obj)
+   在 NHibernate.Event.Default.DefaultDeleteEventListener.OnDelete(DeleteEvent event, ISet transientEntities)
+   在 NHibernate.Event.Default.DefaultDeleteEventListener.OnDelete(DeleteEvent event)
+   在 NHibernate.Impl.SessionImpl.FireDelete(DeleteEvent event)
+   在 NHibernate.Impl.SessionImpl.Delete(Object obj)
+   在 HISPlus.EntityOper.Delete[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 107
+   在 HISPlus.DocSetting1.btnSave_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1240
+2015/6/1 10:51:31
+登录系统	1482
+2015/6/1 11:10:22
+登录系统	1482
+2015/6/1 11:12:36
+正常退出	1482
+2015/6/1 11:16:34
+登录系统	1482
+2015/6/1 11:20:12
+登录系统	1482
+2015/6/1 11:36:46
+登录系统	1482
+2015/6/1 11:37:10
+正常退出	1482
+2015/6/1 11:46:12
+登录系统	1482
+2015/6/1 11:48:24
+登录系统	1482
+2015/6/1 11:49:34
+登录系统	1482
+2015/6/1 11:50:15
+正常退出	1482
+2015/6/1 11:52:29
+登录系统	1482
+2015/6/1 11:53:15
+正常退出	1482
+2015/6/1 11:55:11
+登录系统	1482
+2015/6/1 12:00:26
+登录系统	1482

@@ -1,0 +1,8 @@
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Debug\AutoUpdate.exe.config
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Debug\AutoUpdate.exe
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Debug\AutoUpdate.pdb
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Debug\AutoUpdate.AutoUpdateFrm.resources
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Debug\AutoUpdate.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Debug\AutoUpdate.exe
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Debug\AutoUpdate.pdb
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Debug\AutoUpdate.csprojResolveAssemblyReference.cache

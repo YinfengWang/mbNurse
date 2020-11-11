@@ -1,0 +1,1 @@
+select * from orders_execute where IS_EXECUTE = '1' and ORDER_SUB_NO = '1' and EXECUTE_DATE_TIME >={DATE_BEGIN} AND EXECUTE_DATE_TIME < {DATE_END}

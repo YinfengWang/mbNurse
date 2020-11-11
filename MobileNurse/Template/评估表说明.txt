@@ -1,0 +1,13 @@
+NAME: 			姓名
+SEX: 			性别
+DATE_OF_BIRTH: 		出生日期
+DIAGNOSIS: 		主要诊断            
+VISIT_ID: 		本次住院标识
+PATIENT_ID: 		病人标识号
+INP_NO: 		住院号
+CHARGE_TYPE: 		费别
+BED_NO: 		床号
+BED_LABEL: 		床标号
+ROOM_NO: 		房间号
+ADMISSION_DATE_TIME: 	入院日期
+DEPT_NAME: 		所在科室

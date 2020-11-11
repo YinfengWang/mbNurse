@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.3.dtd">
+<dotfuscator version="2.3">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <loadpaths />
+    <asmlist>
+      <inputassembly refid="41c66164-66b3-470a-9ec0-d294769729f0">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="AllocationForms.dll" />
+      </inputassembly>
+      <inputassembly refid="fe59611f-e1c0-4bfa-8465-2e56f3fff51a">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="ApplicationManager.dll" />
+      </inputassembly>
+      <inputassembly refid="3d0fbdd6-6c14-446d-8b88-6ddb9b447bb3">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="ApplicationParameters.dll" />
+      </inputassembly>
+      <inputassembly refid="0e054326-bf85-4836-b7ca-588d3eb4bd49">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="AppManagerDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="45a99930-92ca-4834-93c7-3d961ad87cc3">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="AutoUpdate.exe" />
+      </inputassembly>
+      <inputassembly refid="02d6b00d-ceba-40c8-9681-1d50b09e8fca">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="DbInfo.dll" />
+      </inputassembly>
+      <inputassembly refid="1ebfcf62-ad7b-491a-a396-7ec9105653df">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="EvaluationDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="e237e911-28ed-460c-8b21-15808b41d122">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="EvaluationEveryDay.dll" />
+      </inputassembly>
+      <inputassembly refid="2f319b00-edc9-43cb-a315-03144a6a6a8c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HealthEducation.dll" />
+      </inputassembly>
+      <inputassembly refid="34a47efa-580a-42f5-a1b5-d3bde33911ad">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISChangePwd.dll" />
+      </inputassembly>
+      <inputassembly refid="694e529d-3f45-4904-89c9-c9cb93d6c363">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISComm.dll" />
+      </inputassembly>
+      <inputassembly refid="0457b48b-4dcb-4a40-a321-dfc6f3ad5eb7">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISConfig.dll" />
+      </inputassembly>
+      <inputassembly refid="d3f0cf6a-19e5-4e25-9166-b5384072fffa">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISDictManager.dll" />
+      </inputassembly>
+      <inputassembly refid="e943af2f-682a-4f1d-b4ee-750c39e4bfcc">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISGlobalVariant.dll" />
+      </inputassembly>
+      <inputassembly refid="6f45c13b-dbf1-4ae0-a833-44d3f6d1c1ec">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISLogin.dll" />
+      </inputassembly>
+      <inputassembly refid="99dfafee-7900-4baf-8088-e2271f37e73f">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HISNursing.dll" />
+      </inputassembly>
+      <inputassembly refid="6981f404-e21c-46ff-a05d-296d05e3839c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="HospitalDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="f63e3a8d-e9f9-4e03-bbb9-83e646b21e28">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="Launcher.exe" />
+      </inputassembly>
+      <inputassembly refid="438cb31e-e992-4c10-8cfa-899db818779e">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="MsgManager.dll" />
+      </inputassembly>
+      <inputassembly refid="59844001-e290-4e6b-82aa-1b340adaa467">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="MsgTextDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="8cd30ed2-752c-4782-8c99-e3a8c122f3b1">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NurseProgramDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="b700db89-4af4-4195-a89a-8b6e5d74cee5">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NurseRecordMaintance.dll" />
+      </inputassembly>
+      <inputassembly refid="c9207078-c8a4-439c-b1b4-d45f72ee9b7a">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingClassName.dll" />
+      </inputassembly>
+      <inputassembly refid="28cfbde4-06e7-4b6e-aa02-3b0e5f064b0e">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingConfigDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="80ab1ef1-64ce-4a2e-b722-575590f98b08">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="3cf3fdb9-dd14-43f1-b1e4-9a9a46c9d8a8">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingEventMainTain.dll" />
+      </inputassembly>
+      <inputassembly refid="cc0f7138-8f72-4015-b64a-fb9b9ea4ba98">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingEvents.dll" />
+      </inputassembly>
+      <inputassembly refid="b92f061d-e6a9-423a-ae4c-77db89a2a8fa">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingEventsEntry.dll" />
+      </inputassembly>
+      <inputassembly refid="3f3d585c-3eb2-4545-9530-1dcf9a21419a">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingGroup.dll" />
+      </inputassembly>
+      <inputassembly refid="9e540d08-b83b-4170-990e-a5c0a4f686a4">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingItemManager.dll" />
+      </inputassembly>
+      <inputassembly refid="9ad16558-d80b-4e08-9c65-46f106f132c4">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingMainTain.dll" />
+      </inputassembly>
+      <inputassembly refid="4b27f482-f64c-4043-a9ae-02b1af8807dc">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingMeeting.dll" />
+      </inputassembly>
+      <inputassembly refid="d601c60b-1eec-4091-89a7-075fc7ea7198">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingNameMainTain.dll" />
+      </inputassembly>
+      <inputassembly refid="21199716-6546-4b71-862d-6eba1c02ef60">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingRec.dll" />
+      </inputassembly>
+      <inputassembly refid="194f3c01-7320-4175-bbe5-5a40fc4086df">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingRecord.dll" />
+      </inputassembly>
+      <inputassembly refid="d576744c-55c7-4190-96c6-799dea4a24e0">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingRecordConfig.dll" />
+      </inputassembly>
+      <inputassembly refid="c9d1c748-c8d4-4e1d-97d7-37083f9e2a42">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingReport.dll" />
+      </inputassembly>
+      <inputassembly refid="59c250f7-943d-4b31-9c3b-adffe7c94ee0">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingSchedule.dll" />
+      </inputassembly>
+      <inputassembly refid="8a4b7a18-308d-4fda-97e4-6164fb27454e">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="NursingWorkArrange.dll" />
+      </inputassembly>
+      <inputassembly refid="dc2a6327-539e-4598-b4a0-7cbd2c3d7dea">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="OrdersChangeTrace.dll" />
+      </inputassembly>
+      <inputassembly refid="6905d36b-691e-4140-bbcc-761e65b92db6">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="OrdersExecuteBill.dll" />
+      </inputassembly>
+      <inputassembly refid="14d64dc0-566f-4d18-87b6-d550a9a06a7f">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="OrdersExecuteQuery.dll" />
+      </inputassembly>
+      <inputassembly refid="604703a0-bb51-4a1d-aebd-368fab56b978">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="OrdersSplit.dll" />
+      </inputassembly>
+      <inputassembly refid="35b7a9be-bf43-41da-a2ce-a508a6fd355c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="PatientDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="e4bbaab1-0013-4f1d-96a5-ee8362dbf85a">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="PatientInfo.dll" />
+      </inputassembly>
+      <inputassembly refid="97355895-97a3-4b8e-afbd-c78907807147">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="TextTemplateInput.dll" />
+      </inputassembly>
+      <inputassembly refid="842b8ae1-2370-46dd-a6ce-51c2aed8cba8">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="UserDbI.dll" />
+      </inputassembly>
+      <inputassembly refid="e822f362-b7f7-43db-b34c-b73698fde2a4">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="UserManager.dll" />
+      </inputassembly>
+      <inputassembly refid="4cfe785e-1ec7-4446-918f-f0865eda9b98">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="VitalSignRec_Ward.dll" />
+      </inputassembly>
+      <inputassembly refid="0e7c4a2b-ec86-4611-a1af-861c6d1436ef">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="WorkLoadStatics.dll" />
+      </inputassembly>
+      <inputassembly refid="7d3a85f6-3864-43cf-a1bb-d3fbadc0d165">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="WristBandPrint.dll" />
+      </inputassembly>
+      <inputassembly refid="dfcb1855-ecaa-4cc1-942f-ed36fdc41cde">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="WristPrint_Ward.dll" />
+      </inputassembly>
+      <inputassembly refid="d28d6c90-ee5e-4503-a79f-760f7844354c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="Encryption.dll" />
+      </inputassembly>
+      <inputassembly refid="64732a04-dd79-4e9b-9f27-f41322b6307d">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="CommonEntity.dll" />
+      </inputassembly>
+      <inputassembly refid="f738ac20-637a-424c-ad9e-67ca48f38c18">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\nurseCf\移动护理程序1" name="CommPrinter.dll" />
+      </inputassembly>
+      
+    </asmlist>
+  </input>
+  <output>
+    <file dir="C:\nurseCf\移动护理程序1\temp" />
+  </output>
+  <renaming>
+    <option>xmlserialization</option>
+    <mapping>
+      <mapoutput overwrite="true">
+        <file dir="C:\nurseCf\移动护理程序1\temp" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+    <referencerulelist>
+      <referencerule rulekey="{6655B10A-FD58-462d-8D4F-5B1316DFF0FF}" />
+      <referencerule rulekey="{229FD6F8-5BCC-427b-8F72-A7A413ECDF1A}" />
+      <referencerule rulekey="{2B7E7C8C-A39A-4db8-9DFC-6AFD38509061}" />
+      <referencerule rulekey="{494EA3BA-B947-44B5-BEE8-A11CC85AAF9B}" />
+      <referencerule rulekey="{89769974-93E9-4e71-8D92-BE70E855ACFC}" />
+      <referencerule rulekey="{7D9C8B02-2383-420f-8740-A9760394C2C1}" />
+    </referencerulelist>
+  </renaming>
+  <controlflow level="high" />
+  <sos mergeruntime="true">
+    <option>dontsendtamper</option>
+  </sos>
+  <smartobfuscation>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>

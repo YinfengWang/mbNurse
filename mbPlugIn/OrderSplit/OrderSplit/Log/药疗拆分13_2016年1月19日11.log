@@ -1,0 +1,129 @@
+2016/1/19 11:49:54	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:1155;已拆分:0
+
+2016/1/19 11:49:54	----------------
+拆分第1天
+2016/1/19 11:50:14	----------------
+拆分第2天
+2016/1/19 11:50:34	----------------
+拆分第3天
+2016/1/19 11:51:07	
+【一轮循环拆分结束】
+
+2016/1/19 11:51:07	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:51:07	----------------
+拆分第1天
+2016/1/19 11:51:27	----------------
+拆分第2天
+2016/1/19 11:51:47	----------------
+拆分第3天
+2016/1/19 11:52:19	
+【一轮循环拆分结束】
+
+2016/1/19 11:52:19	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:52:19	----------------
+拆分第1天
+2016/1/19 11:52:39	----------------
+拆分第2天
+2016/1/19 11:52:59	----------------
+拆分第3天
+2016/1/19 11:53:29	
+【一轮循环拆分结束】
+
+2016/1/19 11:53:30	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:53:30	----------------
+拆分第1天
+2016/1/19 11:53:50	----------------
+拆分第2天
+2016/1/19 11:54:10	----------------
+拆分第3天
+2016/1/19 11:54:40	
+【一轮循环拆分结束】
+
+2016/1/19 11:54:40	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:54:40	----------------
+拆分第1天
+2016/1/19 11:55:00	----------------
+拆分第2天
+2016/1/19 11:55:20	----------------
+拆分第3天
+2016/1/19 11:55:50	
+【一轮循环拆分结束】
+
+2016/1/19 11:55:51	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:55:51	----------------
+拆分第1天
+2016/1/19 11:56:11	----------------
+拆分第2天
+2016/1/19 11:56:31	----------------
+拆分第3天
+2016/1/19 11:57:01	
+【一轮循环拆分结束】
+
+2016/1/19 11:57:01	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:57:01	----------------
+拆分第1天
+2016/1/19 11:57:21	----------------
+拆分第2天
+2016/1/19 11:57:41	----------------
+拆分第3天
+2016/1/19 11:58:11	
+【一轮循环拆分结束】
+
+2016/1/19 11:58:11	ORA-12571: TNS: 包写入程序失败
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 OrderSplitHelper.OrderSplit.GetSysDate() 位置 D:\心医\项目\orderSplit\OrderSplit\OrderSplitHelper\OrderSplit.cs:行号 107
+   在 HISPlus.OrderSplitter.SplitOrders() 位置 D:\心医\项目\orderSplit\OrderSplit\OrdersSplit1\OrdersSplit\OrderSplitter.cs:行号 334
+2016/1/19 11:58:11	
+【一轮循环拆分结束】
+
+2016/1/19 11:58:12	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:58:12	----------------
+拆分第1天
+2016/1/19 11:58:32	----------------
+拆分第2天
+2016/1/19 11:58:52	----------------
+拆分第3天
+2016/1/19 11:59:22	
+【一轮循环拆分结束】
+
+2016/1/19 11:59:22	ORA-12571: TNS: 包写入程序失败
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 OrderSplitHelper.OrderSplit.GetSysDate() 位置 D:\心医\项目\orderSplit\OrderSplit\OrderSplitHelper\OrderSplit.cs:行号 107
+   在 HISPlus.OrderSplitter.SplitOrders() 位置 D:\心医\项目\orderSplit\OrderSplit\OrdersSplit1\OrdersSplit\OrderSplitter.cs:行号 334
+2016/1/19 11:59:22	
+【一轮循环拆分结束】
+
+2016/1/19 11:59:22	=====================================================
+开始拆分——病区：'1038N','1027N','1029N';需要拆分:115;已拆分:3241
+
+2016/1/19 11:59:22	----------------
+拆分第1天
+2016/1/19 11:59:42	----------------
+拆分第2天

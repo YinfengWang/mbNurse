@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>护理记录单</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+<!--
+.style1 {
+	font-size: large;
+	font-weight: bold;
+}
+.style3 {font-size: 24px}
+.style4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+⊙
+<body>
+<table id=table1 align="center" width="650px"  border="0">
+  <tr>
+    <td colspan="5" align="center"><p class="style1">&nbsp;</p>
+    <p class="style1 style3">江苏大学附属医院</p></td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center"><br>
+    <span class="style4">危重症护理记录单</span> </td>
+  </tr>
+
+  <tr>
+    <td align="center">姓名:[#姓名]</td>
+    <td align="center">科别:[#科别]</td>
+    <td align="center">病区:[#病区]</td>
+    <td align="center">床号:[#床号]</td>
+    <td align="center">住院号:[#住院号]</td>
+  </tr>
+    <tr>
+    <td align="right">临床诊断 ：</td>
+    <td colspan="4" align="left">[#临床诊断]</td>
+  </tr>
+</table>⊙
+<table id=table2 width="650"  border="1" align="center" cellpadding="1" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td align="center" width="15%"><strong>日 期</strong></td>
+    <td align="center" width="15%"><strong>时 间</strong></td>
+    <td align="center"><strong>病 情</strong></td>
+  </tr>⊙
+  <tr>
+    <td>&nbsp;[#日期]</td>
+    <td>&nbsp;[#时间]</td>
+    <td>&nbsp;&nbsp;[#病情]</td>
+  </tr>⊙
+</table>
+</body>
+</html>
+

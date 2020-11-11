@@ -1,0 +1,231 @@
+2015/3/17 9:22:22
+登录系统	1482
+2015/3/17 9:33:23
+could not insert: [HISPlus.DocTemplateElement#1402][SQL: INSERT INTO DOC_TEMPLATE_ELEMENT (PARENT_ID, SORT_ID, ELEMENT_NAME, DISPLAY_NAME, NAME_FONT, CONTROL_STATUS_ID, CONTROL_FONT, CONTROL_WIDTH, CONTROL_HEIGHT, CONTROL_OFFSET, CONTROL_PREFIX, CONTROL_SUFFIX, NEW_LINE, ROW_SPACING, CHILDREN_INDENT, DATA_TYPE, SCORE, RELATION_TYPE, RELATION_CODE, CREATE_TIMESTAMP, UPDATE_TIMESTAMP, CONTROL_TEMPLATE_ID, TEMPLATE_ID, ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Save[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 53
+   在 HISPlus.DocSetting1.CreateNode(Int32 parentId, Int32 sortId, TreeListNode node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 759
+   在 HISPlus.DocSetting1.btnAddSibling_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 653ORA-00001: unique constraint (MOBILE.PK_DOC_TEMPLATE_ELEMENT) violated
+
+2015/3/17 9:37:00
+登录系统	1482
+2015/3/17 9:38:26
+登录系统	1482
+2015/3/17 9:39:41
+登录系统	1482
+2015/3/17 9:42:06
+正常退出	1482
+2015/3/17 9:44:24
+登录系统	1482
+2015/3/17 9:48:12
+登录系统	1482
+2015/3/17 9:53:48
+登录系统	1482
+2015/3/17 9:56:28
+登录系统	1482
+2015/3/17 9:59:31
+登录系统	1482
+2015/3/17 10:03:23
+登录系统	1482
+2015/3/17 10:06:15
+登录系统	1482
+2015/3/17 10:08:44
+登录系统	1482
+2015/3/17 10:11:44
+登录系统	1482
+2015/3/17 10:13:26
+正常退出	1482
+2015/3/17 10:14:01
+登录系统	1482
+2015/3/17 10:15:20
+登录系统	1482
+2015/3/17 10:16:13
+登录系统	1482
+2015/3/17 10:17:10
+RPC 服务器不可用。
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 567
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 841
+2015/3/17 10:18:51
+登录系统	1482
+2015/3/17 10:21:14
+正常退出	1482
+2015/3/17 10:21:42
+登录系统	1482
+2015/3/17 10:33:08
+登录系统	1482
+2015/3/17 10:33:40
+正常退出	1482
+2015/3/17 10:34:12
+登录系统	1482
+2015/3/17 10:35:07
+未将对象引用设置到对象的实例。
+   在 HISPlus.BaseNode..ctor(DesignTemplate container, DocTemplateElement docNode) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 100
+   在 HISPlus.TextBoxNode..ctor(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\TextBoxNode.cs:行号 24
+   在 HISPlus.BaseNode.NewDocNode(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 538
+   在 HISPlus.BaseNode.<.ctor>b__4(DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 HISPlus.BaseNode..ctor(DesignTemplate container, DocTemplateElement docNode) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 HISPlus.StaticTextNode..ctor(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\StaticTextNode.cs:行号 7
+   在 HISPlus.BaseNode.NewDocNode(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 516
+   在 HISPlus.BaseNode.<.ctor>b__4(DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 HISPlus.BaseNode..ctor(DesignTemplate container, DocTemplateElement docNode) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 HISPlus.CheckListNode..ctor(DesignTemplate container, DocTemplateElement nursingDocNode, Boolean multiChecked) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\CheckListNode.cs:行号 11
+   在 HISPlus.BaseNode.NewDocNode(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 544
+   在 HISPlus.BaseNode.<.ctor>b__4(DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 HISPlus.BaseNode..ctor(DesignTemplate container, DocTemplateElement docNode) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 184
+   在 HISPlus.StaticTextNode..ctor(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\StaticTextNode.cs:行号 7
+   在 HISPlus.BaseNode.NewDocNode(DesignTemplate container, DocTemplateElement node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\Nodes\BaseNode.cs:行号 516
+   在 HISPlus.DesignTemplate.LayoutForm(IEnumerable`1 ilist) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 377
+   在 HISPlus.DesignTemplate.NewForm(Decimal templateId) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 445
+   在 HISPlus.DesignTemplate.DesignTemplate_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 155
+2015/3/17 10:36:07
+登录系统	1482
+2015/3/17 10:39:57
+登录系统	1482
+2015/3/17 10:50:58
+正常退出	1482
+2015/3/17 10:51:44
+登录系统	1482
+2015/3/17 11:04:11
+登录系统	1482
+2015/3/17 11:04:39
+正常退出	1482
+2015/3/17 11:05:12
+登录系统	1482
+2015/3/17 11:15:12
+登录系统	1482
+2015/3/17 11:20:02
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/17 11:20:40
+登录系统	1482
+2015/3/17 11:34:10
+登录系统	1482
+2015/3/17 11:38:03
+登录系统	1482
+2015/3/17 11:43:36
+登录系统	1482
+2015/3/17 11:48:33
+登录系统	1482
+2015/3/17 11:49:54
+登录系统	1482
+2015/3/17 11:51:03
+登录系统	1482
+2015/3/17 11:52:15
+登录系统	1482
+2015/3/17 12:39:47
+正常退出	1482
+2015/3/17 13:59:20
+登录系统	1482
+2015/3/17 14:07:37
+登录系统	1482
+2015/3/17 14:08:13
+正常退出	1482
+2015/3/17 14:08:31
+登录系统	1482
+2015/3/17 14:12:09
+登录系统	1482
+2015/3/17 14:18:45
+登录系统	1482
+2015/3/17 14:24:09
+登录系统	1482
+2015/3/17 14:27:56
+登录系统	1482
+2015/3/17 14:29:50
+登录系统	1482
+2015/3/17 14:31:32
+登录系统	1482
+2015/3/17 14:36:18
+登录系统	1482
+2015/3/17 14:39:29
+登录系统	1482
+2015/3/17 14:44:24
+登录系统	1482
+2015/3/17 14:45:28
+登录系统	1482
+2015/3/17 14:46:20
+登录系统	1482
+2015/3/17 14:48:32
+登录系统	1482
+2015/3/17 14:49:38
+登录系统	1482
+2015/3/17 14:51:06
+登录系统	1482
+2015/3/17 14:58:18
+登录系统	1482
+2015/3/17 15:00:31
+登录系统	1482
+2015/3/17 15:02:03
+登录系统	1482
+2015/3/17 15:02:59
+登录系统	1482
+2015/3/17 15:14:20
+登录系统	1482
+2015/3/17 15:21:14
+登录系统	1482
+2015/3/17 15:23:29
+正常退出	1482
+2015/3/17 15:25:33
+登录系统	1482
+2015/3/17 15:35:12
+正常退出	1482
+2015/3/17 15:46:40
+登录系统	1482
+2015/3/17 15:52:26
+正常退出	1482
+2015/3/17 15:55:27
+登录系统	1482
+2015/3/17 15:57:06
+正常退出	1482
+2015/3/17 15:58:30
+登录系统	1482
+2015/3/17 16:00:19
+登录系统	1482
+2015/3/17 16:01:58
+正常退出	1482
+2015/3/17 16:02:24
+登录系统	1482
+2015/3/17 16:52:31
+登录系统	1482
+2015/3/17 17:00:15
+正常退出	1482
+2015/3/17 17:02:39
+登录系统	1482
+2015/3/17 17:03:42
+正常退出	1482
+2015/3/17 17:03:59
+登录系统	1482
+2015/3/17 17:54:35
+登录系统	1482
+2015/3/17 17:56:28
+正常退出	1482

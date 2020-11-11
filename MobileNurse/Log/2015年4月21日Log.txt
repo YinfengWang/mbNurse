@@ -1,0 +1,611 @@
+2015/4/21 9:29:45
+登录系统	1482
+2015/4/21 9:31:46
+正常退出	1482
+2015/4/21 9:39:33
+登录系统	1482
+2015/4/21 9:42:06
+正常退出	1482
+2015/4/21 9:51:22
+登录系统	1482
+2015/4/21 9:53:31
+登录系统	1482
+2015/4/21 10:47:56
+登录系统	1482
+2015/4/21 10:48:05
+Could not add assembly DocModel,HISPlus.CommonEntity
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 38
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 30
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599未能加载文件或程序集“DocModel\,HISPlus.CommonEntity”或它的某一个依赖项。给定程序集名称或基本代码无效。 (异常来自 HRESULT:0x80131047)
+2015/4/21 10:48:10
+正常退出	1482
+2015/4/21 10:48:11
+登录系统	1482
+2015/4/21 10:48:25
+Could not add assembly DocModel,HISPlus.CommonEntity
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 38
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 30
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599未能加载文件或程序集“DocModel\,HISPlus.CommonEntity”或它的某一个依赖项。给定程序集名称或基本代码无效。 (异常来自 HRESULT:0x80131047)
+2015/4/21 10:50:25
+正常退出	1482
+2015/4/21 10:50:26
+登录系统	1482
+2015/4/21 10:50:32
+Could not add assembly HISPlus.CommonEntity
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 38
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 30
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599未能加载文件或程序集“HISPlus.CommonEntity”或它的某一个依赖项。系统找不到指定的文件。
+2015/4/21 10:50:33
+正常退出	1482
+2015/4/21 10:50:48
+登录系统	1482
+2015/4/21 10:51:31
+Could not add assembly HISPlus.CommonEntity
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 38
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 30
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599未能加载文件或程序集“HISPlus.CommonEntity”或它的某一个依赖项。系统找不到指定的文件。
+2015/4/21 10:51:32
+正常退出	1482
+2015/4/21 11:17:00
+登录系统	1482
+2015/4/21 11:17:08
+Could not add assembly HISPlus.CommonEntity
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599未能加载文件或程序集“HISPlus.CommonEntity”或它的某一个依赖项。系统找不到指定的文件。
+2015/4/21 11:17:08
+正常退出	1482
+2015/4/21 11:17:46
+登录系统	1482
+2015/4/21 11:17:56
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599persistent class HISPlus.PatientInfo, CommonEntity not found
+2015/4/21 12:09:58
+正常退出	1482
+2015/4/21 15:43:33
+登录系统	1482
+2015/4/21 15:43:47
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599persistent class HISPlus.PatientInfo, CommonEntity not found
+2015/4/21 15:43:50
+正常退出	1482
+2015/4/21 15:45:16
+登录系统	1482
+2015/4/21 15:59:03
+登录系统	1482
+2015/4/21 15:59:14
+identifier mapping has wrong number of columns: CommonEntity.PatientInfo type: String
+   在 NHibernate.Mapping.RootClass.Validate(IMapping mapping)
+   在 NHibernate.Cfg.Configuration.ValidateEntities()
+   在 NHibernate.Cfg.Configuration.Validate()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 43
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599
+2015/4/21 15:59:27
+正常退出	1482
+2015/4/21 15:59:28
+登录系统	1482
+2015/4/21 15:59:38
+identifier mapping has wrong number of columns: CommonEntity.PatientInfo type: String
+   在 NHibernate.Mapping.RootClass.Validate(IMapping mapping)
+   在 NHibernate.Cfg.Configuration.ValidateEntities()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 43
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599
+2015/4/21 15:59:42
+正常退出	1482
+2015/4/21 15:59:43
+登录系统	1482
+2015/4/21 16:19:14
+identifier mapping has wrong number of columns: CommonEntity.PatientInfo type: String
+   在 NHibernate.Mapping.RootClass.Validate(IMapping mapping)
+   在 NHibernate.Cfg.Configuration.ValidateEntities()
+   在 NHibernate.Cfg.Configuration.BuildSessionFactory()
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 43
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599
+2015/4/21 16:19:18
+正常退出	1482
+2015/4/21 16:19:41
+登录系统	1482
+2015/4/21 16:22:24
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: Id
+2015/4/21 16:22:25
+正常退出	1482
+2015/4/21 16:31:02
+登录系统	1482
+2015/4/21 16:31:10
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: Id
+2015/4/21 16:32:57
+登录系统	1482
+2015/4/21 16:36:15
+登录系统	1482
+2015/4/21 16:44:25
+登录系统	1482
+2015/4/21 16:44:40
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599Could not determine type for: int32, for columns: NHibernate.Mapping.Column(VISIT_ID)
+2015/4/21 16:44:43
+正常退出	1482
+2015/4/21 16:46:03
+登录系统	1482
+2015/4/21 16:46:13
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599Could not determine type for: int32, for columns: NHibernate.Mapping.Column(VISIT_ID)
+2015/4/21 16:46:27
+正常退出	1482
+2015/4/21 16:46:28
+登录系统	1482
+2015/4/21 16:46:37
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599Could not determine type for: int32, for columns: NHibernate.Mapping.Column(VISIT_ID)
+2015/4/21 16:46:37
+正常退出	1482
+2015/4/21 16:52:31
+登录系统	1482
+2015/4/21 16:53:28
+登录系统	1482
+2015/4/21 16:54:23
+未将对象引用设置到对象的实例。
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 171
+2015/4/21 17:15:23
+登录系统	1482
+2015/4/21 17:15:30
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.Id1, CommonEntity
+2015/4/21 17:15:31
+正常退出	1482
+2015/4/21 17:45:17
+登录系统	1482
+2015/4/21 17:45:28
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 17:46:25
+正常退出	1482
+2015/4/21 17:46:26
+登录系统	1482
+2015/4/21 17:46:31
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 17:46:32
+正常退出	1482
+2015/4/21 17:48:40
+登录系统	1482
+2015/4/21 17:48:56
+正常退出	1482
+2015/4/21 17:49:45
+登录系统	1482
+2015/4/21 17:50:01
+正常退出	1482
+2015/4/21 17:52:12
+登录系统	1482
+2015/4/21 18:00:17
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:00:18
+正常退出	1482
+2015/4/21 18:00:25
+登录系统	1482
+2015/4/21 18:00:32
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:00:33
+正常退出	1482
+2015/4/21 18:01:26
+登录系统	1482
+2015/4/21 18:01:35
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:01:36
+正常退出	1482
+2015/4/21 18:01:39
+登录系统	1482
+2015/4/21 18:01:45
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:01:46
+正常退出	1482
+2015/4/21 18:02:53
+登录系统	1482
+2015/4/21 18:03:12
+正常退出	1482
+2015/4/21 18:04:28
+登录系统	1482
+2015/4/21 18:04:45
+正常退出	1482
+2015/4/21 18:04:47
+登录系统	1482
+2015/4/21 18:05:00
+正常退出	1482
+2015/4/21 18:05:06
+登录系统	1482
+2015/4/21 18:05:22
+正常退出	1482
+2015/4/21 18:06:50
+登录系统	1482
+2015/4/21 18:10:55
+正常退出	1482
+2015/4/21 18:11:24
+登录系统	1482
+2015/4/21 18:11:47
+正常退出	1482
+2015/4/21 18:12:41
+登录系统	1482
+2015/4/21 18:12:51
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:13:56
+登录系统	1482
+2015/4/21 18:14:18
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:14:19
+正常退出	1482
+2015/4/21 18:15:02
+登录系统	1482
+2015/4/21 18:15:13
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.PatientInfoId, CommonEntity
+2015/4/21 18:15:24
+正常退出	1482
+2015/4/21 18:18:47
+登录系统	1482
+2015/4/21 18:18:54
+Could not compile the mapping document: CommonEntity.XML.PatientInfo.hbm.xml
+   在 NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   在 NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   在 NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   在 NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   在 NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   在 NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   在 NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name)
+   在 NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(Assembly assembly)
+   在 NHibernate.Cfg.Configuration.AddAssembly(String assemblyName)
+   在 NHibernate.Cfg.Configuration.DoConfigure(ISessionFactoryConfiguration factoryConfiguration)
+   在 NHibernate.Cfg.Configuration.Configure(XmlReader textReader)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName, Boolean ignoreSessionFactoryConfig)
+   在 NHibernate.Cfg.Configuration.Configure(String fileName)
+   在 HISPlus.EntityOper..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 39
+   在 HISPlus.EntityOper.GetInstance() 位置 E:\SVN\mobilenurse\MobileNurse\CommonEntity\EntityOper.cs:行号 31
+   在 DXApplication2.MdiFrm.InitMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 724
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 599could not find class: CommonEntity.Id, CommonEntity
+2015/4/21 18:19:02
+正常退出	1482
+2015/4/21 18:19:33
+登录系统	1482
+2015/4/21 18:20:24
+未将对象引用设置到对象的实例。
+   在 HISPlus.PIORecFrm.dgvNursingSchedule_DataBindingComplete(Object sender, DataGridViewBindingCompleteEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\PIORecFrm.cs:行号 180
+2015/4/21 18:23:05
+未将对象引用设置到对象的实例。
+   在 HISPlus.PIORecFrm.dgvNursingSchedule_DataBindingComplete(Object sender, DataGridViewBindingCompleteEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\PIORecFrm.cs:行号 180
+2015/4/21 18:26:34
+登录系统	1482
+2015/4/21 18:28:22
+正常退出	1482

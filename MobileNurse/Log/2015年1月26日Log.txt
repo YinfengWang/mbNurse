@@ -1,0 +1,280 @@
+2015/1/26 11:45:39
+登录系统	1482
+2015/1/26 11:46:01
+正常退出	1482
+2015/1/26 11:47:04
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/26 11:47:06
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/26 11:47:08
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/26 11:47:09
+登录系统	1482
+2015/1/26 12:12:28
+登录系统	1482
+2015/1/26 12:16:33
+登录系统	1482
+2015/1/26 12:19:40
+正常退出	1482
+2015/1/26 12:20:11
+登录系统	1482
+2015/1/26 12:21:01
+正常退出	1482
+2015/1/26 12:21:22
+登录系统	1482
+2015/1/26 12:22:59
+正常退出	1482
+2015/1/26 12:24:47
+登录系统	1482
+2015/1/26 12:24:59
+正常退出	1482
+2015/1/26 12:25:58
+登录系统	1482
+2015/1/26 12:26:20
+正常退出	1482
+2015/1/26 12:26:56
+登录系统	1482
+2015/1/26 12:27:28
+正常退出	1482
+2015/1/26 12:28:24
+登录系统	1482
+2015/1/26 12:28:36
+正常退出	1482
+2015/1/26 12:28:55
+登录系统	1482
+2015/1/26 12:29:03
+正常退出	1482
+2015/1/26 12:30:23
+登录系统	1482
+2015/1/26 12:30:37
+正常退出	1482
+2015/1/26 12:30:54
+登录系统	1482
+2015/1/26 12:31:04
+正常退出	1482
+2015/1/26 12:31:50
+登录系统	1482
+2015/1/26 12:32:00
+正常退出	1482
+2015/1/26 12:32:33
+登录系统	1482
+2015/1/26 12:32:55
+正常退出	1482
+2015/1/26 12:33:08
+登录系统	1482
+2015/1/26 12:41:57
+登录系统	1482
+2015/1/26 12:42:12
+正常退出	1482
+2015/1/26 12:44:03
+登录系统	1482
+2015/1/26 12:44:36
+正常退出	1482
+2015/1/26 12:46:02
+登录系统	1482
+2015/1/26 12:46:41
+正常退出	1482
+2015/1/26 12:47:07
+登录系统	1482
+2015/1/26 12:47:23
+正常退出	1482
+2015/1/26 12:48:31
+登录系统	1482
+2015/1/26 12:48:42
+正常退出	1482
+2015/1/26 12:50:03
+登录系统	1482
+2015/1/26 12:50:19
+正常退出	1482
+2015/1/26 12:50:39
+登录系统	1482
+2015/1/26 12:51:30
+正常退出	1482
+2015/1/26 12:52:18
+登录系统	1482
+2015/1/26 12:52:26
+正常退出	1482
+2015/1/26 12:54:17
+登录系统	1482
+2015/1/26 12:54:26
+正常退出	1482
+2015/1/26 12:57:32
+登录系统	1482
+2015/1/26 12:58:11
+正常退出	1482
+2015/1/26 13:00:15
+登录系统	1482
+2015/1/26 13:00:27
+正常退出	1482
+2015/1/26 13:02:33
+登录系统	1482
+2015/1/26 13:02:50
+正常退出	1482
+2015/1/26 13:05:58
+登录系统	1482
+2015/1/26 13:06:07
+正常退出	1482
+2015/1/26 13:07:05
+登录系统	1482
+2015/1/26 13:07:20
+正常退出	1482
+2015/1/26 13:07:51
+登录系统	1482
+2015/1/26 13:09:14
+正常退出	1482
+2015/1/26 13:10:03
+登录系统	1482
+2015/1/26 13:10:59
+正常退出	1482
+2015/1/26 13:15:06
+登录系统	1482
+2015/1/26 14:23:13
+登录系统	1482
+2015/1/26 14:24:20
+正常退出	1482
+2015/1/26 14:53:20
+登录系统	1482
+2015/1/26 14:53:38
+正常退出	1482
+2015/1/26 14:59:28
+登录系统	1482
+2015/1/26 15:00:32
+登录系统	1482
+2015/1/26 15:02:11
+登录系统	1482
+2015/1/26 15:02:56
+登录系统	1482
+2015/1/26 15:09:47
+登录系统	1482
+2015/1/26 15:10:31
+登录系统	1482
+2015/1/26 15:10:56
+登录系统	1482
+2015/1/26 15:11:15
+正常退出	1482
+2015/1/26 15:11:52
+登录系统	1482
+2015/1/26 15:12:42
+登录系统	1482
+2015/1/26 15:13:33
+正常退出	1482
+2015/1/26 15:18:27
+登录系统	1482
+2015/1/26 15:18:40
+正常退出	1482
+2015/1/26 15:19:39
+登录系统	1482
+2015/1/26 15:20:35
+登录系统	1482
+2015/1/26 15:22:34
+正常退出	1482
+2015/1/26 15:28:57
+登录系统	1482
+2015/1/26 15:30:05
+登录系统	1482
+2015/1/26 15:30:25
+正常退出	1482
+2015/1/26 15:31:51
+登录系统	1482
+2015/1/26 15:41:59
+登录系统	1482
+2015/1/26 15:43:23
+登录系统	1482
+2015/1/26 15:46:30
+登录系统	1482
+2015/1/26 15:49:06
+登录系统	1482
+2015/1/26 15:49:45
+正常退出	1482
+2015/1/26 15:54:03
+登录系统	1482
+2015/1/26 15:57:37
+登录系统	1482
+2015/1/26 15:58:15
+登录系统	1482
+2015/1/26 15:58:30
+正常退出	1482
+2015/1/26 16:01:47
+登录系统	1482
+2015/1/26 16:03:02
+登录系统	1482
+2015/1/26 16:03:44
+登录系统	1482
+2015/1/26 16:04:04
+正常退出	1482
+2015/1/26 16:04:55
+登录系统	1482
+2015/1/26 16:06:16
+登录系统	1482
+2015/1/26 16:06:53
+正常退出	1482
+2015/1/26 16:07:22
+登录系统	1482
+2015/1/26 16:09:22
+登录系统	1482
+2015/1/26 16:11:25
+登录系统	1482
+2015/1/26 16:14:27
+登录系统	1482
+2015/1/26 16:14:37
+正常退出	1482
+2015/1/26 16:15:56
+登录系统	1482
+2015/1/26 16:16:07
+正常退出	1482
+2015/1/26 16:16:32
+登录系统	1482
+2015/1/26 16:16:40
+正常退出	1482
+2015/1/26 16:17:31
+登录系统	1482
+2015/1/26 16:19:22
+登录系统	1482
+2015/1/26 16:19:32
+正常退出	1482
+2015/1/26 16:20:55
+登录系统	1482
+2015/1/26 16:21:08
+正常退出	1482
+2015/1/26 16:21:38
+登录系统	1482

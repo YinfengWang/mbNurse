@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<Templates>
+  <xs:schema id="Templates" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Templates" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="S_Template">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NodeId" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentId" type="xs:string" minOccurs="0" />
+                <xs:element name="NodeName" type="xs:string" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="AddClass" type="xs:string" minOccurs="0" />
+                <xs:element name="Icon" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <S_Template>
+    <NodeId>100</NodeId>
+    <ParentId>0</ParentId>
+    <NodeName>模板</NodeName>
+    <Address />
+    <AddClass>HL*YS</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>201</NodeId>
+    <ParentId>100</ParentId>
+    <NodeName>新模板201</NodeName>
+    <Address>DDDDDSSSSSEEEEE</Address>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>202</NodeId>
+    <ParentId>201</ParentId>
+    <NodeName>新模板202</NodeName>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>203</NodeId>
+    <ParentId>100</ParentId>
+    <NodeName>新模板203</NodeName>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>206</NodeId>
+    <ParentId>203</ParentId>
+    <NodeName>新模板206</NodeName>
+    <Address>fgregrttrgtrerrrrrredefswsefewfesdsdsffffffffsdsfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff投入咿咿呀呀555555又邮发代号防盗门的数量规模分类看到什么官方绿色箭头哦金额哦太紧迫                  破iopipoiporkipokpo破口ipipkpkpl 【破【破【盘【片【 哦就哦就哦</Address>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>208</NodeId>
+    <ParentId>100</ParentId>
+    <NodeName>新模板208</NodeName>
+    <Address>sdfdsfdsddxzcdsdsddds</Address>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>209</NodeId>
+    <ParentId>100</ParentId>
+    <NodeName>新模板209</NodeName>
+    <AddClass>HL</AddClass>
+  </S_Template>
+  <S_Template>
+    <NodeId>210</NodeId>
+    <ParentId>208</ParentId>
+    <NodeName>新模板210</NodeName>
+    <Address>fdsfsfsdfsdfsfdfasdfsf</Address>
+    <AddClass>HL</AddClass>
+  </S_Template>
+</Templates>

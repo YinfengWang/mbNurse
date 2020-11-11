@@ -1,0 +1,153 @@
+﻿生成启动时间为 2015/6/10 11:40:41。
+     1>项目“M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\libijg12.x64.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\libijg12.x64\libijg12.x64.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\libijg12.x64\libijg12.x64.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         h:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\libijg12.x64\\" /Fd"Release\libijg12.x64\vc100.pdb" /Gd /TC /errorReport:prompt ..\libijg12\jaricom.c ..\libijg12\jcapimin.c ..\libijg12\jcapistd.c ..\libijg12\jcarith.c ..\libijg12\jccoefct.c ..\libijg12\jccolor.c ..\libijg12\jcdctmgr.c ..\libijg12\jcdiffct.c ..\libijg12\jchuff.c ..\libijg12\jcinit.c ..\libijg12\jclhuff.c ..\libijg12\jclossls.c ..\libijg12\jclossy.c ..\libijg12\jcmainct.c ..\libijg12\jcmarker.c ..\libijg12\jcmaster.c ..\libijg12\jcodec.c ..\libijg12\jcomapi.c ..\libijg12\jcparam.c ..\libijg12\jcphuff.c ..\libijg12\jcpred.c ..\libijg12\jcprepct.c ..\libijg12\jcsample.c ..\libijg12\jcscale.c ..\libijg12\jcshuff.c ..\libijg12\jctrans.c ..\libijg12\jdapimin.c ..\libijg12\jdapistd.c ..\libijg12\jdarith.c ..\libijg12\jdatadst.c ..\libijg12\jdatasrc.c ..\libijg12\jdcoefct.c ..\libijg12\jdcolor.c ..\libijg12\jddctmgr.c ..\libijg12\jddiffct.c ..\libijg12\jdhuff.c ..\libijg12\jdinput.c ..\libijg12\jdlhuff.c ..\libijg12\jdlossls.c ..\libijg12\jdlossy.c ..\libijg12\jdmainct.c ..\libijg12\jdmarker.c ..\libijg12\jdmaster.c ..\libijg12\jdmerge.c ..\libijg12\jdphuff.c ..\libijg12\jdpostct.c ..\libijg12\jdpred.c ..\libijg12\jdsample.c ..\libijg12\jdscale.c ..\libijg12\jdshuff.c ..\libijg12\jdtrans.c ..\libijg12\jerror.c ..\libijg12\jfdctflt.c ..\libijg12\jfdctfst.c ..\libijg12\jfdctint.c ..\libijg12\jidctflt.c ..\libijg12\jidctfst.c ..\libijg12\jidctint.c ..\libijg12\jidctred.c ..\libijg12\jmemmgr.c ..\libijg12\jmemnobs.c ..\libijg12\jquant1.c ..\libijg12\jquant2.c ..\libijg12\jutils.c
+         jaricom.c
+         jcapimin.c
+         jcapistd.c
+         jcarith.c
+         jccoefct.c
+         jccolor.c
+         jcdctmgr.c
+         jcdiffct.c
+         jchuff.c
+         jcinit.c
+         jclhuff.c
+         jclossls.c
+         jclossy.c
+         jcmainct.c
+         jcmarker.c
+         jcmaster.c
+         jcodec.c
+         jcomapi.c
+         jcparam.c
+         jcphuff.c
+         Compiling...
+         jcpred.c
+         jcprepct.c
+         jcsample.c
+         jcscale.c
+         jcshuff.c
+         jctrans.c
+         jdapimin.c
+         jdapistd.c
+         jdarith.c
+         jdatadst.c
+         jdatasrc.c
+         jdcoefct.c
+         jdcolor.c
+         jddctmgr.c
+         jddiffct.c
+         jdhuff.c
+         jdinput.c
+         jdlhuff.c
+         jdlossls.c
+         jdlossy.c
+         Compiling...
+         jdmainct.c
+         jdmarker.c
+         jdmaster.c
+         jdmerge.c
+         jdphuff.c
+         jdpostct.c
+         jdpred.c
+         jdsample.c
+         jdscale.c
+         jdshuff.c
+         jdtrans.c
+         jerror.c
+         jfdctflt.c
+         jfdctfst.c
+         jfdctint.c
+         jidctflt.c
+         jidctfst.c
+         jidctint.c
+         jidctred.c
+         jmemmgr.c
+     1>..\libijg12\jmemmgr.c(307): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg12\jmemmgr.c(367): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg12\jmemmgr.c(1029): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+     1>..\libijg12\jmemmgr.c(1043): warning C4267: “-=”: 从“size_t”转换到“long”，可能丢失数据
+         Compiling...
+         jmemnobs.c
+         jquant1.c
+         jquant2.c
+         jutils.c
+       Lib:
+         h:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"Release\libijg12.x64\libijg12.x64.lib" /NOLOGO /LTCG Release\libijg12.x64\jaricom.obj
+         Release\libijg12.x64\jcapimin.obj
+         Release\libijg12.x64\jcapistd.obj
+         Release\libijg12.x64\jcarith.obj
+         Release\libijg12.x64\jccoefct.obj
+         Release\libijg12.x64\jccolor.obj
+         Release\libijg12.x64\jcdctmgr.obj
+         Release\libijg12.x64\jcdiffct.obj
+         Release\libijg12.x64\jchuff.obj
+         Release\libijg12.x64\jcinit.obj
+         Release\libijg12.x64\jclhuff.obj
+         Release\libijg12.x64\jclossls.obj
+         Release\libijg12.x64\jclossy.obj
+         Release\libijg12.x64\jcmainct.obj
+         Release\libijg12.x64\jcmarker.obj
+         Release\libijg12.x64\jcmaster.obj
+         Release\libijg12.x64\jcodec.obj
+         Release\libijg12.x64\jcomapi.obj
+         Release\libijg12.x64\jcparam.obj
+         Release\libijg12.x64\jcphuff.obj
+         Release\libijg12.x64\jcpred.obj
+         Release\libijg12.x64\jcprepct.obj
+         Release\libijg12.x64\jcsample.obj
+         Release\libijg12.x64\jcscale.obj
+         Release\libijg12.x64\jcshuff.obj
+         Release\libijg12.x64\jctrans.obj
+         Release\libijg12.x64\jdapimin.obj
+         Release\libijg12.x64\jdapistd.obj
+         Release\libijg12.x64\jdarith.obj
+         Release\libijg12.x64\jdatadst.obj
+         Release\libijg12.x64\jdatasrc.obj
+         Release\libijg12.x64\jdcoefct.obj
+         Release\libijg12.x64\jdcolor.obj
+         Release\libijg12.x64\jddctmgr.obj
+         Release\libijg12.x64\jddiffct.obj
+         Release\libijg12.x64\jdhuff.obj
+         Release\libijg12.x64\jdinput.obj
+         Release\libijg12.x64\jdlhuff.obj
+         Release\libijg12.x64\jdlossls.obj
+         Release\libijg12.x64\jdlossy.obj
+         Release\libijg12.x64\jdmainct.obj
+         Release\libijg12.x64\jdmarker.obj
+         Release\libijg12.x64\jdmaster.obj
+         Release\libijg12.x64\jdmerge.obj
+         Release\libijg12.x64\jdphuff.obj
+         Release\libijg12.x64\jdpostct.obj
+         Release\libijg12.x64\jdpred.obj
+         Release\libijg12.x64\jdsample.obj
+         Release\libijg12.x64\jdscale.obj
+         Release\libijg12.x64\jdshuff.obj
+         Release\libijg12.x64\jdtrans.obj
+         Release\libijg12.x64\jerror.obj
+         Release\libijg12.x64\jfdctflt.obj
+         Release\libijg12.x64\jfdctfst.obj
+         Release\libijg12.x64\jfdctint.obj
+         Release\libijg12.x64\jidctflt.obj
+         Release\libijg12.x64\jidctfst.obj
+         Release\libijg12.x64\jidctint.obj
+         Release\libijg12.x64\jidctred.obj
+         Release\libijg12.x64\jmemmgr.obj
+         Release\libijg12.x64\jmemnobs.obj
+         Release\libijg12.x64\jquant1.obj
+         Release\libijg12.x64\jquant2.obj
+         Release\libijg12.x64\jutils.obj
+         libijg12.x64.vcxproj -> M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\Release\libijg12.x64\libijg12.x64.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\libijg12.x64\libijg12.x64.unsuccessfulbuild”。
+         正在对“Release\libijg12.x64\libijg12.x64.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“M:\移动护理\PacsMoudle\WindowsService\DICOM [Native]\x64\libijg12.x64.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.80

@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetPdaDbTableList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtLastUpdate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPdaDbTableListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPdaDbTableListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataChanged">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastDownDBTS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataChangedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataChangedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataChanged2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastDownDBTS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataChanged2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataChanged2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApplyDataChange">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsChanged">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApplyDataChangeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ApplyDataChangeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApplyDataChange2">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApplyDataChange2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ApplyDataChange2Result" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrdersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrdersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrdersExecute">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrdersExecuteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrdersExecuteResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrdersExecuteTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="start" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="stop" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrdersExecuteTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrdersExecuteTimeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveDataResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetXunShis">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wardCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetXunShisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetXunShisResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDeptCodeCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDeptCodeCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDeptCodeCountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderNoExecPatientList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="depCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderNoExecPatientListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderNoExecPatientListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dateTime" type="s:dateTime" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPdaDbTableListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPdaDbTableList" />
+  </wsdl:message>
+  <wsdl:message name="GetPdaDbTableListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPdaDbTableListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataChanged" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2SoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataChanged2" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2SoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataChanged2Response" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChangeSoapIn">
+    <wsdl:part name="parameters" element="tns:ApplyDataChange" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChangeSoapOut">
+    <wsdl:part name="parameters" element="tns:ApplyDataChangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChange2SoapIn">
+    <wsdl:part name="parameters" element="tns:ApplyDataChange2" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChange2SoapOut">
+    <wsdl:part name="parameters" element="tns:ApplyDataChange2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrders" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrdersExecute" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrdersExecuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrdersExecuteTime" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrdersExecuteTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveData" />
+  </wsdl:message>
+  <wsdl:message name="SaveDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisSoapIn">
+    <wsdl:part name="parameters" element="tns:GetXunShis" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisSoapOut">
+    <wsdl:part name="parameters" element="tns:GetXunShisResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountSoapIn">
+    <wsdl:part name="parameters" element="tns:getDeptCodeCount" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountSoapOut">
+    <wsdl:part name="parameters" element="tns:getDeptCodeCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderNoExecPatientList" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderNoExecPatientListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPdaDbTableListHttpGetIn">
+    <wsdl:part name="dtLastUpdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPdaDbTableListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedHttpGetIn">
+    <wsdl:part name="tableName" type="s:string" />
+    <wsdl:part name="lastDownDBTS" type="s:string" />
+    <wsdl:part name="filter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2HttpGetIn">
+    <wsdl:part name="tableName" type="s:string" />
+    <wsdl:part name="lastDownDBTS" type="s:string" />
+    <wsdl:part name="filter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChange2HttpGetIn" />
+  <wsdl:message name="ApplyDataChange2HttpGetOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+    <wsdl:part name="start" type="s:string" />
+    <wsdl:part name="stop" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+    <wsdl:part name="wardCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListHttpGetIn">
+    <wsdl:part name="depCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPdaDbTableListHttpPostIn">
+    <wsdl:part name="dtLastUpdate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPdaDbTableListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedHttpPostIn">
+    <wsdl:part name="tableName" type="s:string" />
+    <wsdl:part name="lastDownDBTS" type="s:string" />
+    <wsdl:part name="filter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChangedHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2HttpPostIn">
+    <wsdl:part name="tableName" type="s:string" />
+    <wsdl:part name="lastDownDBTS" type="s:string" />
+    <wsdl:part name="filter" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataChanged2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ApplyDataChange2HttpPostIn" />
+  <wsdl:message name="ApplyDataChange2HttpPostOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+    <wsdl:part name="start" type="s:string" />
+    <wsdl:part name="stop" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrdersExecuteTimeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+    <wsdl:part name="wardCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetXunShisHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListHttpPostIn">
+    <wsdl:part name="depCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderNoExecPatientListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="DataWebSrvSoap">
+    <wsdl:operation name="GetPdaDbTableList">
+      <wsdl:input message="tns:GetPdaDbTableListSoapIn" />
+      <wsdl:output message="tns:GetPdaDbTableListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <wsdl:input message="tns:GetDataChangedSoapIn" />
+      <wsdl:output message="tns:GetDataChangedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <wsdl:input message="tns:GetDataChanged2SoapIn" />
+      <wsdl:output message="tns:GetDataChanged2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange">
+      <wsdl:input message="tns:ApplyDataChangeSoapIn" />
+      <wsdl:output message="tns:ApplyDataChangeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <wsdl:input message="tns:ApplyDataChange2SoapIn" />
+      <wsdl:output message="tns:ApplyDataChange2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <wsdl:input message="tns:GetOrdersSoapIn" />
+      <wsdl:output message="tns:GetOrdersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <wsdl:input message="tns:GetOrdersExecuteSoapIn" />
+      <wsdl:output message="tns:GetOrdersExecuteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <wsdl:input message="tns:GetOrdersExecuteTimeSoapIn" />
+      <wsdl:output message="tns:GetOrdersExecuteTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveData">
+      <wsdl:input message="tns:SaveDataSoapIn" />
+      <wsdl:output message="tns:SaveDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <wsdl:input message="tns:GetXunShisSoapIn" />
+      <wsdl:output message="tns:GetXunShisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountSoapIn" />
+      <wsdl:output message="tns:getDeptCodeCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <wsdl:input message="tns:GetOrderNoExecPatientListSoapIn" />
+      <wsdl:output message="tns:GetOrderNoExecPatientListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DataWebSrvHttpGet">
+    <wsdl:operation name="GetPdaDbTableList">
+      <wsdl:input message="tns:GetPdaDbTableListHttpGetIn" />
+      <wsdl:output message="tns:GetPdaDbTableListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <wsdl:input message="tns:GetDataChangedHttpGetIn" />
+      <wsdl:output message="tns:GetDataChangedHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <wsdl:input message="tns:GetDataChanged2HttpGetIn" />
+      <wsdl:output message="tns:GetDataChanged2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <wsdl:input message="tns:ApplyDataChange2HttpGetIn" />
+      <wsdl:output message="tns:ApplyDataChange2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <wsdl:input message="tns:GetOrdersHttpGetIn" />
+      <wsdl:output message="tns:GetOrdersHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <wsdl:input message="tns:GetOrdersExecuteHttpGetIn" />
+      <wsdl:output message="tns:GetOrdersExecuteHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <wsdl:input message="tns:GetOrdersExecuteTimeHttpGetIn" />
+      <wsdl:output message="tns:GetOrdersExecuteTimeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <wsdl:input message="tns:GetXunShisHttpGetIn" />
+      <wsdl:output message="tns:GetXunShisHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountHttpGetIn" />
+      <wsdl:output message="tns:getDeptCodeCountHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <wsdl:input message="tns:GetOrderNoExecPatientListHttpGetIn" />
+      <wsdl:output message="tns:GetOrderNoExecPatientListHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DataWebSrvHttpPost">
+    <wsdl:operation name="GetPdaDbTableList">
+      <wsdl:input message="tns:GetPdaDbTableListHttpPostIn" />
+      <wsdl:output message="tns:GetPdaDbTableListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <wsdl:input message="tns:GetDataChangedHttpPostIn" />
+      <wsdl:output message="tns:GetDataChangedHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <wsdl:input message="tns:GetDataChanged2HttpPostIn" />
+      <wsdl:output message="tns:GetDataChanged2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <wsdl:input message="tns:ApplyDataChange2HttpPostIn" />
+      <wsdl:output message="tns:ApplyDataChange2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <wsdl:input message="tns:GetOrdersHttpPostIn" />
+      <wsdl:output message="tns:GetOrdersHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <wsdl:input message="tns:GetOrdersExecuteHttpPostIn" />
+      <wsdl:output message="tns:GetOrdersExecuteHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <wsdl:input message="tns:GetOrdersExecuteTimeHttpPostIn" />
+      <wsdl:output message="tns:GetOrdersExecuteTimeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <wsdl:input message="tns:GetXunShisHttpPostIn" />
+      <wsdl:output message="tns:GetXunShisHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountHttpPostIn" />
+      <wsdl:output message="tns:getDeptCodeCountHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <wsdl:input message="tns:GetOrderNoExecPatientListHttpPostIn" />
+      <wsdl:output message="tns:GetOrderNoExecPatientListHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataWebSrvSoap" type="tns:DataWebSrvSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPdaDbTableList">
+      <soap:operation soapAction="http://tempuri.org/GetPdaDbTableList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <soap:operation soapAction="http://tempuri.org/GetDataChanged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <soap:operation soapAction="http://tempuri.org/GetDataChanged2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange">
+      <soap:operation soapAction="http://tempuri.org/ApplyDataChange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <soap:operation soapAction="http://tempuri.org/ApplyDataChange2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <soap:operation soapAction="http://tempuri.org/GetOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <soap:operation soapAction="http://tempuri.org/GetOrdersExecute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <soap:operation soapAction="http://tempuri.org/GetOrdersExecuteTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveData">
+      <soap:operation soapAction="http://tempuri.org/SaveData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <soap:operation soapAction="http://tempuri.org/GetXunShis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <soap:operation soapAction="http://tempuri.org/getDeptCodeCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <soap:operation soapAction="http://tempuri.org/GetOrderNoExecPatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DataWebSrvSoap12" type="tns:DataWebSrvSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPdaDbTableList">
+      <soap12:operation soapAction="http://tempuri.org/GetPdaDbTableList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <soap12:operation soapAction="http://tempuri.org/GetDataChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <soap12:operation soapAction="http://tempuri.org/GetDataChanged2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange">
+      <soap12:operation soapAction="http://tempuri.org/ApplyDataChange" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <soap12:operation soapAction="http://tempuri.org/ApplyDataChange2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <soap12:operation soapAction="http://tempuri.org/GetOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <soap12:operation soapAction="http://tempuri.org/GetOrdersExecute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <soap12:operation soapAction="http://tempuri.org/GetOrdersExecuteTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveData">
+      <soap12:operation soapAction="http://tempuri.org/SaveData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <soap12:operation soapAction="http://tempuri.org/GetXunShis" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <soap12:operation soapAction="http://tempuri.org/getDeptCodeCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderNoExecPatientList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DataWebSrvHttpGet" type="tns:DataWebSrvHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetPdaDbTableList">
+      <http:operation location="/GetPdaDbTableList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <http:operation location="/GetDataChanged" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <http:operation location="/GetDataChanged2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <http:operation location="/ApplyDataChange2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <http:operation location="/GetOrders" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <http:operation location="/GetOrdersExecute" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <http:operation location="/GetOrdersExecuteTime" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <http:operation location="/GetXunShis" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <http:operation location="/getDeptCodeCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <http:operation location="/GetOrderNoExecPatientList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DataWebSrvHttpPost" type="tns:DataWebSrvHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetPdaDbTableList">
+      <http:operation location="/GetPdaDbTableList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged">
+      <http:operation location="/GetDataChanged" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataChanged2">
+      <http:operation location="/GetDataChanged2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApplyDataChange2">
+      <http:operation location="/ApplyDataChange2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrders">
+      <http:operation location="/GetOrders" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecute">
+      <http:operation location="/GetOrdersExecute" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrdersExecuteTime">
+      <http:operation location="/GetOrdersExecuteTime" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXunShis">
+      <http:operation location="/GetXunShis" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <http:operation location="/getDeptCodeCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderNoExecPatientList">
+      <http:operation location="/GetOrderNoExecPatientList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataWebSrv">
+    <wsdl:port name="DataWebSrvSoap" binding="tns:DataWebSrvSoap">
+      <soap:address location="http://localhost/MobileWebSrv/DataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DataWebSrvSoap12" binding="tns:DataWebSrvSoap12">
+      <soap12:address location="http://localhost/MobileWebSrv/DataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DataWebSrvHttpGet" binding="tns:DataWebSrvHttpGet">
+      <http:address location="http://localhost/MobileWebSrv/DataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DataWebSrvHttpPost" binding="tns:DataWebSrvHttpPost">
+      <http:address location="http://localhost/MobileWebSrv/DataWebSrv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

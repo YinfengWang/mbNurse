@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NursingRecordConfig", "NursingRecordConfig\NursingRecordConfig.csproj", "{80858E2B-028E-4F7D-B753-DD03488EE923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NursingConfigDbI", "NursingConfigDbI\NursingConfigDbI.csproj", "{E9083E73-9336-4954-A8A3-FFB4259918DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80858E2B-028E-4F7D-B753-DD03488EE923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80858E2B-028E-4F7D-B753-DD03488EE923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80858E2B-028E-4F7D-B753-DD03488EE923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80858E2B-028E-4F7D-B753-DD03488EE923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9083E73-9336-4954-A8A3-FFB4259918DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9083E73-9336-4954-A8A3-FFB4259918DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9083E73-9336-4954-A8A3-FFB4259918DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9083E73-9336-4954-A8A3-FFB4259918DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

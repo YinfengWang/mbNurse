@@ -1,0 +1,44 @@
+08-10-23 11:04:11
+列“NODE_ID, APP_CODE”被约束为是唯一的。值“10, 001”已存在。
+   在 System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   在 System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   在 System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Int32 position, Boolean fireEvent, Exception& deferredException)
+   在 System.Data.DataTable.InsertRow(DataRow row, Int32 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 HISPlus.ApplicationModuleFrm.saveDisp()
+   在 HISPlus.ApplicationModuleFrm.btnSave_Click(Object sender, EventArgs e)
+08-10-23 11:04:32
+列“NODE_ID, APP_CODE”被约束为是唯一的。值“10, 001”已存在。
+   在 System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   在 System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   在 System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Int32 position, Boolean fireEvent, Exception& deferredException)
+   在 System.Data.DataTable.InsertRow(DataRow row, Int32 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 HISPlus.ApplicationModuleFrm.saveDisp()
+   在 HISPlus.ApplicationModuleFrm.btnSave_Click(Object sender, EventArgs e)
+08-10-23 11:04:53
+正常退出	YDHL
+08-10-23 11:09:01
+列“NODE_ID, APP_CODE”被约束为是唯一的。值“10, 001”已存在。
+   在 System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   在 System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   在 System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Int32 position, Boolean fireEvent, Exception& deferredException)
+   在 System.Data.DataTable.InsertRow(DataRow row, Int32 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 HISPlus.ApplicationModuleFrm.saveDisp()
+   在 HISPlus.ApplicationModuleFrm.btnSave_Click(Object sender, EventArgs e)
+08-10-23 11:11:31
+正常退出	YDHL
+08-10-23 11:12:56
+列“NODE_ID, APP_CODE”被约束为是唯一的。值“33, 001”已存在。
+   在 System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   在 System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   在 System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Int32 position, Boolean fireEvent, Exception& deferredException)
+   在 System.Data.DataTable.InsertRow(DataRow row, Int32 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 HISPlus.ApplicationModuleFrm.saveDisp() 位置 F:\工作空间\统一解决方案\源代码\项目文件\动态框架\共通模块\ApplicationManager\ApplicationManager\ApplicationModuleFrm.cs:行号 705
+   在 HISPlus.ApplicationModuleFrm.btnSave_Click(Object sender, EventArgs e) 位置 F:\工作空间\统一解决方案\源代码\项目文件\动态框架\共通模块\ApplicationManager\ApplicationManager\ApplicationModuleFrm.cs:行号 421
+08-10-23 11:12:58
+正常退出	YDHL
+08-10-23 11:14:10
+正常退出	YDHL

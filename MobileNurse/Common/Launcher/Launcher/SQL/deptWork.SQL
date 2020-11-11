@@ -1,0 +1,1 @@
+select NURSE NURSE, null COUNT_ORDER_EXECUTE , count(*) COUNT_VITAL_SIGNS, null EVAL_IN, null EVAL_EACH from vital_signs_rec where TIME_POINT >={DATE_BEGIN} AND TIME_POINT < {DATE_END} 

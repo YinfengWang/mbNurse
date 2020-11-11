@@ -1,0 +1,6 @@
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\bin\x86\Debug\HISGlobalVariant.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\bin\x86\Debug\HISGlobalVariant.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\bin\x86\Debug\HISComm.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\bin\x86\Debug\HISComm.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\obj\x86\Debug\HISGlobalVariant.dll
+M:\移动护理\nurseCf\MobileNurse\Common\HISGlobalVariant\obj\x86\Debug\HISGlobalVariant.pdb

@@ -1,0 +1,6 @@
+2011-7-7 13:27:11
+未将对象引用设置到对象的实例。
+   在 HISPlus.HospitalDbI.Get_WardList_Nurse() 位置 E:\各医院项目\瓦房店\移动护理PC\接口\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 46
+   在 HISPlus.PatientListWardFrm.initFrmVal() 位置 E:\各医院项目\瓦房店中心医院\移动护理PC\PatientInfo\PatientInfo\PatientListWardFrm.cs:行号 239
+   在 HISPlus.PatientListWardFrm.ReloadData() 位置 E:\各医院项目\瓦房店中心医院\移动护理PC\PatientInfo\PatientInfo\PatientListWardFrm.cs:行号 334
+   在 HISPlus.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\各医院项目\瓦房店中心医院\移动护理PC\PatientInfo\PatientInfo\PatientListWardFrm.cs:行号 95

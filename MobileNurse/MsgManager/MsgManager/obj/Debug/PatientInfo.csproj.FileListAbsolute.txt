@@ -1,0 +1,16 @@
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\PatientInfo.dll
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\PatientInfo.pdb
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientListWardFrm3.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.UCPatientList.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientListWardFrm.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientSearchFrm1.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientSearchFrm.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientListWardFrm1.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientSearchFrm2.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\HISPlus.PatientSearchFrm3.resources
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\PatientInfo.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\PatientInfo.dll.licenses
+E:\SVN\mobilenurse\MobileNurse\PatientInfo.dll
+E:\SVN\mobilenurse\MobileNurse\PatientInfo.pdb
+E:\SVN\mobilenurse\MobileNurse\PatientInfo\PatientInfo\obj\Debug\PatientInfo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,22 @@
+E:\SVN\mobilenurse\DocDAL.dll
+E:\SVN\mobilenurse\DocDAL.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\DocDao\obj\Debug\DocDAL.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\DocDao\obj\Debug\DocDAL.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\DocDao\obj\Debug\DocDAL.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\DocDAL.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\DocDAL.pdb
+E:\SVN\mobilenurse\MobileNurse\DocDao\obj\Debug\DocDAL.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse\DocDao\obj\Debug\DocDAL.dll
+E:\SVN\mobilenurse\MobileNurse\DocDao\obj\Debug\DocDAL.pdb
+E:\SVN\mobilenurse\MobileNurse\DocDAL.dll
+E:\SVN\mobilenurse\MobileNurse\DocDAL.pdb
+C:\svnProject\mobileNurse\MobileNurse\DocDao\obj\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\DocDao\obj\Debug\DocDAL.dll
+C:\svnProject\mobileNurse\MobileNurse\DocDao\obj\Debug\DocDAL.pdb
+C:\svnProject\mobileNurse\MobileNurse\DocDAL.dll
+C:\svnProject\mobileNurse\MobileNurse\DocDAL.pdb
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\DocDao\obj\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\DocDao\obj\Debug\DocDAL.dll
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\DocDao\obj\Debug\DocDAL.pdb
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\DocDAL.dll
+C:\svnProject\mbNurseFull\trunk\mbNursePC\MobileNurse\DocDAL.pdb

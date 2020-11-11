@@ -1,0 +1,30 @@
+select 日期,sum(医嘱执行) 医嘱执行,sum(生命体征) 生命体征,sum(巡视) 巡视 from (
+SELECT  trunc(a.execute_date_time) 日期,----医嘱执行次数
+count(a.is_execute) 医嘱执行,0 生命体征, 0 巡视
+from orders_execute a,dept_dict b,patient_info c 
+where
+a.is_execute>0  
+and a.patient_id=c.patient_id
+and b.dept_code=c.ward_code
+and a.execute_date_time>= TO_DATE('2016-03-01 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+and a.execute_date_time<= TO_DATE('2016-03-31 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+group by trunc(execute_date_time) 
+union all
+select trunc(a.recording_date) 日期,---生命体征录入次数
+0 医嘱执行,count(a.vital_signs_cvalues) 生命体征, 0 巡视
+from vital_signs_rec a
+where a.recording_date>= TO_DATE('2016-03-01 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+and a.recording_date <= TO_DATE('2016-03-31 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+group by trunc(a.recording_date)-- order by trunc(a.recording_date)
+
+union all
+
+select trunc(execute_date),-----巡视次数
+0 医嘱执行,0 生命体征, count(a.patient_id) 巡视
+from mobile.xunshi a,dept_dict b
+where a.ward_code=b.dept_code
+and a.execute_date >= TO_DATE('2016-03-01 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+and a.execute_date <= TO_DATE('2016-03-31 00:00:00', 'yyyy-mm-dd hh24:mi:ss') 
+and a.execute_date is not null
+group by trunc(execute_date) --order  by  trunc(execute_date)
+) a group by 日期 order by 日期;

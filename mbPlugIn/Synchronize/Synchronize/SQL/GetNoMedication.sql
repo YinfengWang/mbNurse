@@ -1,0 +1,82 @@
+SELECT PATS_IN_HOSPITAL.WARD_CODE,
+       ORDERS.PATIENT_ID,
+       ORDERS.VISIT_ID,
+       ORDERS.ORDER_NO,
+       ORDERS.ORDER_SUB_NO,
+       ORDERS.REPEAT_INDICATOR,
+       ORDERS.ORDER_CLASS,
+       (SELECT CLASS_NAME
+          FROM CLINIC_ITEM_CLASS_DICT
+         WHERE CLASS_CODE = ORDERS.ORDER_CLASS) ORDER_CLASS_NAME,
+       ORDERS.ORDER_STATUS,
+       (SELECT ORDER_STATUS_NAME
+          FROM ORDER_STATUS_DICT
+         WHERE ORDER_STATUS_CODE = ORDERS.ORDER_STATUS) ORDER_STATUS_NAME,
+       ORDERS.ORDER_TEXT,
+       ORDERS.ORDER_CODE,
+       ORDERS.DOSAGE,
+       ORDERS.DOSAGE_UNITS,
+       substr(ORDERS.administration,1,decode(instr(replace(ORDERS.administration,'{000}','('),'('),0,length(ORDERS.administration),
+instr(replace(ORDERS.administration,'{000}','('),'(')-1)) ADMINISTRATION,
+       ORDERS.DURATION,
+       ORDERS.DURATION_UNITS,
+       ORDERS.START_DATE_TIME,
+       ORDERS.STOP_DATE_TIME,
+       ORDERS.FREQUENCY,
+       ORDERS.FREQ_COUNTER,
+       ORDERS.FREQ_INTERVAL,
+       ORDERS.FREQ_INTERVAL_UNIT,
+       ORDERS.FREQ_DETAIL,
+       ORDERS.PERFORM_SCHEDULE,
+       ORDERS.PERFORM_RESULT,
+       ORDERS.ORDERING_DEPT,
+       ORDERS.DOCTOR,
+       ORDERS.STOP_DOCTOR,
+       ORDERS.NURSE,
+       ORDERS.STOP_NURSE
+  FROM ORDERS, PATS_IN_HOSPITAL
+ WHERE ORDERS.PATIENT_ID = PATS_IN_HOSPITAL.PATIENT_ID AND
+       ORDERS.VISIT_ID = PATS_IN_HOSPITAL.VISIT_ID AND
+       (ORDERS.ORDER_STATUS='2' OR (ORDERS.ORDER_STATUS='3' AND ORDERS.STOP_DATE_TIME>SYSDATE AND repeat_indicator='1') AND
+       (repeat_indicator='1' OR (repeat_indicator='0' and start_date_time>=to_date(sysdate-2)))) AND ORDERS.ORDER_CLASS IN ('H','I','Z','E','F')
+
+
+//
+// 功能:
+       获取有效非药疗医嘱 这里可以自己配置想要的同步的医嘱 类型 额  返回值: (必须返回如下字段)
+PATIENT_ID,病人标识号
+VISIT_ID,病人本次住院标识
+ORDER_NO,医嘱序号
+ORDER_SUB_NO,医嘱子序号
+REPEAT_INDICATOR,长期医嘱标志
+ORDER_CLASS,医嘱类别
+(SELECT CLASS_NAME
+          FROM CLINIC_ITEM_CLASS_DICT
+         WHERE CLASS_CODE = ORDERS.ORDER_CLASS) ORDER_CLASS_NAME,医嘱类别名称
+ORDER_STATUS,医嘱状态
+       (SELECT ORDER_STATUS_NAME
+          FROM ORDER_STATUS_DICT
+         WHERE ORDER_STATUS_CODE = ORDERS.ORDER_STATUS) ORDER_STATUS_NAME,医嘱状态名称
+ORDER_TEXT,医嘱正文
+       ORDER_CODE,医嘱代码
+       DOSAGE,药品一次使用剂量
+       DOSAGE_UNITS,剂量单位
+       ADMINISTRATION,给药途径和方法
+       ----============ORDERS.ADMINISTRATION,另一种写法==========-------
+       DURATION,持续时间
+       DURATION_UNITS,持续时间单位
+       START_DATE_TIME,起始日期及时间
+       STOP_DATE_TIME,停止日期及时间
+       FREQUENCY,执行频率描述
+       FREQ_COUNTER,频率次数
+       FREQ_INTERVAL,频率间隔
+       FREQ_INTERVAL_UNIT,频率间隔单位
+       FREQ_DETAIL,执行时间详细描述
+       PERFORM_SCHEDULE,护士执行时间
+       PERFORM_RESULT,执行结果
+       ORDERING_DEPT,开医嘱科室
+       DOCTOR,开医嘱医生
+       STOP_DOCTOR,停医嘱医生
+       NURSE,开医嘱校对护士
+       STOP_NURSE,停医嘱校对护士
+      

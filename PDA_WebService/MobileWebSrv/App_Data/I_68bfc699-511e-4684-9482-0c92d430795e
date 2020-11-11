@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DOC_NURSING_RECORD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DOC_NURSING_ID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="32" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DOC_ELEMENT_ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NUMBER_VALUE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STRING_VALUE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CREATE_TIMESTAMP" type="xs:dateTime" />
+                <xs:element name="UPDATE_TIMESTAMP" type="xs:dateTime" />
+                <xs:element name="ERROR_DESC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//DOC_NURSING_RECORD" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <DOC_NURSING_RECORD>
+    <ID>a6038eca51db49adbec2af6772e59f8c</ID>
+    <DOC_NURSING_ID>9cf448a8b5f54695b3203f2ebf8acf96</DOC_NURSING_ID>
+    <DOC_ELEMENT_ID>2124</DOC_ELEMENT_ID>
+    <NUMBER_VALUE>0.0000000000</NUMBER_VALUE>
+    <STRING_VALUE>赵姿娜</STRING_VALUE>
+    <CREATE_TIMESTAMP>2015-11-17T15:43:05+08:00</CREATE_TIMESTAMP>
+    <UPDATE_TIMESTAMP>2015-11-17T15:43:05+08:00</UPDATE_TIMESTAMP>
+    <ERROR_DESC>ORA-02291: ???????? (MOBILE.FK_DOC_NURS_REFERENCE_DOC_NURS) - ????????
+</ERROR_DESC>
+  </DOC_NURSING_RECORD>
+</NewDataSet>

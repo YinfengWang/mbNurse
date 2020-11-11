@@ -1,0 +1,314 @@
+2015/1/19 10:18:07
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 279
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/19 10:18:12
+登录系统	1482
+2015/1/19 10:19:45
+正常退出	1482
+2015/1/19 10:19:53
+登录系统	1482
+2015/1/19 10:21:22
+登录系统	1482
+2015/1/19 10:22:49
+正常退出	1482
+2015/1/19 10:29:44
+登录系统	1482
+2015/1/19 10:32:05
+登录系统	1482
+2015/1/19 10:35:12
+正常退出	1482
+2015/1/19 10:39:01
+登录系统	1482
+2015/1/19 10:50:49
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.DocumentDbI.GetAllFreq() 位置 E:\SVN\mobilenurse\MobileNurse\Interface\DocumentDbI\DocumentDbI.cs:行号 135
+   在 HISPlus.DocSetting1.Init() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 150
+   在 HISPlus.DocSetting1.DocSetting_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 97
+2015/1/19 10:53:11
+未将对象引用设置到对象的实例。
+   在 HISPlus.DocSetting1.btnNewTemplate_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1420
+2015/1/19 11:44:06
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\DbInfo\DbInfo\DbInfo.cs:行号 111
+   在 HISPlus.NursingReportFrm.getNursingPrintSkipFlg(String wardCode) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm_Data.cs:行号 56
+   在 HISPlus.NursingReportFrm.getPrintSkipFlg() 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 178
+   在 HISPlus.NursingReportFrm.InitFrom_Data() 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 168
+   在 HISPlus.NursingReportFrm.NursingReport_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 97
+2015/1/19 11:54:40
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.BodyTemperatureCom.AutoGenerateVitalSigns(String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureCom.cs:行号 101
+   在 HISPlus.BodyTemperatureForm.reloadData() 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 362
+   在 HISPlus.BodyTemperatureForm.BodyTemperatureForm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 76
+2015/1/19 11:54:51
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.OrdersExecuteBilFrm.getOrdersExecute(DateTime dtBegin, DateTime dtStop, String wardCode, String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1174
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 143
+2015/1/19 11:56:43
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.OrdersExecuteBilFrm.getOrdersExecute(DateTime dtBegin, DateTime dtStop, String wardCode, String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1174
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 139
+2015/1/19 11:56:50
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.OrdersExecuteBilFrm.getOrdersExecute(DateTime dtBegin, DateTime dtStop, String wardCode, String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1174
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 143
+2015/1/19 14:10:23
+登录系统	1482
+2015/1/19 14:14:28
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderExecuteQuery.getOrderExecute(String patientId, String visitId, DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 297
+   在 HISPlus.OrderExecuteQuery.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 69
+2015/1/19 14:16:30
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderExecuteQuery.getOrderExecute(String patientId, String visitId, DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 297
+   在 HISPlus.OrderExecuteQuery.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 69
+2015/1/19 14:21:22
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.OrdersExecuteBilFrm.getOrdersExecute(DateTime dtBegin, DateTime dtStop, String wardCode, String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1174
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 143
+2015/1/19 15:15:00
+登录系统	1482
+2015/1/19 15:15:25
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderExecuteQuery.getOrderExecute(String patientId, String visitId, DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 297
+   在 HISPlus.OrderExecuteQuery.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 69
+2015/1/19 15:15:47
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.OrdersExecuteBilFrm.getOrdersExecute(DateTime dtBegin, DateTime dtStop, String wardCode, String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1174
+   在 HISPlus.OrdersExecuteBilFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 143
+2015/1/19 16:21:40
+登录系统	1482
+2015/1/19 16:24:32
+对于不返回任何键列信息的 SelectCommand，不支持 UpdateCommand 的动态 SQL 生成。
+   在 HISPlus.OracleAccess.Update(DataSet& ds, String tableName, String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 158
+   在 HISPlus.OracleAccess.Update(DataSet& dsChanged) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 243
+   在 HISPlus.OrdersExecuteBilFrm.savePrintResult() 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 1223
+   在 HISPlus.OrdersExecuteBilFrm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteBill\OrdersExecuteBill\OrdersExecuteBilFrm.cs:行号 487
+2015/1/19 17:06:33
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.BodyTemperatureCom.AutoGenerateVitalSigns(String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureCom.cs:行号 105
+   在 HISPlus.BodyTemperatureForm.reloadData() 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 362
+   在 HISPlus.BodyTemperatureForm.BodyTemperatureForm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 76
+2015/1/19 17:07:30
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderExecuteQuery.getOrderExecute(String patientId, String visitId, DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 297
+   在 HISPlus.OrderExecuteQuery.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 69
+2015/1/19 17:10:22
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderExecuteQuery.getOrderExecute(String patientId, String visitId, DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 297
+   在 HISPlus.OrderExecuteQuery.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderExecuteQuery.cs:行号 69
+2015/1/19 17:11:32
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.OrderNotExecuted.getOrderNotExecuted(DateTime dtStart, DateTime dtEnd) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderNotExecuted.cs:行号 140
+   在 HISPlus.OrderNotExecuted.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\OrdersExecuteQuery\OrdersExecuteQuery\OrderNotExecuted.cs:行号 241
+2015/1/19 17:43:50
+登录系统	1482
+2015/1/19 17:50:20
+ORA-00942: table or view does not exist
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.DocumentDbI.GetAllFreq() 位置 E:\SVN\mobilenurse\MobileNurse\Interface\DocumentDbI\DocumentDbI.cs:行号 135
+   在 HISPlus.DocSetting1.Init() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 150
+   在 HISPlus.DocSetting1.DocSetting_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 97
+2015/1/19 17:55:39
+正常退出	1482

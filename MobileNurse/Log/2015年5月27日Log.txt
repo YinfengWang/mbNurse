@@ -1,0 +1,182 @@
+2015/5/27 9:11:40
+登录系统	1482
+2015/5/27 9:14:05
+登录系统	1482
+2015/5/27 9:18:18
+登录系统	1482
+2015/5/27 9:20:15
+登录系统	1482
+2015/5/27 9:21:07
+正常退出	1482
+2015/5/27 9:29:53
+登录系统	1482
+2015/5/27 9:33:34
+登录系统	1482
+2015/5/27 9:39:40
+登录系统	1482
+2015/5/27 9:40:05
+正常退出	1482
+2015/5/27 9:43:19
+登录系统	1482
+2015/5/27 9:51:42
+登录系统	1482
+2015/5/27 9:54:01
+正常退出	1482
+2015/5/27 10:07:35
+登录系统	1482
+2015/5/27 10:36:10
+登录系统	1482
+2015/5/27 10:36:23
+无法将类型为“DevExpress.XtraGrid.Columns.GridColumn”的对象强制转换为类型“DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn”。
+   在 DevExpress.XtraGrid.Views.BandedGrid.BandedGridView.RefreshVisibleColumnsList()
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.CalculateLayout()
+   在 DevExpress.XtraGrid.Views.Grid.GridView.LayoutChanged()
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnChanged(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnAdded(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Grid.GridView.OnColumnAdded(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnsCollectionChanged(Object sender, CollectionChangeEventArgs e)
+   在 System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   在 HISPlus.UserControls.UcGridView.NewColumn(String caption, String fieldName, Int32 width, Int32 minWidth) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 807
+   在 HISPlus.UserControls.UcGridView.Add(String caption, String fieldName, Int32 width) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 685
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 124
+2015/5/27 11:21:49
+登录系统	1482
+2015/5/27 11:35:59
+登录系统	1482
+2015/5/27 11:36:50
+正常退出	1482
+2015/5/27 11:40:47
+登录系统	1482
+2015/5/27 11:43:46
+登录系统	1482
+2015/5/27 11:46:33
+正常退出	1482
+2015/5/27 11:48:19
+登录系统	1482
+2015/5/27 14:13:11
+登录系统	1482
+2015/5/27 14:14:42
+正常退出	1482
+2015/5/27 14:19:42
+登录系统	1482
+2015/5/27 14:21:37
+登录系统	1482
+2015/5/27 14:27:04
+正常退出	1482
+2015/5/27 14:28:33
+ORA-12637: Packet receive failed
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/27 14:29:17
+ORA-08103: object no longer exists
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleDataReader.ReadInternal()
+   在 System.Data.OracleClient.OracleDataReader.Read()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 283
+   在 HISPlus.AppManagerDbI.GetAppName(String appCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\AppManagerDbI\AppManagerDbI\AppManagerDbI.cs:行号 49
+   在 HISPlus.frmLoginCom.CheckAuthorization() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 231
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 469
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/27 14:29:20
+ORA-08103: object no longer exists
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleDataReader.ReadInternal()
+   在 System.Data.OracleClient.OracleDataReader.Read()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 283
+   在 HISPlus.AppManagerDbI.GetAppName(String appCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\AppManagerDbI\AppManagerDbI\AppManagerDbI.cs:行号 49
+   在 HISPlus.frmLoginCom.CheckAuthorization() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 231
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 469
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/27 14:38:22
+登录失败	
+2015/5/27 15:13:58
+ORA-08103: object no longer exists
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleDataReader.ReadInternal()
+   在 System.Data.OracleClient.OracleDataReader.Read()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 283
+   在 HISPlus.AppManagerDbI.GetAppName(String appCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\AppManagerDbI\AppManagerDbI\AppManagerDbI.cs:行号 49
+   在 HISPlus.frmLoginCom.CheckAuthorization() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 231
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 469
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/27 15:14:09
+登录系统	1482
+2015/5/27 15:15:50
+已添加项。字典中的关键字:“123”所添加的关键字:“123”
+   在 System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   在 HISPlus.NursingReportFrm.getVitalCodeList() 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm_Data.cs:行号 421
+   在 HISPlus.NursingReportFrm.cmbNursingRecord_SelectedIndexChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 418
+2015/5/27 15:38:34
+登录系统	1482
+2015/5/27 15:51:38
+登录系统	1482
+2015/5/27 15:53:46
+正常退出	1482
+2015/5/27 16:06:43
+登录系统	1482
+2015/5/27 16:09:44
+登录系统	1482
+2015/5/27 16:13:19
+索引超出了数组界限。
+   在 HISPlus.TextTemplateInputFrm.getLines() 位置 E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\TextTemplateInputFrm.cs:行号 392
+   在 HISPlus.TextTemplateInputFrm.btnOk_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\TextTemplateInputFrm.cs:行号 246
+2015/5/27 16:15:16
+登录系统	1482
+2015/5/27 16:20:46
+登录系统	1482
+2015/5/27 16:24:41
+登录系统	1482
+2015/5/27 16:50:27
+登录系统	1482
+2015/5/27 16:53:28
+长度不能小于 0。
+参数名: length
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 HISPlus.TextTemplateInputFrm.btnInsert_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\TextTemplateInputFrm.cs:行号 221
+2015/5/27 17:05:11
+登录系统	1482
+2015/5/27 17:07:50
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingReportFrm.acceptTemplateInputText(Int32 cellRowIndex, Int32 cellColIndex, String[] lines) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 1019
+   在 HISPlus.NursingReportFrm.dgvData_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 953
+2015/5/27 17:10:37
+登录系统	1482
+2015/5/27 17:12:15
+索引超出了数组界限。
+   在 HISPlus.TextTemplateInputFrm.getLines() 位置 E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\TextTemplateInputFrm.cs:行号 407
+   在 HISPlus.TextTemplateInputFrm.btnOk_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\TextTemplateInputFrm.cs:行号 260
+2015/5/27 17:17:42
+登录系统	1482
+2015/5/27 17:20:30
+登录系统	1482
+2015/5/27 17:22:16
+登录系统	1482
+2015/5/27 18:17:04
+登录系统	1482
+2015/5/27 18:18:08
+列“STORE_COL_NAME”不属于表 NURSING_RECORD_CONTENT。
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HISPlus.NursingReportFrm.ucGridView1_DoubleClick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 299
+2015/5/27 18:19:50
+登录系统	1482
+2015/5/27 18:35:42
+正常退出	1482

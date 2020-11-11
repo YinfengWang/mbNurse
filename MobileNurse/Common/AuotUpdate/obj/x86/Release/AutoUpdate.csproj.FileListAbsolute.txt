@@ -1,0 +1,12 @@
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.exe.config
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.exe
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.pdb
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\obj\x86\Release\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\obj\x86\Release\AutoUpdate.exe
+C:\svnProject\mobileNurse\MobileNurse\Common\AuotUpdate\obj\x86\Release\AutoUpdate.pdb
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.exe.config
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.exe
+C:\nurseCf\MobileNurse\Common\AuotUpdate\bin\Release\AutoUpdate.pdb
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\x86\Release\ResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\x86\Release\AutoUpdate.exe
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\x86\Release\AutoUpdate.pdb

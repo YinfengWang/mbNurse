@@ -1,0 +1,5 @@
+DELETE FROM VITAL_SIGNS_REC_TOMBSTONE WHERE RECORDING_DATE < SYSDATE - 3;
+update VITAL_SIGNS_REC_TOMBSTONE 
+set vital_code = (SELECT VITAL_CODE FROM NURSING_ITEM_DICT WHERE VITAL_SIGNS = VITAL_SIGNS_REC_TOMBSTONE.VITAL_SIGNS and rownum = 1),
+class_code = (SELECT class_code FROM NURSING_ITEM_DICT WHERE VITAL_SIGNS = VITAL_SIGNS_REC_TOMBSTONE.VITAL_SIGNS and rownum = 1) 
+where vital_code is null or vital_code = '' or class_code is null or class_code = '';

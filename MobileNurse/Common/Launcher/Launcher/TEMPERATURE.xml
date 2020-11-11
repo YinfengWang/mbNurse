@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TEMPERATURE>
+  <xs:schema id="TEMPERATURE" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TEMPERATURE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TEMPERATURE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ITEM_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ITEM_UNIT" type="xs:string" minOccurs="0" />
+                <xs:element name="FILTER" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="ROW_HEIGHT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TEMPERATURE>
+    <ITEM_NAME>入量</ITEM_NAME>
+    <ITEM_UNIT>ml</ITEM_UNIT>
+    <FILTER>ATTRIBUTE = '1'</FILTER>
+    <TYPE>1</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>大便</ITEM_NAME>
+    <ITEM_UNIT>次</ITEM_UNIT>
+    <TYPE>0</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>尿量</ITEM_NAME>
+    <ITEM_UNIT>ml</ITEM_UNIT>
+    <TYPE>1</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>其它</ITEM_NAME>
+    <ITEM_UNIT>ml</ITEM_UNIT>
+    <FILTER>ATTRIBUTE = '2' AND VITAL_SIGNS &lt;&gt; '尿量' </FILTER>
+    <TYPE>1</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>血压</ITEM_NAME>
+    <ITEM_UNIT>mmHg</ITEM_UNIT>
+    <TYPE>2</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>体重</ITEM_NAME>
+    <ITEM_UNIT>Kg</ITEM_UNIT>
+    <TYPE>0</TYPE>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>皮试</ITEM_NAME>
+    <TYPE>0</TYPE>
+    <ROW_HEIGHT>2</ROW_HEIGHT>
+  </TEMPERATURE>
+  <TEMPERATURE>
+    <ITEM_NAME>其它</ITEM_NAME>
+    <TYPE>0</TYPE>
+    <ROW_HEIGHT>1</ROW_HEIGHT>
+  </TEMPERATURE>
+</TEMPERATURE>

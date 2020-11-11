@@ -1,0 +1,116 @@
+2015/4/7 10:03:11
+登录系统	1482
+2015/4/7 10:35:26
+登录系统	1482
+2015/4/7 10:43:06
+登录系统	1482
+2015/4/7 10:49:28
+正常退出	1482
+2015/4/7 10:58:11
+登录系统	1482
+2015/4/7 10:58:25
+无法将类型为“DevExpress.XtraGrid.Columns.GridColumn”的对象强制转换为类型“DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn”。
+   在 DevExpress.XtraGrid.Views.BandedGrid.BandedGridView.RefreshVisibleColumnsList()
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.CalculateLayout()
+   在 DevExpress.XtraGrid.Views.Grid.GridView.LayoutChanged()
+   在 DevExpress.XtraGrid.Views.Grid.GridView.OnPropertiesChanged()
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnChangedCore(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnChanged(GridColumn column)
+   在 DevExpress.XtraGrid.Columns.GridColumnCollection.OnChanged(GridColumn column)
+   在 DevExpress.XtraGrid.Columns.GridColumn.OnChanged()
+   在 DevExpress.XtraGrid.Columns.GridColumn.set_ColumnHandle(Int32 value)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.SetColumnFieldName(GridColumn column, String newValue)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnAdded(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Grid.GridView.OnColumnAdded(GridColumn column)
+   在 DevExpress.XtraGrid.Views.Base.ColumnView.OnColumnsCollectionChanged(Object sender, CollectionChangeEventArgs e)
+   在 DevExpress.XtraGrid.Columns.GridColumnCollection.RaiseCollectionChanged(CollectionChangeEventArgs e)
+   在 DevExpress.XtraGrid.Columns.GridColumnCollection.OnInsertComplete(Int32 index, Object obj)
+   在 System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   在 DevExpress.XtraGrid.Columns.GridColumnCollection.Add(GridColumn column)
+   在 HISPlus.UserControls.UcGridView.Add(String caption, String fieldName, Boolean visible, RepositoryItem columnEdit, Int32 groupIndex, Int32 width, Int32 minWidth, String format) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 674
+   在 HISPlus.UserControls.UcGridView.Add(String caption, String fieldName, Int32 width, Boolean visible) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 551
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 122
+2015/4/7 11:03:10
+登录系统	1482
+2015/4/7 11:16:54
+登录系统	1482
+2015/4/7 11:20:14
+登录系统	1482
+2015/4/7 11:32:51
+登录系统	1482
+2015/4/7 11:38:44
+登录系统	1482
+2015/4/7 11:41:55
+登录系统	1482
+2015/4/7 11:59:40
+登录系统	1482
+2015/4/7 12:01:14
+登录系统	1482
+2015/4/7 12:32:22
+登录系统	1482
+2015/4/7 12:35:34
+登录系统	1482
+2015/4/7 12:45:03
+登录系统	1482
+2015/4/7 14:09:23
+登录系统	1482
+2015/4/7 14:26:39
+登录系统	1482
+2015/4/7 14:46:09
+登录系统	1482
+2015/4/7 14:47:55
+正常退出	1482
+2015/4/7 15:00:35
+登录系统	1482
+2015/4/7 15:26:47
+登录系统	1482
+2015/4/7 15:37:39
+登录系统	1482
+2015/4/7 15:42:52
+登录系统	1482
+2015/4/7 15:43:10
+正常退出	1482
+2015/4/7 15:44:18
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/7 15:44:29
+登录系统	1482
+2015/4/7 15:45:29
+正常退出	1482
+2015/4/7 15:45:39
+登录系统	1482
+2015/4/7 15:54:39
+登录系统	1482
+2015/4/7 15:57:00
+正常退出	1482
+2015/4/7 16:06:08
+登录系统	1482
+2015/4/7 16:06:25
+正常退出	1482
+2015/4/7 16:07:18
+登录系统	1482
+2015/4/7 16:09:57
+登录系统	1482
+2015/4/7 16:10:21
+正常退出	1482
+2015/4/7 16:11:12
+登录系统	1482
+2015/4/7 16:11:35
+正常退出	1482

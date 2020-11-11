@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NursingItemManager">
+</Property><Property Name="解决方案文件" Value="E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\NursingItemManager.sln">
+</Property><Property Name="用户选项文件" Value="E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\NursingItemManager.suo">
+</Property><Property Name="Date" Value="2014年11月5日">
+</Property><Property Name="Time" Value="10:55">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NursingItemManager.sln" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NursingItemManager.suo" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager.suo">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NursingItemManager.csproj" Description="项目文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\NursingItemManager.csproj">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NursingItemManager.csproj.user" Description="项目用户文件成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\NursingItemManager.csproj.user">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NurseItemManagerFrm.cs" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\NurseItemManagerFrm.cs">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NurseItemManagerFrm.Designer.cs" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\NurseItemManagerFrm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\Properties\Settings.settings" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NurseItemManagerFrm.resx" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\NurseItemManagerFrm.resx">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\Properties\Resources.resx" Description="文件已成功备份为 E:\天健\移动护理\Code\一套标准版程序-移动护理PC20140429\移动护理PC\NursingItemManager\Backup\NursingItemManager\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NursingItemManager.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="NursingItemManager" Source="NursingItemManager\NursingItemManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NursingItemManager.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="NursingItemManager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NursingItemManager" Source="NursingItemManager\NursingItemManager.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

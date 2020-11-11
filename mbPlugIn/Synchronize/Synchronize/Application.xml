@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Application>
+  <xs:schema id="Application" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Application" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Application">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PropertyName" type="xs:string" minOccurs="0" />
+                <xs:element name="PropertyValue" type="xs:string" minOccurs="0" />
+                <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Application>
+    <PropertyName>TITLE</PropertyName>
+    <PropertyValue>移动护理信息系统(服务器)</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>NAME</PropertyName>
+    <PropertyValue>MNIS</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>RIGHT_ID</PropertyName>
+    <PropertyValue>001</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>VERSION</PropertyName>
+    <PropertyValue>版本2.0</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>COPY_RIGHT</PropertyName>
+    <PropertyValue>版权所有：天健科技有限公司</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>MAX_MDI_FORM</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>是否最大化主窗体1: 是; 0: 否</Comment>
+  </Application>
+  <Application>
+    <PropertyName>QUESTION_EXIT</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>退出前询问 是否退出</Comment>
+  </Application>
+  <Application>
+    <PropertyName>INI_FILE</PropertyName>
+    <PropertyValue>LAUNCHER.INI</PropertyValue>
+  </Application>
+  <Application>
+    <PropertyName>ONE_INSTANCE</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Comment>是否只运行一个实例 1:是 0:否</Comment>
+  </Application>
+  <Application>
+    <PropertyName>LOGIN</PropertyName>
+    <PropertyValue>HISPlus.frmLogin</PropertyValue>
+    <Comment>HISLogin.dll</Comment>
+  </Application>
+  <Application>
+    <PropertyName>MDI2</PropertyName>
+    <PropertyValue>HISPlus.PrintModeSelectFrm</PropertyValue>
+    <Comment>NursingRecord.dll</Comment>
+  </Application>
+  <Application>
+    <PropertyName>MDI3</PropertyName>
+    <PropertyValue>HISPlus.MainWindowFrm</PropertyValue>
+    <Comment>MainWindow.dll</Comment>
+  </Application>
+  <Application>
+    <PropertyName>MDI</PropertyName>
+    <PropertyValue>HISPlus.MDIFrm1</PropertyValue>
+    <Comment>MDIFrm.dll</Comment>
+  </Application>
+</Application>

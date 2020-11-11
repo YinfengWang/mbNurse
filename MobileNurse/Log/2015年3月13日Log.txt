@@ -1,0 +1,654 @@
+2015/3/13 14:12:18
+登录系统	1482
+2015/3/13 14:13:23
+登录系统	1482
+2015/3/13 14:13:45
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PreviewPrintController.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Drawing.Printing.PrintController.PrintLoop(PrintDocument document)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 575
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 809
+2015/3/13 14:33:57
+登录系统	1482
+2015/3/13 14:35:28
+登录系统	1482
+2015/3/13 14:47:23
+登录系统	1482
+2015/3/13 14:51:14
+登录系统	1482
+2015/3/13 14:55:41
+登录系统	1482
+2015/3/13 14:59:29
+登录系统	1482
+2015/3/13 15:03:34
+登录系统	1482
+2015/3/13 15:07:36
+登录系统	1482
+2015/3/13 15:09:53
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:09:56
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 566
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 842
+2015/3/13 15:11:24
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 566
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 842
+2015/3/13 15:12:14
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:12:17
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 566
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 842
+2015/3/13 15:12:26
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:12:29
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:12:43
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PreviewPrintController.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Drawing.Printing.PrintController.PrintLoop(PrintDocument document)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:13:22
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PreviewPrintController.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPage(PrintDocument document, PrintPageEventArgs e)
+   在 System.Drawing.Printing.PrintController.PrintLoop(PrintDocument document)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 576
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 824
+2015/3/13 15:27:37
+登录系统	1482
+2015/3/13 15:28:44
+正常退出	1482
+2015/3/13 15:30:51
+登录系统	1482
+2015/3/13 15:40:01
+登录系统	1482
+2015/3/13 15:40:51
+正常退出	1482
+2015/3/13 15:41:15
+登录系统	1482
+2015/3/13 15:46:26
+登录系统	1482
+2015/3/13 15:55:23
+登录系统	1482
+2015/3/13 15:59:57
+登录系统	1482
+2015/3/13 16:00:49
+正常退出	1482
+2015/3/13 16:01:16
+登录系统	1482
+2015/3/13 16:02:02
+正常退出	1482
+2015/3/13 16:02:18
+登录系统	1482
+2015/3/13 16:08:37
+登录系统	1482
+2015/3/13 16:09:23
+正常退出	1482
+2015/3/13 16:09:56
+登录系统	1482
+2015/3/13 16:11:07
+登录系统	1482
+2015/3/13 16:11:42
+正常退出	1482
+2015/3/13 16:13:35
+登录系统	1482
+2015/3/13 16:14:12
+正常退出	1482
+2015/3/13 16:15:12
+登录系统	1482
+2015/3/13 16:24:20
+登录系统	1482
+2015/3/13 16:27:27
+登录系统	1482
+2015/3/13 16:32:19
+登录系统	1482
+2015/3/13 16:51:45
+登录系统	1482
+2015/3/13 17:17:10
+拒绝访问。
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:17:17
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:17:21
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:17:23
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:17:25
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:17:28
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:17:51
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:18:43
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:23:03
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:23:05
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:24:34
+未将对象引用设置到对象的实例。
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:24:36
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:24:39
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:24:42
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:24:44
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:25:42
+登录系统	1482
+2015/3/13 17:26:00
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:26:07
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:26:28
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:26:33
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:29:07
+登录系统	1482
+2015/3/13 17:29:43
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:32:56
+登录系统	1482
+2015/3/13 17:33:29
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PageSettings.get_ExtraBytes()
+   在 System.Drawing.Printing.PageSettings.CopyToHdevmode(IntPtr hdevmode)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:33:31
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:40:14
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:40:40
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:41:17
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PreviewPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 System.Windows.Forms.PrintPreviewControl.ComputePreview()
+   在 System.Windows.Forms.PrintPreviewControl.CalculatePageInfo()
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.PrintPreviewControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:41:19
+正常退出	1482
+2015/3/13 17:50:05
+登录系统	1482
+2015/3/13 17:50:31
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 579
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 801
+2015/3/13 17:50:34
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:52:03
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 569
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 819
+2015/3/13 17:52:04
+正常退出	1482

@@ -1,0 +1,1 @@
+select  * from    where dict_id = '02' and RECORD_DATE >={DATE_BEGIN} AND RECORD_DATE < {DATE_END} AND item_name = 'RECORDER' 

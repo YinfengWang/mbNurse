@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sql" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExamList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExamListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetExamListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExamResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="examNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExamResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetExamResultResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLabTestList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLabTestListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLabTestListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLabTestResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="testNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLabTestResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLabTestResultResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpeciment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patientId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="visitId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecimentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecimentResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveSpeciment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsChanged">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveSpecimentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveSpecimentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkNewOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="preChkDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkNewOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChkNewOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkNewStopOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkNewStopOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChkNewStopOrderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientBedLabel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientBedLabelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientBedLabelResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderRemindListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bedLabel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderRemindInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindPatientList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderRemindPatientListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOrderRemindPatientListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetExamList" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetExamListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultSoapIn">
+    <wsdl:part name="parameters" element="tns:GetExamResult" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultSoapOut">
+    <wsdl:part name="parameters" element="tns:GetExamResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLabTestList" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLabTestListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLabTestResult" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLabTestResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpeciment" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecimentResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveSpecimentSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveSpeciment" />
+  </wsdl:message>
+  <wsdl:message name="SaveSpecimentSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveSpecimentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:ChkNewOrder" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:ChkNewOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:ChkNewStopOrder" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:ChkNewStopOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientBedLabel" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientBedLabelResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindList" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindPatientList" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderRemindPatientListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpGetIn">
+    <wsdl:part name="sql" type="s:string" />
+    <wsdl:part name="tableName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultHttpGetIn">
+    <wsdl:part name="examNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultHttpGetIn">
+    <wsdl:part name="testNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentHttpGetIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="preChkDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="bedLabel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpPostIn">
+    <wsdl:part name="sql" type="s:string" />
+    <wsdl:part name="tableName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExamListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultHttpPostIn">
+    <wsdl:part name="examNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExamResultHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultHttpPostIn">
+    <wsdl:part name="testNo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetLabTestResultHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentHttpPostIn">
+    <wsdl:part name="patientId" type="s:string" />
+    <wsdl:part name="visitId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecimentHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="preChkDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkNewStopOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientBedLabelHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="bedLabel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderRemindPatientListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="HISDataWebSrvSoap">
+    <wsdl:operation name="GetData">
+      <wsdl:input message="tns:GetDataSoapIn" />
+      <wsdl:output message="tns:GetDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <wsdl:input message="tns:GetExamListSoapIn" />
+      <wsdl:output message="tns:GetExamListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <wsdl:input message="tns:GetExamResultSoapIn" />
+      <wsdl:output message="tns:GetExamResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <wsdl:input message="tns:GetLabTestListSoapIn" />
+      <wsdl:output message="tns:GetLabTestListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <wsdl:input message="tns:GetLabTestResultSoapIn" />
+      <wsdl:output message="tns:GetLabTestResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <wsdl:input message="tns:GetSpecimentSoapIn" />
+      <wsdl:output message="tns:GetSpecimentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpeciment">
+      <wsdl:input message="tns:SaveSpecimentSoapIn" />
+      <wsdl:output message="tns:SaveSpecimentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <wsdl:input message="tns:ChkNewOrderSoapIn" />
+      <wsdl:output message="tns:ChkNewOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <wsdl:input message="tns:ChkNewStopOrderSoapIn" />
+      <wsdl:output message="tns:ChkNewStopOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <wsdl:input message="tns:GetPatientBedLabelSoapIn" />
+      <wsdl:output message="tns:GetPatientBedLabelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <wsdl:input message="tns:GetOrderRemindListSoapIn" />
+      <wsdl:output message="tns:GetOrderRemindListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <wsdl:input message="tns:GetOrderRemindInfoSoapIn" />
+      <wsdl:output message="tns:GetOrderRemindInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <wsdl:input message="tns:GetOrderRemindPatientListSoapIn" />
+      <wsdl:output message="tns:GetOrderRemindPatientListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="HISDataWebSrvHttpGet">
+    <wsdl:operation name="GetData">
+      <wsdl:input message="tns:GetDataHttpGetIn" />
+      <wsdl:output message="tns:GetDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <wsdl:input message="tns:GetExamListHttpGetIn" />
+      <wsdl:output message="tns:GetExamListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <wsdl:input message="tns:GetExamResultHttpGetIn" />
+      <wsdl:output message="tns:GetExamResultHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <wsdl:input message="tns:GetLabTestListHttpGetIn" />
+      <wsdl:output message="tns:GetLabTestListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <wsdl:input message="tns:GetLabTestResultHttpGetIn" />
+      <wsdl:output message="tns:GetLabTestResultHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <wsdl:input message="tns:GetSpecimentHttpGetIn" />
+      <wsdl:output message="tns:GetSpecimentHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <wsdl:input message="tns:ChkNewOrderHttpGetIn" />
+      <wsdl:output message="tns:ChkNewOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <wsdl:input message="tns:ChkNewStopOrderHttpGetIn" />
+      <wsdl:output message="tns:ChkNewStopOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <wsdl:input message="tns:GetPatientBedLabelHttpGetIn" />
+      <wsdl:output message="tns:GetPatientBedLabelHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <wsdl:input message="tns:GetOrderRemindListHttpGetIn" />
+      <wsdl:output message="tns:GetOrderRemindListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <wsdl:input message="tns:GetOrderRemindInfoHttpGetIn" />
+      <wsdl:output message="tns:GetOrderRemindInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <wsdl:input message="tns:GetOrderRemindPatientListHttpGetIn" />
+      <wsdl:output message="tns:GetOrderRemindPatientListHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="HISDataWebSrvHttpPost">
+    <wsdl:operation name="GetData">
+      <wsdl:input message="tns:GetDataHttpPostIn" />
+      <wsdl:output message="tns:GetDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <wsdl:input message="tns:GetExamListHttpPostIn" />
+      <wsdl:output message="tns:GetExamListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <wsdl:input message="tns:GetExamResultHttpPostIn" />
+      <wsdl:output message="tns:GetExamResultHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <wsdl:input message="tns:GetLabTestListHttpPostIn" />
+      <wsdl:output message="tns:GetLabTestListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <wsdl:input message="tns:GetLabTestResultHttpPostIn" />
+      <wsdl:output message="tns:GetLabTestResultHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <wsdl:input message="tns:GetSpecimentHttpPostIn" />
+      <wsdl:output message="tns:GetSpecimentHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <wsdl:input message="tns:ChkNewOrderHttpPostIn" />
+      <wsdl:output message="tns:ChkNewOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <wsdl:input message="tns:ChkNewStopOrderHttpPostIn" />
+      <wsdl:output message="tns:ChkNewStopOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <wsdl:input message="tns:GetPatientBedLabelHttpPostIn" />
+      <wsdl:output message="tns:GetPatientBedLabelHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <wsdl:input message="tns:GetOrderRemindListHttpPostIn" />
+      <wsdl:output message="tns:GetOrderRemindListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <wsdl:input message="tns:GetOrderRemindInfoHttpPostIn" />
+      <wsdl:output message="tns:GetOrderRemindInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <wsdl:input message="tns:GetOrderRemindPatientListHttpPostIn" />
+      <wsdl:output message="tns:GetOrderRemindPatientListHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HISDataWebSrvSoap" type="tns:HISDataWebSrvSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <soap:operation soapAction="http://tempuri.org/GetExamList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <soap:operation soapAction="http://tempuri.org/GetExamResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <soap:operation soapAction="http://tempuri.org/GetLabTestList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <soap:operation soapAction="http://tempuri.org/GetLabTestResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <soap:operation soapAction="http://tempuri.org/GetSpeciment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpeciment">
+      <soap:operation soapAction="http://tempuri.org/SaveSpeciment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <soap:operation soapAction="http://tempuri.org/ChkNewOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <soap:operation soapAction="http://tempuri.org/ChkNewStopOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <soap:operation soapAction="http://tempuri.org/GetPatientBedLabel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <soap:operation soapAction="http://tempuri.org/GetOrderRemindList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <soap:operation soapAction="http://tempuri.org/GetOrderRemindInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <soap:operation soapAction="http://tempuri.org/GetOrderRemindPatientList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HISDataWebSrvSoap12" type="tns:HISDataWebSrvSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap12:operation soapAction="http://tempuri.org/GetData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <soap12:operation soapAction="http://tempuri.org/GetExamList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <soap12:operation soapAction="http://tempuri.org/GetExamResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <soap12:operation soapAction="http://tempuri.org/GetLabTestList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <soap12:operation soapAction="http://tempuri.org/GetLabTestResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <soap12:operation soapAction="http://tempuri.org/GetSpeciment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSpeciment">
+      <soap12:operation soapAction="http://tempuri.org/SaveSpeciment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <soap12:operation soapAction="http://tempuri.org/ChkNewOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <soap12:operation soapAction="http://tempuri.org/ChkNewStopOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <soap12:operation soapAction="http://tempuri.org/GetPatientBedLabel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderRemindList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderRemindInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderRemindPatientList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HISDataWebSrvHttpGet" type="tns:HISDataWebSrvHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetData">
+      <http:operation location="/GetData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <http:operation location="/GetExamList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <http:operation location="/GetExamResult" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <http:operation location="/GetLabTestList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <http:operation location="/GetLabTestResult" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <http:operation location="/GetSpeciment" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <http:operation location="/ChkNewOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <http:operation location="/ChkNewStopOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <http:operation location="/GetPatientBedLabel" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <http:operation location="/GetOrderRemindList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <http:operation location="/GetOrderRemindInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <http:operation location="/GetOrderRemindPatientList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HISDataWebSrvHttpPost" type="tns:HISDataWebSrvHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetData">
+      <http:operation location="/GetData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamList">
+      <http:operation location="/GetExamList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExamResult">
+      <http:operation location="/GetExamResult" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestList">
+      <http:operation location="/GetLabTestList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLabTestResult">
+      <http:operation location="/GetLabTestResult" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpeciment">
+      <http:operation location="/GetSpeciment" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewOrder">
+      <http:operation location="/ChkNewOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkNewStopOrder">
+      <http:operation location="/ChkNewStopOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientBedLabel">
+      <http:operation location="/GetPatientBedLabel" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindList">
+      <http:operation location="/GetOrderRemindList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindInfo">
+      <http:operation location="/GetOrderRemindInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderRemindPatientList">
+      <http:operation location="/GetOrderRemindPatientList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HISDataWebSrv">
+    <wsdl:port name="HISDataWebSrvSoap" binding="tns:HISDataWebSrvSoap">
+      <soap:address location="http://localhost/MobileWebSrv/HISDataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HISDataWebSrvSoap12" binding="tns:HISDataWebSrvSoap12">
+      <soap12:address location="http://localhost/MobileWebSrv/HISDataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HISDataWebSrvHttpGet" binding="tns:HISDataWebSrvHttpGet">
+      <http:address location="http://localhost/MobileWebSrv/HISDataWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HISDataWebSrvHttpPost" binding="tns:HISDataWebSrvHttpPost">
+      <http:address location="http://localhost/MobileWebSrv/HISDataWebSrv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

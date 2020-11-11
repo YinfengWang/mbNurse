@@ -1,0 +1,8 @@
+08-12-10 14:32:44
+违反并发性: UpdateCommand 影响了预期 1 条记录中的 0 条。
+   在 HISPlus.OracleAccess.Update(DataSet& ds, String tableName, String sqlSel) 位置 F:\开发空间\源代码\共通模块\HISComm\HISComm\Database\OracleAccess.cs:行号 150
+   在 HISPlus.AppManagerDbI.SaveApplicationModules(DataSet& dsAppModules, String appCode) 位置 F:\开发空间\源代码\数据接口\AppManagerDbI\AppManagerDbI\AppManagerDbI.cs:行号 126
+   在 HISPlus.ApplicationMangerCom.SaveApplicationModules(DataSet& dsAppModules, String appCode) 位置 F:\开发空间\源代码\共通模块\ApplicationManager\ApplicationManager\ApplicationMangerCom.cs:行号 78
+   在 HISPlus.ApplicationModuleFrm.btnSave_Click(Object sender, EventArgs e) 位置 F:\开发空间\源代码\共通模块\ApplicationManager\ApplicationManager\ApplicationModuleFrm.cs:行号 424
+08-12-10 14:33:47
+正常退出	YDHL

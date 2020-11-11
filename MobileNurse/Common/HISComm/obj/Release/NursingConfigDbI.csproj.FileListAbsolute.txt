@@ -1,0 +1,6 @@
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\NursingConfigDbI.dll
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\NursingConfigDbI.pdb
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\HISComm.dll
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\HISGlobalVariant.dll
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\HISComm.pdb
+E:\SVN\mobilenurse\MobileNurse\NursingRecordConfig\NursingConfigDbI\bin\Release\HISGlobalVariant.pdb

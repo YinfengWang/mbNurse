@@ -1,0 +1,1212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HISComm</name>
+    </assembly>
+    <members>
+        <member name="T:HISPlus.FileAPI">
+            <summary>
+            文件操作API接口
+            </summary>
+        </member>
+        <member name="T:HISPlus.ZebraPrinter">
+            <summary>
+            ZebraPrinter 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.ZebraPrinter.GetPortName(System.Int32)">
+            <summary>
+            通过端口号获取端口名称
+            </summary>
+            <param name="portNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.ZebraPrinter.GetMaxicodePrintCmd(System.Int32,System.Int32,System.String)">
+            <summary>
+            获取MaxiCode条码打印命令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.IME">
+            <summary>
+            输液法控制
+            </summary>
+        </member>
+        <member name="M:HISPlus.IME.SetIme(System.String)">
+            <summary>
+            设定当前Ime, 使用方法Ime.SetImeName("中文 (简体) - 拼音加加"); 
+            </summary>
+            <param name="ImeName"></param>
+        </member>
+        <member name="M:HISPlus.IME.GetImes">
+            <summary>
+            获得所有的Ime列表 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.IME.ChangeControlIme(System.IntPtr)">
+            <summary>
+            输入法全角半角转换
+            </summary>
+            <param name="h"></param>
+        </member>
+        <member name="T:HISPlus.DirFile">
+            <summary>
+            ComFunctions 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.DirFile.CopyDirectory(System.IO.DirectoryInfo,System.IO.DirectoryInfo)">
+            <summary>
+            拷贝目录
+            </summary>
+            <param name="dirInfoOld"></param>
+            <param name="dirInfoNew"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.CopyDirectory_NoSub(System.String,System.String)">
+            <summary>
+            拷贝目录
+            </summary>
+            <param name="dirInfoOld"></param>
+            <param name="dirInfoNew"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.CopyDirectory(System.String,System.String)">
+            <summary>
+            拷贝目录
+            </summary>
+            <param name="OldDirectoryStr"></param>
+            <param name="NewDirectoryStr"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.GetDirFiles(System.String)">
+            <summary>
+            获取目录下的所有文件
+            </summary>
+            <param name="path"></param>
+            <param name="trv"></param>
+            <param name="parentNode"></param>
+            <param name="level"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.GetDirFiles(System.String,System.Collections.ArrayList@)">
+            <summary>
+            获取目录下的所有文件
+            </summary>
+            <param name="path"></param>
+            <param name="trv"></param>
+            <param name="parentNode"></param>
+            <param name="level"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.DeleteFile(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.CopyFile(System.String,System.String)">
+            <summary>
+            尽力Copy文件, 忽略错误
+            </summary>
+            <param name="srcFile"></param>
+            <param name="destFile"></param>
+        </member>
+        <member name="M:HISPlus.DirFile.GetFullFileName(System.String,System.String)">
+            <summary>
+            获取文件的完整路径名称
+            </summary>
+            <param name="currentPath"></param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DirFile.IsFile(System.String)">
+            <summary>
+            判断是不是文件
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DirFile.IsDir(System.String)">
+            <summary>
+            判断是不是目录
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.Error">
+            <summary>
+            ComFunctions 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.Error.ErrProc(System.Exception)">
+            <summary>
+            错误处理
+            </summary>
+            <remarks>
+            功能:
+                1: 显示错误信息
+                2: 把错误记录在本地Log文件中
+            </remarks>
+            <param name="ex">异常</param>
+        </member>
+        <member name="T:HISPlus.Win32API">
+            <summary>
+            WIN32 API接口
+            </summary>
+        </member>
+        <member name="T:HISPlus.LogFile">
+            <summary>
+            ComFunctions 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.LogFile.GetLogFileName">
+            <summary>
+            获取Log文件名(包含绝对路径)
+            </summary>
+            <remarks>
+            文件名的格式: 应用程序当前路径 + '\Log\' + 当前日期 + 'Log.txt'
+            </remarks>
+            <returns>Log文件名(包含绝对路径)</returns>
+        </member>
+        <member name="M:HISPlus.LogFile.WriteLog(System.String,System.String)">
+            <summary>
+            写Log日志
+            </summary>
+            <param name="strLogFile">Log文件名</param>
+            <param name="strMsg">要写入的内容</param>
+        </member>
+        <member name="M:HISPlus.LogFile.WriteLog(System.String)">
+            <summary>
+            写Log日志
+            </summary>
+            <param name="strMsg">要写入的内容</param>
+        </member>
+        <member name="T:HISPlus.IniFile">
+            <summary>
+            IniFile 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.IniFile.GetPrivateProfileInt(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            获取Ini文件中的数字值
+            </summary>
+            <param name="lpAppName">段名</param>
+            <param name="lpKeyName">键名</param>
+            <param name="nDefault">默认值</param>
+            <param name="lpFileName">Ini文件</param>
+            <returns>Ini文件中设置的值</returns>
+        </member>
+        <!-- 对于成员“M:HISPlus.IniFile.GetPrivateProfileString(System.String,System.String,System.String,System.Text.StringBuilder,System.Int32,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:HISPlus.IniFile.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+            <summary>
+            设置Ini文件中的值
+            </summary>
+            <param name="lpAppName">段名</param>
+            <param name="lpKeyName">键名</param>
+            <param name="lpString">值</param>
+            <param name="lpFileName">Ini文件</param>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.IniFile.ReadInt(System.String,System.String,System.Int32)">
+            <summary>
+            读Ini文件中的Int值
+            </summary>
+            <param name="section">段名</param>
+            <param name="key">键名</param>
+            <param name="def">默认值</param>
+            <returns>Ini文件中设置的值</returns>
+        </member>
+        <member name="M:HISPlus.IniFile.ReadString(System.String,System.String,System.String)">
+            <summary>
+            读Ini文件中的字符串值
+            </summary>
+            <param name="section">段名</param>
+            <param name="key">键名</param>
+            <param name="def">默认值</param>
+            <returns>Ini文件中设置的值</returns>
+        </member>
+        <member name="M:HISPlus.IniFile.WriteString(System.String,System.String,System.String)">
+            <summary>
+            写Ini文件
+            </summary>
+            <param name="section">段名</param>
+            <param name="key">键名</param>
+            <param name="strVal">要写入的字符串</param>
+        </member>
+        <member name="M:HISPlus.IniFile.DelKey(System.String,System.String)">
+            <summary>
+            删除键
+            </summary>
+            <param name="section">段名</param>
+            <param name="key">键名</param>
+        </member>
+        <member name="M:HISPlus.IniFile.DelSection(System.String)">
+            <summary>
+            删除段
+            </summary>
+            <param name="section">段名</param>
+        </member>
+        <member name="T:HISPlus.DataType">
+            <summary>
+            ComFunctions 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.DataType.DateTime_Null">
+            <summary>
+            获取DateTime的Null值
+            </summary>
+            <remarks>假定一个"1-1-1 12:00:00"值作为Null值</remarks>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:HISPlus.DataType.DateTime_IsNull(System.DateTime@)">
+            <summary>
+            判断DateTime是否为Null
+            </summary>
+            <param name="dt">DateTime</param>
+            <returns>TRUE: 是为Null; FALSE: 不为Null</returns>
+        </member>
+        <member name="M:HISPlus.DataType.DateTimeFromString(System.String)">
+            <summary>
+            把字符串转换成为日期
+            </summary>
+            <param name="strDateTime">日期字符串</param>
+            <returns>日期</returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetDateTime(System.String@)">
+            <summary>
+            从一个字符串中尽量提取日期时间字符串
+            </summary>
+            <remarks>
+             1: 年月日时分秒可以被任意非数字字符分隔
+             2: 年月日时分秒可以不用任何分隔符分隔,提取时按年四位数整数, 其它都有两位整数
+             3: 1与2两种情况的结合体也可以识别, 如 200012-2 20:12-43, 可以正确识别
+            </remarks>
+            <param name="dtSrc">日期时间字符串</param>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetDateTimeShort(System.String)">
+            <summary>
+            把一个表示日期的字符串转换成短日期格式
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetDateTimeLong(System.String)">
+            <summary>
+            把一个表示日期的字符串转换成长日期格式
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetShortTime(System.String)">
+            <summary>
+            获取短时间格式
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetMD(System.String)">
+            <summary>
+            获取月日(如8.2)
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetYMD(System.String)">
+            <summary>
+            获取年月日, 如2007年12月6日
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.GetRomaNum(System.Int32)">
+            <summary>
+            获取数字的罗马表示
+            </summary>
+            <param name="num"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DataType.IsNumber(System.String)">
+            <summary>
+            判断一个字符串是不是正整数
+            </summary>
+            <remarks>仅包含数字</remarks>
+            <param name="text">待验证的字符串</param>
+            <returns>TRUE: 符合要求; FALSE: 不符合要求</returns>
+        </member>
+        <member name="M:HISPlus.DataType.IsPositive(System.String)">
+            <summary>
+            检查某个数是不是正数(包括0)
+            </summary>
+            <param name="text">要检查的字符串</param>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.DataType.IsTime(System.String@)">
+            <summary>
+            检查一个字符串是不是合法的时间格式
+            如果是: 把输入字符串转换成标准的日期格式HH:MM:SS
+            </summary>
+            <param name="timeStr">表示时间的字符</param>
+            <returns>TRUE: 是; FALSE: 不是</returns>
+        </member>
+        <member name="M:HISPlus.DataType.IsDateTime(System.String)">
+            <summary>
+            判断字符串是不是日期时间,如果是转换成标准形式 YYYY-MM-DD HH:mm:ss
+            </summary>
+            <param name="dtStr"></param>
+            <returns>TRUE: 是; FALSE: 否</returns>
+        </member>
+        <member name="M:HISPlus.DataType.IsShortDate(System.String)">
+            <summary>
+            检查一个短日期是否是正确的日期格式
+            </summary>
+            <remarks>YYYY-MM-DD或YYYYMMDD</remarks>
+            <param name="dtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.DbAccess">
+            <summary>
+            OracleAccess 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.DbAccess.Connect">
+            <summary>
+            Oracle数据库的连接
+            </summary>
+            <returns>返回连接</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.Connect(System.String)">
+            <summary>
+            Oracle数据库的连接
+            </summary>
+            <param name="connectString">连接字符串</param>
+            <returns>返回连接</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.DisConnect">
+            <summary>
+            断开与数据库的连接
+            </summary>
+        </member>
+        <member name="M:HISPlus.DbAccess.BeginTrans">
+            <summary>
+            开始事务
+            </summary>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.Commit">
+            <summary>
+            事务提交
+            </summary>
+        </member>
+        <member name="M:HISPlus.DbAccess.RollBack">
+            <summary>
+            事务回滚
+            </summary>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectValue(System.String)">
+            <summary>
+            查询数据, 只查询第一行的第一列, 最好是返回结果只有一个的
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <returns>TRUE: 查找; FALSE: 没有查找</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.GetResult(System.Int32)">
+            <summary>
+            返回单行选择的结果
+            </summary>
+            <param name="col"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData(System.String)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData_NoKey(System.String)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData(System.String,System.String)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData_NoKey(System.String,System.String)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData(System.String,System.String,System.Data.DataSet@)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData_NoKey(System.String,System.String,System.Data.DataSet@)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.SelectData(System.String,System.String,System.Data.DataSet@,System.Boolean)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.Update(System.Data.DataSet@,System.String,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="ds">数据源DataSet</param>
+            <param name="tableName">要更新的表名</param>
+            <param name="sqlSel">获取数据源的Sql语句</param>
+            <param name="conn">数据库连接</param>
+            <returns>TRUE: 保存成功; FALSE: 保存失败</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.Update(System.Data.DataRow[]@,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="dataRows"></param>
+            <param name="tableName"></param>
+            <param name="sqlSel"></param>
+        </member>
+        <member name="M:HISPlus.DbAccess.ExecuteNoQuery(System.Collections.ArrayList@)">
+            <summary>
+            执行Sql语句, 没有返回值
+            </summary>
+            <param name="sqlCol">sql语句ArrayList</param>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.ExecuteNoQuery(System.String)">
+            <summary>
+            执行Sql语句, 没有返回值
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns>TRUE: 成功; FALSE: 失败</returns>
+        </member>
+        <member name="M:HISPlus.DbAccess.GetSysDate">
+            <summary>
+            获取系统时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HISPlus.DbAccess.Connection">
+            <summary>
+            与数据库的连接
+            </summary>
+        </member>
+        <member name="P:HISPlus.DbAccess.Trans">
+            <summary>
+            事务
+            </summary>
+        </member>
+        <member name="P:HISPlus.DbAccess.IsConnected">
+            <summary>
+            是否与数据库连接
+            </summary>
+        </member>
+        <member name="P:HISPlus.DbAccess.ConnectionString">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="T:HISPlus.EnDecrypt">
+            <summary>
+            En_Decrypt 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.#ctor">
+            <remarks>
+            使用自定义SymmetricAlgorithm类的构造器.
+            </remarks>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.#ctor(HISPlus.EnDecrypt.SymmProvEnum)">
+            <remarks>
+            使用.Net SymmetricAlgorithm 类的构造器.
+            </remarks>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.#ctor(System.Security.Cryptography.SymmetricAlgorithm)">
+            <remarks>
+            使用自定义SymmetricAlgorithm类的构造器.
+            </remarks>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.GetLegalKey">
+            <remarks>
+            获取密钥
+            </remarks>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.GetLegalIV">
+            <summary>
+            获得初始向量IV
+            </summary>
+            <returns>初试向量IV</returns>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.Encrypt(System.String)">
+            <summary>
+            加密字符串
+            </summary>
+            <param name="Source">要加密的字符串</param>
+            <param name="Key">密钥</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.Decrypt(System.String)">
+            <summary>
+            解密字符串
+            </summary>
+            <param name="Source">要解密的字符串</param>
+            <param name="Key">密钥</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.Encrypt_JW(System.String)">
+            <summary>
+            军卫系统的加密算法
+            </summary>
+            <param name="src">明文</param>
+            <returns>密文</returns>
+        </member>
+        <member name="M:HISPlus.EnDecrypt.Decrypt_JW(System.String)">
+            <summary>
+            军卫系统的解密算法
+            </summary>
+            <param name="src">明文</param>
+            <returns>密文</returns>
+        </member>
+        <member name="T:HISPlus.Message">
+            <summary>
+            Error 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.Message.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HISPlus.Message.Finalize">
+            <summary>
+            析构函数
+            </summary>
+        </member>
+        <member name="M:HISPlus.Message.GetMsg">
+            <summary>
+            获取消息文本
+            </summary>
+            <returns>消息文本</returns>
+        </member>
+        <member name="M:HISPlus.Message.GetMsg(System.String)">
+            <summary>
+            获取消息文本
+            </summary>
+            <param name="msgId">消息ID</param>
+            <returns>消息文本</returns>
+        </member>
+        <member name="M:HISPlus.Message.Show">
+            <summary>
+            显示消息
+            </summary>
+            <returns>确认结果</returns>
+        </member>
+        <member name="M:HISPlus.Message.Show(System.String)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="strMsgId">消息ID</param>
+            <returns>确认结果</returns>
+        </member>
+        <member name="M:HISPlus.Message.Show(System.String,System.String)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="strMsgId">消息ID</param>
+            <param name="strMsgContent">消息替换内容</param>
+            <returns>确认结果</returns>
+        </member>
+        <member name="M:HISPlus.Message.Show(System.String,System.String,System.String)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="strMsgId">消息ID</param>
+            <param name="strMsgContent1">消息替换内容1</param>
+            <param name="strMsgContent2">消息替换内容2</param>
+            <returns>确认结果</returns>
+        </member>
+        <member name="M:HISPlus.Message.Clear">
+            <summary>
+            清除错误, 确保错误只显示一次
+            </summary>
+        </member>
+        <member name="M:HISPlus.Message.IsPrefixChar(System.String)">
+            <summary>
+            检查是否是消息ID前缀
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HISPlus.Message.MsgId">
+            <summary>
+            属性 [MsgId]
+            </summary>
+        </member>
+        <member name="P:HISPlus.Message.ErrorSrc">
+            <summary>
+            属性 [错误源]
+            </summary>
+        </member>
+        <member name="P:HISPlus.Message.Caption">
+            <summary>
+            窗口标题
+            </summary>
+        </member>
+        <member name="T:HISPlus.DllOperator">
+            <summary>
+            动态库操作类
+            </summary>
+        </member>
+        <member name="M:HISPlus.DllOperator.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HISPlus.DllOperator.GetFormInDll(System.String,System.String)">
+            <summary>
+            从动态库中获取窗体
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:HISPlus.FormDoInfo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HISPlus.FormDoInfo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HISPlus.FormDoInfo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:HISPlus.FormDoInfo.#ctor">
+            <summary>
+            窗体信息
+            </summary>
+        </member>
+        <member name="M:HISPlus.FormDoInfo.FormDoInfo_Load(System.Object,System.EventArgs)">
+            <summary>
+            窗体加载
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HISPlus.SqlserverAccess">
+            <summary>
+            OracleAccess 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.SqlserverAccess.SelectData(System.String,System.String,System.Data.DataSet@,System.Boolean)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.SqlserverAccess.Update(System.Data.DataSet@,System.String,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="ds">数据源DataSet</param>
+            <param name="tableName">要更新的表名</param>
+            <param name="sqlSel">获取数据源的Sql语句</param>
+            <param name="conn">数据库连接</param>
+            <returns>TRUE: 保存成功; FALSE: 保存失败</returns>
+        </member>
+        <member name="M:HISPlus.SqlserverAccess.Update(System.Data.DataRow[]@,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="dataRows"></param>
+            <param name="tableName"></param>
+            <param name="sqlSel"></param>
+        </member>
+        <member name="M:HISPlus.SqlserverAccess.GetSysDate">
+            <summary>
+            获取系统日期
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.OracleAccess">
+            <summary>
+            OracleAccess 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.OracleAccess.SelectData(System.String,System.String,System.Data.DataSet@,System.Boolean)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.OracleAccess.Update(System.Data.DataSet@,System.String,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="ds">数据源DataSet</param>
+            <param name="tableName">要更新的表名</param>
+            <param name="sqlSel">获取数据源的Sql语句</param>
+            <param name="conn">数据库连接</param>
+            <returns>TRUE: 保存成功; FALSE: 保存失败</returns>
+        </member>
+        <member name="M:HISPlus.OracleAccess.Update(System.Data.DataRow[]@,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="dataRows"></param>
+            <param name="tableName"></param>
+            <param name="sqlSel"></param>
+        </member>
+        <member name="M:HISPlus.OracleAccess.GetSysDate">
+            <summary>
+            获取系统日期
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.ComConst">
+            <summary>
+            ComConst 的摘要说明。
+            </summary>
+        </member>
+        <member name="T:HISPlus.ComConst.STR">
+            <summary>
+            字符串
+            </summary>
+        </member>
+        <member name="T:HISPlus.ComConst.FMT_DATE">
+            <summary>
+            日期格式
+            </summary>
+        </member>
+        <member name="T:HISPlus.ComConst.VAL">
+            <summary>
+            常用数字
+            </summary>
+        </member>
+        <member name="T:HISPlus.ComConst.FMT_MONEY">
+            <summary>
+            货币格式
+            </summary>
+        </member>
+        <member name="T:HISPlus.ConnectionStringHelper">
+            <summary>
+            数据库连接字符串的相关例程集合
+            </summary>
+            <remarks>本对象定义了一些处理数据库连接字符串的例程,
+            包括创建OLEDB数据库连接字符串的函数,分析数据库连接字符串的函数,
+            本对象不可实例化,其所有可用的成员都是静态的,可直接调用</remarks>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.#ctor">
+            <summary>
+            本对象不能实例化
+            </summary>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetJet40ConnectionString(System.String,System.String)">
+            <summary>
+            获得一个Jet40(Access2000)的数据库连接字符串
+            </summary>
+            <param name="strFileName">数据库文件名</param>
+            <param name="strPassword">密码，若不存在密码则可使用空引用(null)</param>
+            <returns>Jet40的数据库连接字符串</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetOracleConnectionString(System.String,System.String,System.String)">
+            <summary>
+            获得一个ORACLE的数据库连接字符串
+            </summary>
+            <param name="strSourceName">数据源名</param>
+            <param name="strUserName">用户名</param>
+            <param name="strPassword">密码</param>
+            <returns>Oracle数据库连接字符串</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetSQLServerConnectionString(System.String,System.String,System.String,System.String)">
+            <summary>
+            获得一个SQLServer的数据库连接字符串
+            </summary>
+            <param name="strServerName">服务器名称</param>
+            <param name="strUserName">用户名</param>
+            <param name="strDBName">数据库名</param>
+            <param name="strPassword">密码</param>
+            <returns>SQLServer数据库连接字符串</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetSQLServerConnectionStringWithoutProvider(System.String,System.String,System.String,System.String)">
+            <summary>
+            获得一个不带 Provider 部分的 SQLServer的数据库连接字符串,一般用于 SqlConnection 对象
+            </summary>
+            <remarks>专门连接SQLServer的 System.Data.SqlClient.SqlConnection 使用的数据库连接字符串
+            没有 Provider 部分,其他和 Oledb 的 SQLServer 数据库连接字符串一样,
+            因此本函数根据此特性进行了处理,生成的数据库连接字符串没有 Provider 部分</remarks>
+            <param name="strServerName">服务器名称</param>
+            <param name="strUserName">用户名</param>
+            <param name="strDBName">数据库名</param>
+            <param name="strPassword">密码</param>
+            <returns>SQLServer数据库连接字符串</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetODBCConnectionString(System.String,System.String,System.String)">
+            <summary>
+            获得一个ODBC的OLEDB数据库连接字符串
+            </summary>
+            <param name="strSource">数据源名称</param>
+            <param name="strUserName">用户名</param>
+            <param name="strPassword">密码</param>
+            <returns>ODBC的OLEDB数据库连接字符串</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetProvider(System.String)">
+            <summary>
+            获得数据库连接字符串中指定的数据提供者名称(Provider参数值)
+            </summary>
+            <param name="strConnection">数据库连接字符串</param>
+            <returns>数据提供者名称</returns>
+        </member>
+        <member name="M:HISPlus.ConnectionStringHelper.GetParameter(System.String,System.String)">
+            <summary>
+            获得数据库连接字符串中指定名称的参数值
+            </summary>
+            <param name="strConnection">数据库连接字符串</param>
+            <param name="strParameterName">参数名称</param>
+            <returns>参数值,若不存在指定名称的参数则返回空引用</returns>
+        </member>
+        <member name="M:HISPlus.FormDo.#ctor">
+            <summary>
+            FormDo 摘要说明
+            </summary>
+        </member>
+        <member name="P:HISPlus.FormDo.ID">
+            <summary>
+            功能划分ID
+            </summary>
+        </member>
+        <member name="P:HISPlus.FormDo.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:HISPlus.FormDo.GUID">
+            <summary>
+            窗体GUID
+            </summary>
+        </member>
+        <member name="P:HISPlus.FormDo.Right">
+            <summary>
+            窗体支持的权限列表
+            </summary>
+        </member>
+        <member name="P:HISPlus.FormDo.UserRight">
+            <summary>
+            当前用户的权限
+            </summary>
+        </member>
+        <member name="T:HISPlus.SqlManager">
+            <summary>
+            SqlManager 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.SqlManager.SqlConvert(System.String)">
+            <summary>
+            SQL 语句的格式化
+            </summary>
+            <remarks>
+            1: 单引号 转换为 两个单引号(前一个单引号表示转义)
+            2: 删除字符串的结尾空格
+            3: 字符前后各加一个单引号
+            4: 字符后加一个后缀空格
+            </remarks>
+            <param name="strSection">指定的字符串</param>
+            <returns>转换的字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetOraDbDate(System.String)">
+            <summary>
+            格式化日期
+            </summary>
+            <param name="strDate">指定的字符串</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetOraDbDate(System.DateTime)">
+            <summary>
+            格式化日期
+            </summary>
+            <param name="date">日期</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetOraDbDate_Short(System.String)">
+            <summary>
+            格式化日期
+            </summary>
+            <param name="strDate">指定的字符串</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetOraDbDate_Short(System.DateTime)">
+            <summary>
+            格式化日期
+            </summary>
+            <param name="date">日期</param>
+            <returns>转换后的字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetSqlDbDate(System.String)">
+            <summary>
+            获取日期时间的SQL表示
+            </summary>
+            <param name="dtSrc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getFieldValuePairSet(HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取字段名 设置成 字段值 的字符串
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getFieldValuePairAssert(HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取字段名 等于 字段值 判断的字符串
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getFieldValueList(HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取字段列表字符串, 字段之间以逗号分隔
+            </summary>
+            <returns>字段列表字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getFieldNameList(HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取字段名名称列表字符串, 字段之间以逗号分隔
+            </summary>
+            <param name="arrDbField"></param>
+            <param name="count"></param>
+            <returns>字段名称列表字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getFieldNameFromList(HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取字段名名称列表字符串, 字段之间以逗号分隔
+            </summary>
+            <param name="arrDbField"></param>
+            <param name="count"></param>
+            <returns>字段名称列表字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDbField(System.String,System.String,System.String,HISPlus.SqlManager.DB_TYPE,HISPlus.SqlManager.FIELD_TYPE)">
+            <summary>
+            获取DbField类型值
+            </summary>
+            <param name="fieldName">字段名</param>
+            <param name="fieldFrom">源字段</param>
+            <param name="fieldValue">字段值</param>
+            <param name="typeValue">数据库类型</param>
+            <param name="fieldType">字段类型</param>
+            <returns>DbField类型值</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDbField_Ora(System.String,System.String,HISPlus.SqlManager.FIELD_TYPE)">
+            <summary>
+            获取DbField类型值(针对Oracle数据库)
+            </summary>
+            <param name="fieldName">字段名</param>
+            <param name="fieldValue">字段值</param>
+            <param name="fieldType">字段类型</param>
+            <returns>DbField类型值</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDbField_Sql(System.String,System.String,HISPlus.SqlManager.FIELD_TYPE)">
+            <summary>
+            获取DbField类型值(针对SqlServer数据库)
+            </summary>
+            <param name="fieldName">字段名</param>
+            <param name="fieldValue">字段值</param>
+            <param name="fieldType">字段类型</param>
+            <returns>DbField类型值</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDbField_Sql(System.String,System.String)">
+            <summary>
+            获取DbField类型值(针对SqlServer数据库)
+            </summary>
+            <param name="fieldName">字段名</param>
+            <param name="fieldValue">字段值</param>
+            <param name="fieldType">字段类型</param>
+            <returns>DbField类型值</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDbField_Sql(System.Data.DataColumn,System.String)">
+            <summary>
+            获取DbField类型值(针对SqlServer数据库)
+            </summary>
+            <param name="dc">DataColumn</param>
+            <param name="fieldValue">字段值</param>
+            <returns>DbField类型值</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetSqlInsert(System.String,HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取INSERT SQL语句
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="arrDbField">表征字段的数组</param>
+            <param name="count">数组有效元素个数</param>
+            <returns>INSERT SQL语句</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetSqlDelete(System.String,HISPlus.SqlManager.DbField[],System.Int32)">
+            <summary>
+            获取DELETE SQL语句
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="arrDbField">表征字段的数组</param>
+            <param name="count">数组有效元素个数</param>
+            <returns>DELETE SQL语句</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetSqlUpdate(System.String,HISPlus.SqlManager.DbField[],System.Int32,System.String)">
+            <summary>
+            获取UPDATE SQL语句
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="arrDbField">表征字段的数组</param>
+            <param name="count">数组有效元素个数</param>
+            <param name="where">WHERE语句</param>
+            <returns>UPDATE SQL语句</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetSqlInsertFrom(System.String,System.String,HISPlus.SqlManager.DbField[],System.Int32,System.String)">
+            <summary>
+            获取INSERT FROM SQL语句,
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="tableFromName">源表</param>
+            <param name="arrDbField">表征字段的数组</param>
+            <param name="count">数组有效元素个数</param>
+            <param name="where">Where语句</param>
+            <returns>INSERT FROM SQL语句</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.getSQLWhere(System.String)">
+            <summary>
+            确定Where语句中有WHERE关键字与前导空格
+            </summary>
+            <param name="where">where语句字符串</param>
+            <returns>包含前导空格与WHERE关键字的Where语句字符串</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetConditionPre(System.String)">
+            <summary>
+            增加新的Where条件
+            </summary>
+            <param name="where"></param>
+            <returns>返回增加新条件后的Where语句</returns>
+        </member>
+        <member name="M:HISPlus.SqlManager.GetDataColumnFieldType(System.Type)">
+            <summary>
+            获取DataColumn.Type 对应的 FIELD_TYPE
+            </summary>
+            <param name="dcType">DataColumn.Type</param>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.SqlManager.FIELD_TYPE">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+        <member name="T:HISPlus.SqlManager.DB_TYPE">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="T:HISPlus.SqlManager.DbField">
+            <summary>
+            字段结构
+            </summary>
+        </member>
+        <member name="T:HISPlus.OleDbAccess">
+            <summary>
+            OracleAccess 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:HISPlus.OleDbAccess.SelectData(System.String,System.String,System.Data.DataSet@,System.Boolean)">
+            <summary>
+            查询数据
+            </summary>
+            <param name="sqlSel">查询语句</param>
+            <param name="tableName">表名</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:HISPlus.OleDbAccess.Update(System.Data.DataSet@,System.String,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="ds">数据源DataSet</param>
+            <param name="tableName">要更新的表名</param>
+            <param name="sqlSel">获取数据源的Sql语句</param>
+            <param name="conn">数据库连接</param>
+            <returns>TRUE: 保存成功; FALSE: 保存失败</returns>
+        </member>
+        <member name="M:HISPlus.OleDbAccess.Update(System.Data.DataRow[]@,System.String)">
+            <summary>
+            更新DB
+            </summary>
+            <param name="dataRows"></param>
+            <param name="tableName"></param>
+            <param name="sqlSel"></param>
+        </member>
+        <member name="M:HISPlus.OleDbAccess.GetSysDate">
+            <summary>
+            获取系统日期
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HISPlus.ErrDspForm">
+            <summary>
+            ErrDspForm 的摘要说明。
+            </summary>
+        </member>
+        <member name="F:HISPlus.ErrDspForm.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HISPlus.ErrDspForm.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+        </member>
+        <member name="M:HISPlus.ErrDspForm.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要使用代码编辑器修改
+            此方法的内容。
+            </summary>
+        </member>
+        <member name="M:HISPlus.ErrDspForm.setErrMsg(System.String)">
+            <summary>
+            设置错误信息
+            </summary>
+            <param name="strErrMsg"></param>
+        </member>
+        <member name="M:HISPlus.ErrDspForm.btnClose_Click(System.Object,System.EventArgs)">
+            <summary>
+            [关闭]按钮单击事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HISPlus.ErrDspForm.btnCopyToClipboard_Click(System.Object,System.EventArgs)">
+            <summary>
+            把文本的内容拷贝到剪贴板上
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

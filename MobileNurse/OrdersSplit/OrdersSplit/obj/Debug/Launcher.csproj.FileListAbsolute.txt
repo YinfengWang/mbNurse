@@ -1,0 +1,3 @@
+E:\SVN\mobilenurse\MobileNurse\Common\Launcher\Launcher\obj\Debug\Launcher.exe
+E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\obj\Debug\Launcher.pdb
+E:\SVN\mobilenurse\MobileNurse\Common\Launcher\Launcher\obj\Debug\Launcher.pdb

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.MenuManager, DocModel" table="MENU_MANAGER" lazy="false">
+		<id name="Id" type="String" unsaved-value="null">
+			<column name="ID" length="20" sql-type="VARCHAR2" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="ParentId" type="String">
+			<column name="PARENT_ID" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Name" type="String">
+			<column name="NAME" length="100" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ModuleCode" type="String">
+			<column name="MODULE_CODE" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Assembly" type="String">
+			<column name="ASSEMBLY" length="100" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="FormName" type="String">
+			<column name="FORM_NAME" length="100" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="OpenMode" type="String">
+			<column name="OPEN_MODE" length="100" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="IconPath" type="String">
+			<column name="ICON_PATH" length="100" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ConnectionPatient" type="Byte">
+			<column name="CONNECTION_PATIENT" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="SortId" type="Decimal">
+			<column name="SORT_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="Rights" type="String">
+			<column name="RIGHTS" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="AppCode" type="String">
+			<column name="APP_CODE" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Remark" type="String">
+			<column name="REMARK" length="2000" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Enabled" type="Byte">
+			<column name="ENABLED" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="Version" type="String">
+			<column name="VERSION" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

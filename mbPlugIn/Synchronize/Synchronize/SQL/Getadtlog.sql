@@ -1,0 +1,7 @@
+SELECT WARD_CODE,
+       DEPT_CODE,
+       LOG_DATE_TIME,
+       PATIENT_ID,
+       VISIT_ID,
+       ACTION,
+       OPERATOR_NO  FROM ADT_LOG

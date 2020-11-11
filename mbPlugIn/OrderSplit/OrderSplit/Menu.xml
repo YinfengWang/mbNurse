@@ -1,0 +1,366 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Menu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NODEID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string" />
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PARENTID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string" />
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NODENAME" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="IniPath" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PARAMETER" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SERIAL_NO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="WIN_OPEN_MODE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ICON" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="BACKGROUND" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Enabled" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:boolean" />
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MEMO" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2000" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Menu>
+    <NODEID>3c8a290b-1c23-41b8-9d70-4e7d0432a594</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分12</NODENAME>
+    <IniPath>SQL\List12.INI</IniPath>
+    <SERIAL_NO>12</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>46bb6be2-a61c-41af-ae19-76335c063157</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分13</NODENAME>
+    <IniPath>SQL\List13.INI</IniPath>
+    <SERIAL_NO>13</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>c33c817d-8d0f-4ced-9cc4-e661f36fce0f</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分14</NODENAME>
+    <IniPath>SQL\List14.INI</IniPath>
+    <SERIAL_NO>14</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>2f4b33ad-2d4d-46b9-a19b-a27eca0b3caa</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分12</NODENAME>
+    <IniPath>SQL\NoMedication12.INI</IniPath>
+    <SERIAL_NO>26</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>65fb322f-54e0-4738-ada3-d0baf4a26f77</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分13</NODENAME>
+    <IniPath>SQL\NoMedication13.INI</IniPath>
+    <SERIAL_NO>27</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>e2eec80d-310d-4205-bb69-cf5c8079028a</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分14</NODENAME>
+    <IniPath>SQL\NoMedication14.INI</IniPath>
+    <SERIAL_NO>28</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+    <MEMO />
+  </Menu>
+  <Menu>
+    <NODEID>16</NODEID>
+    <PARENTID>0</PARENTID>
+    <NODENAME>医嘱拆分列表</NODENAME>
+    <IniPath />
+    <SERIAL_NO>1</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>00037</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分1</NODENAME>
+    <IniPath>SQL\List1.INI</IniPath>
+    <SERIAL_NO>1</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>00038</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分2</NODENAME>
+    <IniPath>SQL\List2.INI</IniPath>
+    <SERIAL_NO>2</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>00039</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分3</NODENAME>
+    <IniPath>SQL\List3.INI</IniPath>
+    <SERIAL_NO>3</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>00040</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分4</NODENAME>
+    <IniPath>SQL\List4.INI</IniPath>
+    <SERIAL_NO>4</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>00041</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分5</NODENAME>
+    <IniPath>SQL\List5.INI</IniPath>
+    <SERIAL_NO>5</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>33657e1e-8e2c-44f8-87ed-c33f9fc743c4</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分6</NODENAME>
+    <IniPath>SQL\List6.INI</IniPath>
+    <SERIAL_NO>6</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>95865875-abe6-43c1-bf70-96e6d137a269</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分7</NODENAME>
+    <IniPath>SQL\List7.INI</IniPath>
+    <SERIAL_NO>7</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>615b8d97-640c-4bf7-9223-719d798a27fa</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分8</NODENAME>
+    <IniPath>SQL\List8.INI</IniPath>
+    <SERIAL_NO>8</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>623b3d48-c34f-481d-9396-14abf29507ff</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分9</NODENAME>
+    <IniPath>SQL\List9.INI</IniPath>
+    <SERIAL_NO>9</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>cbdeb9a8-0a10-4569-93dd-995613f49de0</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分10</NODENAME>
+    <IniPath>SQL\List10.INI</IniPath>
+    <SERIAL_NO>10</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>de8a9b45-019e-42ed-942a-a73c53413dad</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>药疗医嘱拆分11</NODENAME>
+    <IniPath>SQL\List11.INI</IniPath>
+    <SERIAL_NO>11</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>18e75bd7-75de-465d-adeb-4d6985736fe3</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分1</NODENAME>
+    <IniPath>SQL\NoMedication1.INI</IniPath>
+    <SERIAL_NO>15</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>09e5a70d-d153-4bb4-bfe5-fc56bd7dc737</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分2</NODENAME>
+    <IniPath>SQL\NoMedication2.INI</IniPath>
+    <SERIAL_NO>16</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>7e627c4c-840c-43c7-9c3d-ab7959eb7768</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分3</NODENAME>
+    <IniPath>SQL\NoMedication3.INI</IniPath>
+    <SERIAL_NO>17</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>c1806741-c442-4198-8513-fb741b202d44</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分4</NODENAME>
+    <IniPath>SQL\NoMedication4.INI</IniPath>
+    <SERIAL_NO>18</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>57a06e35-cf08-4a43-b384-090059489379</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分5</NODENAME>
+    <IniPath>SQL\NoMedication5.INI</IniPath>
+    <SERIAL_NO>19</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>62d00d6f-71fb-4cff-81eb-66149b9f4576</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分6</NODENAME>
+    <IniPath>SQL\NoMedication6.INI</IniPath>
+    <SERIAL_NO>20</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>c6abe618-8c3e-4bdf-80d8-bd4a3b62323b</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分7</NODENAME>
+    <IniPath>SQL\NoMedication7.INI</IniPath>
+    <SERIAL_NO>21</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>e67abb8a-30d0-4c78-9cd6-8309665c3a8a</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分8</NODENAME>
+    <IniPath>SQL\NoMedication8.INI</IniPath>
+    <SERIAL_NO>22</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>99a84f67-88e1-418f-9c65-3874b1f9cad3</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分9</NODENAME>
+    <IniPath>SQL\NoMedication9.INI</IniPath>
+    <SERIAL_NO>23</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>5f53ca42-1fe5-4274-8b62-d22fd86d134d</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分10</NODENAME>
+    <IniPath>SQL\NoMedication10.INI</IniPath>
+    <SERIAL_NO>24</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+  <Menu>
+    <NODEID>e7933066-803b-4b40-b233-09240d39661e</NODEID>
+    <PARENTID>16</PARENTID>
+    <NODENAME>非药疗医嘱拆分11</NODENAME>
+    <IniPath>SQL\NoMedication11.INI</IniPath>
+    <SERIAL_NO>25</SERIAL_NO>
+    <WIN_OPEN_MODE>0</WIN_OPEN_MODE>
+    <ICON>Resource\ICON\Orders.ICO</ICON>
+    <Enabled>true</Enabled>
+  </Menu>
+</NewDataSet>

@@ -1,0 +1,25 @@
+2015/4/17 10:12:20
+登录系统	1482
+2015/4/17 10:14:10
+正常退出	1482
+2015/4/17 15:51:39
+登录系统	1482
+2015/4/17 16:10:03
+正常退出	1482
+2015/4/17 16:35:24
+登录系统	1482
+2015/4/17 16:46:32
+登录系统	1482
+2015/4/17 17:24:12
+登录系统	1482
+2015/4/17 17:26:48
+登录系统	1482
+2015/4/17 17:27:06
+正常退出	1482
+2015/4/17 17:59:06
+登录系统	1482
+2015/4/17 17:59:31
+未将对象引用设置到对象的实例。
+   在 HISPlus.PIORecFrm.dgvNursingSchedule_DataBindingComplete(Object sender, DataGridViewBindingCompleteEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\PIORecFrm.cs:行号 180
+2015/4/17 18:12:04
+正常退出	1482

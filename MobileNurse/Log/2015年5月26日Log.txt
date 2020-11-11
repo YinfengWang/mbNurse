@@ -1,0 +1,122 @@
+2015/5/26 10:37:47
+登录系统	1482
+2015/5/26 10:38:29
+正常退出	1482
+2015/5/26 10:43:38
+登录系统	1482
+2015/5/26 10:50:31
+登录系统	1482
+2015/5/26 10:52:53
+语法错误:“01”运算符后缺少操作数。
+   在 System.Data.ExpressionParser.Parse()
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataView.set_RowFilter(String value)
+   在 HISPlus.TreeNodeSelectorFrm.ucTreeList1_AfterSelect(Object sender, NodeEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\TreeNodeSelectorFrm.cs:行号 120
+2015/5/26 11:02:40
+登录系统	1482
+2015/5/26 11:03:03
+语法错误:“01”运算符后缺少操作数。
+   在 System.Data.ExpressionParser.Parse()
+   在 System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   在 System.Data.DataView.set_RowFilter(String value)
+   在 HISPlus.TreeNodeSelectorFrm.ucTreeList1_AfterSelect(Object sender, NodeEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\TreeNodeSelectorFrm.cs:行号 93
+2015/5/26 11:05:36
+登录系统	1482
+2015/5/26 11:10:32
+登录系统	1482
+2015/5/26 11:11:24
+ORA-00923: FROM keyword not found where expected
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.TreeNodeSelectorFrm.InitData() 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\TreeNodeSelectorFrm.cs:行号 126
+   在 HISPlus.TreeNodeSelectorFrm.TreeNodeSelectorFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingSchedule\NursingSchedule\TreeNodeSelectorFrm.cs:行号 49
+2015/5/26 11:13:58
+登录系统	1482
+2015/5/26 11:24:28
+登录系统	1482
+2015/5/26 11:25:53
+登录系统	1482
+2015/5/26 11:51:20
+登录系统	1482
+2015/5/26 12:02:50
+正常退出	1482
+2015/5/26 15:23:58
+登录系统	1482
+2015/5/26 15:27:00
+正常退出	1482
+2015/5/26 15:31:47
+登录系统	1482
+2015/5/26 15:36:43
+登录系统	1482
+2015/5/26 15:41:49
+登录系统	1482
+2015/5/26 15:44:52
+登录系统	1482
+2015/5/26 15:47:54
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/26 15:47:56
+登录系统	1482
+2015/5/26 15:51:52
+登录系统	1482
+2015/5/26 15:55:35
+登录系统	1482
+2015/5/26 16:08:11
+登录系统	1482
+2015/5/26 16:13:01
+登录系统	1482
+2015/5/26 16:13:57
+正常退出	1482
+2015/5/26 16:15:33
+登录系统	1482
+2015/5/26 16:16:32
+正常退出	1482
+2015/5/26 17:52:08
+登录系统	1482
+2015/5/26 17:55:21
+登录系统	1482
+2015/5/26 18:02:59
+登录系统	1482
+2015/5/26 18:07:09
+登录系统	1482
+2015/5/26 18:13:51
+登录系统	1482
+2015/5/26 18:16:41
+登录系统	1482
+2015/5/26 18:18:50
+正常退出	1482
+2015/5/26 18:19:42
+登录系统	1482
+2015/5/26 18:23:19
+登录系统	1482
+2015/5/26 18:27:27
+登录系统	1482
+2015/5/26 18:28:53
+登录系统	1482

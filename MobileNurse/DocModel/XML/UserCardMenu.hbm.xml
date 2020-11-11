@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.UserCardMenu, DocModel" table="USER_CARD_MENU" lazy="false">
+		<id name="Id" type="Decimal" unsaved-value="0">
+			<column name="ID" sql-type="NUMBER" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="UserId" type="String">
+			<column name="USER_ID" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="DeptCode" type="String">
+			<column name="DEPT_CODE" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="MenuId" type="String">
+			<column name="MENU_ID" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ParentMenuId" type="String">
+			<column name="PARENT_MENU_ID" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="SortId" type="Decimal">
+			<column name="SORT_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,6 @@
+C:\nurseCf\移动护理程序1\GenerateFileList.exe
+C:\nurseCf\MobileNurse\Common\GenerateFileList\obj\Release\GenerateFileList.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\Common\GenerateFileList\obj\Release\GenerateFileList.SyncFileInDirFrm.resources
+C:\nurseCf\MobileNurse\Common\GenerateFileList\obj\Release\GenerateFileList.UpdFileInfoFrm.resources
+C:\nurseCf\MobileNurse\Common\GenerateFileList\obj\Release\GenerateFileList.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\Common\GenerateFileList\obj\Release\GenerateFileList.exe

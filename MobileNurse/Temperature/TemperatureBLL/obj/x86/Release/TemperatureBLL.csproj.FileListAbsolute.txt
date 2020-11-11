@@ -1,0 +1,14 @@
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\TemperatureBLL.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\TemperatureBLL.pdb
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\CommonEntity.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\HISComm.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\HISGlobalVariant.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\PatientDbI.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\TemperatureDAL.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\NHibernate.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\Iesi.Collections.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\Remotion.Data.Linq.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\bin\x86\Release\HISGlobalVariant.xml
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\obj\x86\Release\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\obj\x86\Release\TemperatureBLL.dll
+C:\svnProject\mobileNurse\MobileNurse\Temperature\TemperatureBLL\obj\x86\Release\TemperatureBLL.pdb

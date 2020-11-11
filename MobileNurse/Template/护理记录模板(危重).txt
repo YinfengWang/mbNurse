@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>护理记录单</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: large;
+	font-weight: bold;
+}
+.style3 {font-size: 24px}
+.style4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style5 {
+	color: #0000FF;
+	font-size: 14px;
+}
+.style6 {
+	color: #FF0000;
+	font-size: 14px;
+}
+-->
+</style>
+</head>
+⊙
+<body>
+<table id=table1 align="center" width="650px"  border="0">
+  <tr>
+    <td colspan="5" align="center"><p class="style1">
+    <p class="style1 style3">江苏大学附属医院</td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center"><br>
+    <span class="style4">危重症护理记录单</span> </td>
+  </tr>
+
+  <tr>
+    <td align="center">姓名:<span class="style5">[#姓名]</span></td>
+    <td align="center">科别:<span class="style5">[#科别]</span></td>
+    <td align="center">病区:<span class="style5">[#病区]</span></td>
+    <td align="center">床号:<span class="style5">[#床号]</span></td>
+    <td align="center">住院号:<span class="style5">[#住院号]</span></td>
+  </tr>
+    <tr>
+    <td align="right">临床诊断 ：</td>
+    <td colspan="4" align="left"><span class="style5">[#临床诊断]</span></td>
+  </tr>
+</table>
+⊙
+<table width="650px" border="1" align="center" cellpadding="1" cellspacing="0" bordercolor="#333333">
+  <tr>
+    <td rowspan="3">日期 </td>
+    <td rowspan="3">时间 </td>
+    <td rowspan="3">体温(℃)</td>
+    <td rowspan="3">脉搏(次/分)</td>
+    <td rowspan="3">呼吸(次/分) </td>
+    <td rowspan="3">SP<img width="24" height="22" src="C:\Documents and Settings\Administrator\桌面\MobileServer\bin\Debug\Template\clip_image002_0000.jpg">(%) </td>
+    <td rowspan="3">血压(mmHg)</td>
+    <td colspan="4" align="center">入量 </td>
+    <td colspan="2" rowspan="2" align="center">出量</td>
+    <td rowspan="3" align="center">病情</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">药物</td>
+    <td colspan="2" align="center">食物</td>
+  </tr>
+  <tr>
+    <td >名称 </td>
+    <td >量(ml)</td>
+    <td >名称 </td>
+    <td >量(ml)</td>
+    <td >名称 </td>
+    <td >量(ml) </td>
+  </tr>
+⊙
+  <tr bordercolor='#000000'>
+    <td ><span class="[#0#]">&nbsp;[#0]</span></span></td>
+    <td ><span class="[#0#]">&nbsp;[#1]</span></span></td>
+    <td ><span class="[#0#]">&nbsp;[#2]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#3]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#4]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#5]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#6]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#7]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#8]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#9]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#10]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#11]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#12]</span></td>
+    <td ><span class="[#0#]">&nbsp;[#13]</span></td>
+  </tr>
+⊙
+</table>
+</body>
+</html>
+
+

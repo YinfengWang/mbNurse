@@ -1,0 +1,92 @@
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics.dll
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics.pdb
+F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics.dll
+E:\各医院项目\瓦房店中心医院\移动护理PC\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\移动护理PC\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\开发版\移动护理PC\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics.dll
+E:\天健科技\天健内容\服务器安装\移动护理\配套程序\标准版\移动护理PC\WorkLoadStatics.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics.dll
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\WorkLoadStatics.pdb
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics.dll
+E:\SVN\mobilenurse\MobileNurse\WorkLoadStatics.pdb
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\GenerateResource.read.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\GenerateResource.write.1.tlog
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics.dll
+C:\svnProject\mobileNurse\MobileNurse\WorkLoadStatics.pdb
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csprojResolveAssemblyReference.cache
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics.dll
+M:\移动护理\nurseCf\MobileNurse\WorkLoadStatics.pdb
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.Properties.Resources.resources
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.WorkLoadStaticsFrm.resources
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\HISPlus.StaticsFrm.resources
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll.licenses
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.dll
+C:\nurseCf\MobileNurse\WorkLoadStatics\WorkLoadStatics\obj\Debug\WorkLoadStatics.pdb
+C:\nurseCf\MobileNurse\WorkLoadStatics.dll
+C:\nurseCf\MobileNurse\WorkLoadStatics.pdb

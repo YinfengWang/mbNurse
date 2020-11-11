@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="CommonEntity.PatientInfo, CommonEntity" table="PATIENT_INFO" lazy="false">
+    <composite-id name="Id" class="CommonEntity.PatientInfoId,CommonEntity">		
+		<key-property name="PatientId" type="String">
+			<column name="PATIENT_ID" length="10" sql-type="VARCHAR2" not-null="true"/>
+		</key-property>
+		<key-property name="VisitId" type="Byte">
+			<column name="VISIT_ID" sql-type="NUMBER" not-null="true"/>
+		</key-property>
+		</composite-id>        
+		
+		<property name="WardCode" type="String">
+			<column name="WARD_CODE" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="InpNo" type="String">
+			<column name="INP_NO" length="10" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="AdmissionDateTime" type="DateTime">
+			<column name="ADMISSION_DATE_TIME" sql-type="DATE" not-null="false"/>
+		</property>
+		<property name="Name" type="String">
+			<column name="NAME" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Sex" type="String">
+			<column name="SEX" length="4" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="DateOfBirth" type="DateTime">
+			<column name="DATE_OF_BIRTH" sql-type="DATE" not-null="false"/>
+		</property>
+		<property name="Diagnosis" type="String">
+			<column name="DIAGNOSIS" length="80" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="AlergyDrugs" type="String">
+			<column name="ALERGY_DRUGS" length="80" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="DoctorInCharge" type="String">
+			<column name="DOCTOR_IN_CHARGE" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="BedNo" type="Int16">
+			<column name="BED_NO" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="BedLabel" type="String">
+			<column name="BED_LABEL" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="PatientStatusName" type="String">
+			<column name="PATIENT_STATUS_NAME" length="4" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="NursingClass" type="String">
+			<column name="NURSING_CLASS" length="1" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="NursingClassName" type="String">
+			<column name="NURSING_CLASS_NAME" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="NursingClassColor" type="String">
+			<column name="NURSING_CLASS_COLOR" length="15" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="DeptName" type="String">
+			<column name="DEPT_NAME" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="DeptCode" type="String">
+			<column name="DEPT_CODE" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="WardName" type="String">
+			<column name="WARD_NAME" length="20" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="RoomNo" type="String">
+			<column name="ROOM_NO" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,370 @@
+﻿生成启动时间为 2014/1/7 22:42:21。
+     1>项目“E:\天健\2013年8月14日 PACS\pacs\DICOM [Native]\x86\DICOM [Native].vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\DICOM [Native].unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\d\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Dicom.Imaging.Codec.Jpeg.cpp ..\Dicom.Imaging.Codec.Jpeg2000.cpp ..\Dicom.Imaging.Codec.JpegLS.cpp ..\Dicom.Imaging.Codec.Jpeg_12.cpp ..\Dicom.Imaging.Codec.Jpeg_16.cpp ..\Dicom.Imaging.Codec.Jpeg_8.cpp ..\Dicom.Imaging.Codec.Rle.cpp ..\DicomNativeExt.cpp
+         Dicom.Imaging.Codec.Jpeg.cpp
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(8): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(8): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(9): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(9): error C2871: “Threading”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(11): error C2871: “Dicom”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(12): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(12): error C2871: “Imaging”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(13): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(13): error C2871: “Codec”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(14): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(14): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2332: “enum”: 缺少标记名
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C3381: “Dicom::Imaging::Codec::Jpeg::<unnamed-tag>”: 只有在用 /clr 选项编译的代码中才有程序集访问说明符
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2236: 意外的“class”“Dicom::Imaging::Codec::Jpeg::JpegMode”。是否忘记了“;”?
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C3381: “Dicom::Imaging::Codec::Jpeg::JpegMode”: 只有在用 /clr 选项编译的代码中才有程序集访问说明符
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2062: 意外的类型“int”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(27): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(27): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(24): error C2871: “System”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(25): error C2653: “System”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(25): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2653: “DicomJpegNativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(35): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(36): error C2448: “Encode”: 函数样式初始值设定项类似函数定义
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2653: “DicomJpegNativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(58): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg.cpp(59): error C2448: “Decode”: 函数样式初始值设定项类似函数定义
+         Dicom.Imaging.Codec.Jpeg2000.cpp
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(9): error C2871: “Dicom”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(10): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(10): error C2871: “Imaging”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(11): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(11): error C2871: “Codec”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(17): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(17): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(18): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(18): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(25): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(26): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(26): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(34): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(35): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(35): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(7): error C2653: “System”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(7): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(8): error C2653: “System”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(8): error C2871: “InteropServices”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(13): error C2039: “IO”: 不是“Dicom”的成员
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(13): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(14): error C3083: “IO”:“::”左侧的符号必须是一种类型
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(14): error C2039: “Buffer”: 不是“Dicom”的成员
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(14): error C2871: “Buffer”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(37): error C2065: “PhotometricInterpretation”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(37): error C2065: “photometricInterpretation”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(37): error C2448: “getOpenJpegColorSpace”: 函数样式初始值设定项类似函数定义
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2653: “DicomJpeg2000NativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(50): error C2448: “Encode”: 函数样式初始值设定项类似函数定义
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2653: “DicomJpeg2000NativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Jpeg2000.cpp(240): error C2448: “Decode”: 函数样式初始值设定项类似函数定义
+         Dicom.Imaging.Codec.JpegLS.cpp
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(9): error C2871: “Dicom”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(10): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(10): error C2871: “Imaging”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(15): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(15): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(16): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(16): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(22): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(23): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(24): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(24): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(31): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(32): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(33): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.JpegLs.h(33): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\CharLS/interface.h(27): fatal error C1189: #error :  Please #define CHARLS_STATIC or CHARLS_DLL before including "interface.h" to indicate if CharLS is built as a static library or as a dll.
+         Dicom.Imaging.Codec.Jpeg_12.cpp
+     1>D:\d\Microsoft Visual Studio 10.0\VC\include\vcclr.h(16): fatal error C1190: 托管目标代码需要“/clr”选项
+         Dicom.Imaging.Codec.Jpeg_16.cpp
+     1>D:\d\Microsoft Visual Studio 10.0\VC\include\vcclr.h(16): fatal error C1190: 托管目标代码需要“/clr”选项
+         Dicom.Imaging.Codec.Jpeg_8.cpp
+     1>D:\d\Microsoft Visual Studio 10.0\VC\include\vcclr.h(16): fatal error C1190: 托管目标代码需要“/clr”选项
+         Dicom.Imaging.Codec.Rle.cpp
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(9): error C2871: “Dicom”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(10): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(10): error C2871: “Imaging”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(15): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Rle.h(17): error C2470: “DicomRleCodec”: 看起来像函数定义，但没有参数列表；跳过明显的函数体
+     1>..\Dicom.Imaging.Codec.Rle.cpp(3): error C2871: “System”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Rle.cpp(4): error C2653: “System”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Rle.cpp(4): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Rle.cpp(7): error C2039: “IO”: 不是“Dicom”的成员
+     1>..\Dicom.Imaging.Codec.Rle.cpp(7): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Rle.cpp(8): error C3083: “IO”:“::”左侧的符号必须是一种类型
+     1>..\Dicom.Imaging.Codec.Rle.cpp(8): error C2039: “Buffer”: 不是“Dicom”的成员
+     1>..\Dicom.Imaging.Codec.Rle.cpp(8): error C2871: “Buffer”: 具有该名称的命名空间不存在
+     1>..\Dicom.Imaging.Codec.Rle.cpp(14): error C2059: 语法错误:“private”
+     1>..\Dicom.Imaging.Codec.Rle.cpp(14): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>..\Dicom.Imaging.Codec.Rle.cpp(14): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2653: “DicomRleNativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(168): error C2448: “Encode”: 函数样式初始值设定项类似函数定义
+     1>..\Dicom.Imaging.Codec.Rle.cpp(221): error C2059: 语法错误:“private”
+     1>..\Dicom.Imaging.Codec.Rle.cpp(221): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>..\Dicom.Imaging.Codec.Rle.cpp(221): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2653: “DicomRleNativeCodec”: 不是类或命名空间名称
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “oldPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “DicomPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “newPixelData”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “DicomCodecParams”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2065: “parameters”: 未声明的标识符
+     1>..\Dicom.Imaging.Codec.Rle.cpp(326): error C2448: “Decode”: 函数样式初始值设定项类似函数定义
+         DicomNativeExt.cpp
+     1>..\DicomNativeExt.cpp(1): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(8): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(8): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(9): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(9): error C2871: “Threading”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(11): error C2871: “Dicom”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(12): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(12): error C2871: “Imaging”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(13): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(13): error C2871: “Codec”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(14): error C2653: “Dicom”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(14): error C2871: “IO”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2332: “enum”: 缺少标记名
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C3381: “Dicom::Imaging::Codec::Jpeg::<unnamed-tag>”: 只有在用 /clr 选项编译的代码中才有程序集访问说明符
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2236: 意外的“class”“Dicom::Imaging::Codec::Jpeg::JpegMode”。是否忘记了“;”?
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C3381: “Dicom::Imaging::Codec::Jpeg::JpegMode”: 只有在用 /clr 选项编译的代码中才有程序集访问说明符
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(21): error C2062: 意外的类型“int”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(27): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(27): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(29): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(45): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(58): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(71): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(87): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(96): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(97): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(112): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(113): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(130): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(131): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(150): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg.h(151): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(6): error C2871: “System”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(7): error C2653: “System”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(7): error C2871: “Composition”: 具有该名称的命名空间不存在
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(17): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(17): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(18): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(18): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2143: 语法错误 : 缺少“)”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2143: 语法错误 : 缺少“]”(在“::”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2059: 语法错误:“::”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(24): error C2059: 语法错误:“)”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(25): error C2059: 语法错误:“public”
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(26): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(26): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2337: “Export”: 未找到特性
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2653: “IDicomCodec”: 不是类或命名空间名称
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): error C2589: “typeid”:“::”右边的非法标记
+     1>e:\天健\2013年8月14日 pacs\pacs\dicom [native]\Dicom.Imaging.Codec.Jpeg2000.h(33): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“E:\天健\2013年8月14日 PACS\pacs\DICOM [Native]\x86\DICOM [Native].vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.57

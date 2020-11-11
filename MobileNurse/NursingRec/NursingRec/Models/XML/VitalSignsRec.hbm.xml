@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.Models.VitalSignsRec, NursingRec" table="VITAL_SIGNS_REC" lazy="false">
+    
+    <composite-id name="Id" class="HISPlus.Models.VitalSignsRecId,NursingRec">		
+    		<key-property name="PatientId" type="String">
+    			<column name="PATIENT_ID" length="10" sql-type="VARCHAR2" not-null="true"/>
+    		</key-property>
+    		<key-property name="VisitId" type="Int64">
+    			<column name="VISIT_ID" sql-type="NUMBER" not-null="true"/>
+    		</key-property>
+    		<key-property name="RecordingDate" type="DateTime">
+    			<column name="RECORDING_DATE" sql-type="DATE" not-null="true"/>
+    		</key-property>
+    		<key-property name="TimePoint" type="DateTime">
+    			<column name="TIME_POINT" sql-type="DATE" not-null="true"/>
+    		</key-property>
+    		<key-property name="ClassCode" type="String">
+    			<column name="CLASS_CODE" length="1" sql-type="VARCHAR2" not-null="true"/>
+    		</key-property>
+    		<key-property name="VitalCode" type="String">
+    			<column name="VITAL_CODE" length="4" sql-type="VARCHAR2" not-null="true"/>
+    		</key-property>
+		</composite-id>        
+		
+		<property name="VitalSigns" type="String">
+			<column name="VITAL_SIGNS" length="16" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="VitalSignsValues" type="Single">
+			<column name="VITAL_SIGNS_VALUES" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="Units" type="String">
+			<column name="UNITS" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="VitalSignsCvalues" type="String">
+			<column name="VITAL_SIGNS_CVALUES" length="60" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="WardCode" type="String">
+			<column name="WARD_CODE" length="8" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Nurse" type="String">
+			<column name="NURSE" length="16" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="Memo" type="String">
+			<column name="MEMO" length="80" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

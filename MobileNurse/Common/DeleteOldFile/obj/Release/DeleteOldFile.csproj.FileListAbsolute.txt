@@ -1,0 +1,5 @@
+C:\svnProject\mobileNurse\移动护理程序1\DeleteOldFile.exe
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\obj\Release\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\obj\Release\DeleteOldFile.exe
+C:\nurseCf\移动护理程序1\DeleteOldFile.exe
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\obj\Release\DeleteOldFile.exe

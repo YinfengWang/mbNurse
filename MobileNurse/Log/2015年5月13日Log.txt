@@ -1,0 +1,114 @@
+2015/5/13 9:17:46
+登录系统	1482
+2015/5/13 9:19:08
+正常退出	1482
+2015/5/13 9:21:52
+登录系统	1482
+2015/5/13 9:26:58
+登录系统	1482
+2015/5/13 9:31:43
+登录系统	1482
+2015/5/13 9:33:16
+登录系统	1482
+2015/5/13 9:45:55
+登录系统	1482
+2015/5/13 9:48:42
+登录系统	1482
+2015/5/13 9:50:04
+登录系统	1482
+2015/5/13 10:02:41
+登录系统	1482
+2015/5/13 10:04:53
+正常退出	1482
+2015/5/13 10:06:42
+登录系统	1482
+2015/5/13 10:13:15
+登录系统	1482
+2015/5/13 10:17:02
+登录系统	1482
+2015/5/13 10:24:45
+登录系统	1482
+2015/5/13 10:31:03
+正常退出	1482
+2015/5/13 10:50:04
+登录系统	1482
+2015/5/13 10:57:52
+登录系统	1482
+2015/5/13 10:59:31
+正常退出	1482
+2015/5/13 11:03:43
+登录系统	1482
+2015/5/13 11:06:47
+登录系统	1482
+2015/5/13 11:11:58
+登录系统	1482
+2015/5/13 11:13:25
+登录系统	1482
+2015/5/13 11:31:39
+登录系统	1482
+2015/5/13 11:55:12
+登录系统	1482
+2015/5/13 12:03:15
+登录系统	1482
+2015/5/13 12:10:00
+登录系统	1482
+2015/5/13 12:15:39
+登录系统	1482
+2015/5/13 12:18:01
+登录系统	1482
+2015/5/13 12:18:40
+正常退出	1482
+2015/5/13 15:29:00
+登录系统	1482
+2015/5/13 16:33:28
+登录系统	1482
+2015/5/13 16:48:11
+登录系统	1482
+2015/5/13 16:53:39
+登录系统	1482
+2015/5/13 16:57:43
+登录系统	1482
+2015/5/13 17:33:25
+登录系统	1482
+2015/5/13 17:35:13
+登录系统	1482
+2015/5/13 17:38:02
+登录系统	1482
+2015/5/13 17:38:27
+异常退出	1482
+2015/5/13 17:39:08
+登录系统	1482
+2015/5/13 17:40:28
+登录系统	1482
+2015/5/13 17:41:00
+异常退出	1482
+2015/5/13 17:41:34
+登录系统	1482
+2015/5/13 17:43:34
+异常退出	1482
+2015/5/13 18:01:17
+登录系统	1482
+2015/5/13 18:19:14
+登录系统	1482
+2015/5/13 18:22:32
+登录系统	1482
+2015/5/13 18:24:09
+ORA-03113: end-of-file on communication channel
+Process ID: 7121
+Session ID: 135 Serial number: 39203
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel, String tableName) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 372
+   在 HISPlus.AppManagerDbI.GetRoleDict() 位置 E:\SVN\mobilenurse\MobileNurse\Interface\AppManagerDbI\AppManagerDbI\AppManagerDbI.cs:行号 209
+   在 HISPlus.UserManagerCom.GetRoleDict() 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerCom.cs:行号 38
+   在 HISPlus.UserManagerFrm.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm.cs:行号 205
+   在 HISPlus.UserManagerFrm.UserManagerFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm.cs:行号 47

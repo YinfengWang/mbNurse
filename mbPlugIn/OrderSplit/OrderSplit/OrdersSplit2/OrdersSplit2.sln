@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersSplit2", "OrdersSplit\OrdersSplit2.csproj", "{2AA4A199-89DA-44FE-88D6-1C3F37F48028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA4A199-89DA-44FE-88D6-1C3F37F48028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA4A199-89DA-44FE-88D6-1C3F37F48028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA4A199-89DA-44FE-88D6-1C3F37F48028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA4A199-89DA-44FE-88D6-1C3F37F48028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

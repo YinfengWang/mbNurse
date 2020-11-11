@@ -1,0 +1,4 @@
+2014/11/20 16:16:55
+未将对象引用设置到对象的实例。
+   在 HISPlus.HISDictDbI.GetDictItem(String dictId) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\DictDbI\DictDbI\HISDictDbI.cs:行号 87
+   在 HISPlus.DictItemContentFrm.DictItemContentFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISDictManager\HISDictManager\DictItemContentFrm.cs:行号 56

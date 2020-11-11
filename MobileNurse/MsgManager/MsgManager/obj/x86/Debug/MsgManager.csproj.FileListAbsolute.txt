@@ -1,0 +1,14 @@
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\MsgManager.dll
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\MsgManager.pdb
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\HISComm.dll
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\HISGlobalVariant.dll
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\MsgTextDbI.dll
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\HISComm.pdb
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\HISGlobalVariant.pdb
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\bin\x86\Debug\MsgTextDbI.pdb
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\MsgManager.csprojResolveAssemblyReference.cache
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\HISPlus.MsgManagerFrm.resources
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\MsgManager.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\MsgManager.dll
+M:\移动护理\nurseCf\MobileNurse\MsgManager\MsgManager\obj\x86\Debug\MsgManager.pdb

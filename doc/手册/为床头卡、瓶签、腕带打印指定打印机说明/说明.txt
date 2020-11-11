@@ -1,0 +1,25 @@
+说明 1:
+	因程序中获取的默认打印机的名称与系统显示的名称不一致，故做了一个“获取默认打印机名称.exe”的小工具，用于设置默认打印机后点击此工具中的按钮获取打印机名，然后把	此打印机名复制到“LAUNCHER.INI”文件中的[PRINTER]节点下对应的键值中。
+
+	在“LAUNCHER.INI”文件中的[PRINTER]节点下添加以下配置项：
+	BedsideCard=打印床头卡的打印机名
+	WristBand=打印腕带的打印机名
+	OrdersExecuteBill=打印输液瓶签的打印机名
+
+	如：
+	[PRINTER]
+	BedsideCard=发送至 OneNote 2013 在 nul:
+	WristBand=Fax 在 Ne01:
+	OrdersExecuteBill=AAA 在 Ne02:
+
+说明 2:
+	在ExcelAccess.cs中添加了两个方法：
+		设置打印机：	SetActivePrinter(string printerName);
+		恢复默认打印机：RestoreDefaultPrinter();
+
+	在程序中修改打印方法，在原来实际的打印代码语句前添加代码段： 从LAUNCHER.INI文件中读取打印机名，再调用SetActivePrinter方法设置打印机名。
+	在打印代码段之后调用RestoreDefaultPrinter方法来恢复默认打印机。
+
+
+
+

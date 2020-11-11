@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.Models.Xunshi, NursingRec" table="XUNSHI" lazy="false">
+    
+    <composite-id name="Id" class="HISPlus.Models.XunshiId,NursingRec">		
+    		<key-property name="WardCode" type="String">
+    			<column name="WARD_CODE" length="8" sql-type="VARCHAR2" not-null="true"/>
+    		</key-property>
+    		<key-property name="PatientId" type="String">
+    			<column name="PATIENT_ID" length="10" sql-type="VARCHAR2" not-null="true"/>
+    		</key-property>
+    		<key-property name="VisitId" type="Int64">
+    			<column name="VISIT_ID" sql-type="NUMBER" not-null="true"/>
+    		</key-property>
+    		<key-property name="ExecuteDate" type="DateTime">
+    			<column name="EXECUTE_DATE" sql-type="DATE" not-null="true"/>
+    		</key-property>
+		</composite-id>        
+		
+		<property name="Nurse" type="String">
+			<column name="NURSE" length="16" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Content" type="String">
+			<column name="CONTENT" length="200" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="false"/>
+		</property>
+		<property name="XunshiId" type="Int64">
+			<column name="XUNSHI_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,67 @@
+2015/1/21 10:26:37
+正常退出	1482
+2015/1/21 10:27:06
+登录系统	1482
+2015/1/21 14:13:21
+登录系统	1482
+2015/1/21 15:41:27
+登录系统	1482
+2015/1/21 15:46:34
+登录系统	1482
+2015/1/21 15:53:44
+登录系统	1482
+2015/1/21 16:03:52
+登录系统	1482
+2015/1/21 16:07:15
+登录系统	1482
+2015/1/21 16:13:19
+登录系统	1482
+2015/1/21 16:17:38
+登录系统	1482
+2015/1/21 16:42:24
+登录系统	1482
+2015/1/21 16:44:33
+登录系统	1482
+2015/1/21 16:46:31
+登录系统	1482
+2015/1/21 16:51:47
+登录系统	1482
+2015/1/21 16:53:12
+登录系统	1482
+2015/1/21 16:54:19
+Unexpected row count: 0; expected: 1
+   在 NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityDeleteAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Delete[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 107
+   在 HISPlus.ModuleManagerFrm.btnDelete_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\ApplicationManager\ApplicationManager\ModuleManagerFrm.cs:行号 131
+2015/1/21 16:54:56
+登录系统	1482
+2015/1/21 16:57:12
+登录系统	1482
+2015/1/21 16:58:14
+登录系统	1482
+2015/1/21 17:11:02
+登录系统	1482
+2015/1/21 17:14:22
+登录系统	1482
+2015/1/21 17:18:05
+登录系统	1482
+2015/1/21 17:19:44
+正常退出	1482
+2015/1/21 17:21:21
+登录系统	1482
+2015/1/21 17:44:58
+登录系统	1482
+2015/1/21 17:49:51
+正常退出	1482
+2015/1/21 18:05:48
+登录系统	1482

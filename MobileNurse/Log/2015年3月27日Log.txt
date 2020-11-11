@@ -1,0 +1,265 @@
+2015/3/27 10:05:10
+登录系统	1482
+2015/3/27 10:10:39
+登录系统	1482
+2015/3/27 10:19:35
+登录系统	1482
+2015/3/27 10:20:32
+正常退出	1482
+2015/3/27 10:21:26
+登录系统	1482
+2015/3/27 10:23:15
+正常退出	1482
+2015/3/27 10:24:51
+登录系统	1482
+2015/3/27 10:28:07
+正常退出	1482
+2015/3/27 10:30:54
+登录系统	1482
+2015/3/27 10:41:51
+登录系统	1482
+2015/3/27 10:44:24
+登录系统	1482
+2015/3/27 10:47:06
+登录系统	1482
+2015/3/27 10:49:38
+登录系统	1482
+2015/3/27 11:01:04
+登录系统	1482
+2015/3/27 11:04:06
+登录系统	1482
+2015/3/27 11:04:34
+正常退出	1482
+2015/3/27 11:05:05
+登录系统	1482
+2015/3/27 11:05:32
+正常退出	1482
+2015/3/27 11:07:13
+登录系统	1482
+2015/3/27 11:12:40
+登录系统	1482
+2015/3/27 11:14:39
+登录系统	1482
+2015/3/27 11:15:44
+登录系统	1482
+2015/3/27 11:19:25
+登录系统	1482
+2015/3/27 11:21:57
+登录系统	1482
+2015/3/27 11:23:29
+登录系统	1482
+2015/3/27 11:24:01
+正常退出	1482
+2015/3/27 11:25:48
+登录系统	1482
+2015/3/27 11:29:05
+正常退出	1482
+2015/3/27 11:31:24
+登录系统	1482
+2015/3/27 11:32:43
+正常退出	1482
+2015/3/27 11:33:49
+登录系统	1482
+2015/3/27 11:36:35
+正常退出	1482
+2015/3/27 11:43:37
+登录系统	1482
+2015/3/27 11:44:57
+正常退出	1482
+2015/3/27 11:45:16
+登录系统	1482
+2015/3/27 11:46:03
+正常退出	1482
+2015/3/27 11:46:19
+登录系统	1482
+2015/3/27 11:46:56
+正常退出	1482
+2015/3/27 11:50:09
+登录系统	1482
+2015/3/27 11:58:02
+登录系统	1482
+2015/3/27 11:58:55
+登录系统	1482
+2015/3/27 12:47:21
+正常退出	1482
+2015/3/27 14:15:39
+登录系统	1482
+2015/3/27 14:20:00
+登录系统	1482
+2015/3/27 14:31:44
+登录系统	1482
+2015/3/27 14:34:06
+正常退出	1482
+2015/3/27 14:43:52
+登录系统	1482
+2015/3/27 14:47:31
+登录系统	1482
+2015/3/27 14:53:35
+登录系统	1482
+2015/3/27 14:55:41
+登录系统	1482
+2015/3/27 15:16:36
+正常退出	1482
+2015/3/27 15:31:11
+登录系统	1482
+2015/3/27 15:33:01
+登录系统	1482
+2015/3/27 15:34:25
+正常退出	1482
+2015/3/27 15:37:07
+登录系统	1482
+2015/3/27 15:38:29
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 563
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 857
+2015/3/27 15:40:11
+登录系统	1482
+2015/3/27 15:47:50
+登录系统	1482
+2015/3/27 15:50:47
+登录系统	1482
+2015/3/27 15:51:25
+正常退出	1482
+2015/3/27 15:52:29
+登录系统	1482
+2015/3/27 15:53:17
+正常退出	1482
+2015/3/27 15:54:35
+登录系统	1482
+2015/3/27 15:55:30
+正常退出	1482
+2015/3/27 15:57:29
+登录系统	1482
+2015/3/27 15:59:44
+登录系统	1482
+2015/3/27 16:01:39
+登录系统	1482
+2015/3/27 16:02:01
+正常退出	1482
+2015/3/27 16:02:29
+登录系统	1482
+2015/3/27 16:03:03
+正常退出	1482
+2015/3/27 16:08:28
+登录系统	1482
+2015/3/27 16:11:55
+登录系统	1482
+2015/3/27 16:12:59
+登录系统	1482
+2015/3/27 16:16:06
+登录系统	1482
+2015/3/27 16:20:00
+登录系统	1482
+2015/3/27 16:23:31
+登录系统	1482
+2015/3/27 16:25:01
+登录系统	1482
+2015/3/27 16:27:19
+登录系统	1482
+2015/3/27 16:31:15
+登录系统	1482
+2015/3/27 16:33:39
+登录系统	1482
+2015/3/27 16:34:44
+登录系统	1482
+2015/3/27 16:39:49
+登录系统	1482
+2015/3/27 16:41:32
+登录系统	1482
+2015/3/27 16:44:17
+登录系统	1482
+2015/3/27 16:46:21
+登录系统	1482
+2015/3/27 16:47:15
+正常退出	1482
+2015/3/27 16:47:59
+登录系统	1482
+2015/3/27 16:49:47
+登录系统	1482
+2015/3/27 16:51:07
+登录系统	1482
+2015/3/27 16:51:56
+登录系统	1482
+2015/3/27 16:53:56
+登录系统	1482
+2015/3/27 16:57:48
+登录系统	1482
+2015/3/27 17:15:03
+登录系统	1482
+2015/3/27 17:17:39
+登录系统	1482
+2015/3/27 17:19:01
+登录系统	1482
+2015/3/27 17:25:09
+正常退出	1482
+2015/3/27 17:25:39
+登录系统	1482
+2015/3/27 17:26:39
+登录系统	1482
+2015/3/27 17:29:31
+登录系统	1482
+2015/3/27 17:30:11
+正常退出	1482
+2015/3/27 17:30:47
+登录系统	1482
+2015/3/27 17:34:33
+登录系统	1482
+2015/3/27 17:38:37
+登录系统	1482
+2015/3/27 17:42:01
+登录系统	1482
+2015/3/27 17:44:15
+正常退出	1482
+2015/3/27 17:52:31
+登录系统	1482
+2015/3/27 17:55:39
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/27 17:55:42
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/27 17:55:43
+登录系统	1482
+2015/3/27 17:59:24
+登录系统	1482
+2015/3/27 18:01:54
+正常退出	1482
+2015/3/27 18:04:15
+登录系统	1482
+2015/3/27 18:15:27
+正常退出	1482
+2015/3/27 18:16:09
+登录系统	1482
+2015/3/27 18:19:01
+正常退出	1482

@@ -1,0 +1,195 @@
+2015/1/30 10:11:04
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/30 10:11:22
+登录系统	1482
+2015/1/30 10:37:49
+登录系统	1482
+2015/1/30 10:38:03
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 10:39:09
+登录系统	1482
+2015/1/30 10:39:19
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:17:07
+登录系统	1482
+2015/1/30 11:17:15
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:18:40
+正常退出	1482
+2015/1/30 11:19:06
+登录系统	1482
+2015/1/30 11:19:15
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:20:21
+ORA-12154: TNS:could not resolve the connect identifier specified
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/30 11:20:31
+ORA-12154: TNS:could not resolve the connect identifier specified
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/1/30 11:23:23
+登录系统	1482
+2015/1/30 11:23:34
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:23:38
+未将对象引用设置到对象的实例。
+   在 DXApplication2.XtraForm1.XtraForm1_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\XtraForm1.cs:行号 38
+2015/1/30 11:24:43
+登录系统	1482
+2015/1/30 11:24:51
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:25:40
+登录系统	1482
+2015/1/30 11:25:48
+could not execute query
+[ SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0 ]
+Positional parameters:  #0>7798
+[SQL: SELECT this_.ID as ID87_0_, this_.USER_ID as USER2_87_0_, this_.DEPT_CODE as DEPT3_87_0_, this_.MENU_ID as MENU4_87_0_, this_.PARENT_MENU_ID as PARENT5_87_0_, this_.SORT_ID as SORT6_87_0_ FROM USER_CARD_MENU this_ WHERE this_.USER_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.EntityOper.FindByProperty[T](String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 209
+   在 DXApplication2.PatientListWardFrm.InitPopupMenu() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 197
+   在 DXApplication2.PatientListWardFrm.PatientListWardFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 133ORA-00942: table or view does not exist
+
+2015/1/30 11:26:13
+正常退出	1482

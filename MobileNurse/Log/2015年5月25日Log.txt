@@ -1,0 +1,298 @@
+2015/5/25 9:37:33
+登录系统	1482
+2015/5/25 9:39:19
+登录系统	1482
+2015/5/25 9:40:23
+正常退出	1482
+2015/5/25 9:44:17
+登录系统	1482
+2015/5/25 9:45:52
+登录系统	1482
+2015/5/25 9:47:28
+登录系统	1482
+2015/5/25 9:49:00
+正常退出	1482
+2015/5/25 10:14:16
+登录系统	1482
+2015/5/25 10:15:58
+正常退出	1482
+2015/5/25 10:24:27
+登录系统	1482
+2015/5/25 10:27:19
+登录系统	1482
+2015/5/25 10:27:58
+正常退出	1482
+2015/5/25 10:29:37
+登录系统	1482
+2015/5/25 10:31:00
+登录系统	1482
+2015/5/25 10:31:30
+正常退出	1482
+2015/5/25 10:33:43
+登录系统	1482
+2015/5/25 10:34:52
+登录系统	1482
+2015/5/25 10:36:35
+登录系统	1482
+2015/5/25 10:39:45
+登录系统	1482
+2015/5/25 10:59:59
+登录系统	1482
+2015/5/25 11:09:02
+登录系统	1482
+2015/5/25 11:12:16
+登录系统	1482
+2015/5/25 11:19:10
+登录系统	1482
+2015/5/25 11:30:57
+登录系统	1482
+2015/5/25 11:34:27
+登录系统	1482
+2015/5/25 11:43:30
+登录系统	1482
+2015/5/25 11:57:51
+登录系统	1482
+2015/5/25 12:15:16
+登录系统	1482
+2015/5/25 12:16:37
+正常退出	1482
+2015/5/25 12:19:41
+登录系统	1482
+2015/5/25 12:20:44
+正常退出	1482
+2015/5/25 12:22:28
+登录系统	1482
+2015/5/25 12:23:36
+正常退出	1482
+2015/5/25 12:24:24
+登录系统	1482
+2015/5/25 12:29:13
+登录系统	1482
+2015/5/25 12:31:47
+登录系统	1482
+2015/5/25 12:32:14
+正常退出	1482
+2015/5/25 12:34:38
+登录系统	1482
+2015/5/25 12:38:01
+登录系统	1482
+2015/5/25 14:16:24
+登录系统	1482
+2015/5/25 14:21:38
+登录系统	1482
+2015/5/25 14:22:36
+登录系统	1482
+2015/5/25 14:22:57
+正常退出	1482
+2015/5/25 14:38:10
+登录系统	1482
+2015/5/25 14:40:00
+登录系统	1482
+2015/5/25 14:41:26
+登录系统	1482
+2015/5/25 14:43:15
+登录系统	1482
+2015/5/25 14:44:19
+登录系统	1482
+2015/5/25 14:44:51
+正常退出	1482
+2015/5/25 14:45:25
+登录系统	1482
+2015/5/25 14:46:37
+登录系统	1482
+2015/5/25 14:47:54
+登录系统	1482
+2015/5/25 14:50:26
+登录系统	1482
+2015/5/25 14:52:36
+登录系统	1482
+2015/5/25 14:53:55
+登录系统	1482
+2015/5/25 14:56:45
+登录系统	1482
+2015/5/25 15:03:58
+登录系统	1482
+2015/5/25 15:07:27
+登录系统	1482
+2015/5/25 15:07:57
+正常退出	1482
+2015/5/25 15:15:47
+登录系统	1482
+2015/5/25 15:17:22
+登录系统	1482
+2015/5/25 15:20:58
+登录系统	1482
+2015/5/25 15:30:48
+登录系统	1482
+2015/5/25 15:49:49
+登录系统	1482
+2015/5/25 16:16:29
+登录系统	1482
+2015/5/25 16:18:35
+正常退出	1482
+2015/5/25 16:24:49
+登录系统	1482
+2015/5/25 16:43:29
+登录系统	1482
+2015/5/25 16:54:42
+登录系统	1482
+2015/5/25 16:54:53
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.set_AllowAddRows(Boolean value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 76
+   在 HISPlus.UserControls.UcGridView..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 301
+   在 DXApplication2.PatientListWardFrm.InitializeComponent() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.Designer.cs:行号 52
+   在 DXApplication2.PatientListWardFrm..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 57
+   在 DXApplication2.MdiFrm.InitPatients() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 1196
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 606
+2015/5/25 16:55:27
+调用的目标发生了异常。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Activator.CreateInstance(Type type, Object[] args)
+   在 DXApplication2.MdiFrm.GetFormInDll(String dllName, String typeName, Object[] args) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 653未将对象引用设置到对象的实例。
+2015/5/25 16:55:36
+调用的目标发生了异常。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Activator.CreateInstance(Type type, Object[] args)
+   在 DXApplication2.MdiFrm.GetFormInDll(String dllName, String typeName, Object[] args) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 653未将对象引用设置到对象的实例。
+2015/5/25 16:55:43
+正常退出	1482
+2015/5/25 16:56:15
+登录系统	1482
+2015/5/25 16:56:27
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.set_AllowAddRows(Boolean value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 76
+   在 HISPlus.UserControls.UcGridView..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 301
+   在 DXApplication2.PatientListWardFrm.InitializeComponent() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.Designer.cs:行号 52
+   在 DXApplication2.PatientListWardFrm..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 57
+   在 DXApplication2.MdiFrm.InitPatients() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 1196
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 606
+2015/5/25 16:56:49
+正常退出	1482
+2015/5/25 16:56:51
+登录系统	1482
+2015/5/25 16:57:22
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.set_AllowAddRows(Boolean value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 76
+   在 HISPlus.UserControls.UcGridView..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 301
+   在 DXApplication2.PatientListWardFrm.InitializeComponent() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.Designer.cs:行号 52
+   在 DXApplication2.PatientListWardFrm..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 57
+   在 DXApplication2.MdiFrm.InitPatients() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 1196
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 606
+2015/5/25 16:57:26
+调用的目标发生了异常。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Activator.CreateInstance(Type type, Object[] args)
+   在 DXApplication2.MdiFrm.GetFormInDll(String dllName, String typeName, Object[] args) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 653未将对象引用设置到对象的实例。
+2015/5/25 16:57:28
+正常退出	1482
+2015/5/25 16:58:36
+登录系统	1482
+2015/5/25 16:58:48
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserControls.UcGridView.set_AllowAddRows(Boolean value) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 77
+   在 HISPlus.UserControls.UcGridView..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\UserControls\UCGridView.cs:行号 302
+   在 DXApplication2.PatientListWardFrm.InitializeComponent() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.Designer.cs:行号 52
+   在 DXApplication2.PatientListWardFrm..ctor() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\PatientListWardFrm.cs:行号 57
+   在 DXApplication2.MdiFrm.InitPatients() 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 1196
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 606
+2015/5/25 16:59:38
+正常退出	1482
+2015/5/25 17:01:29
+登录系统	1482
+2015/5/25 17:05:50
+登录系统	1482
+2015/5/25 17:07:56
+登录系统	1482
+2015/5/25 17:11:09
+登录系统	1482
+2015/5/25 17:12:54
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/25 17:12:56
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/25 17:12:57
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 100
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/5/25 17:12:58
+登录系统	1482
+2015/5/25 17:14:28
+登录系统	1482
+2015/5/25 17:17:32
+登录系统	1482
+2015/5/25 17:19:23
+登录系统	1482
+2015/5/25 17:25:09
+登录系统	1482
+2015/5/25 17:26:23
+正常退出	1482
+2015/5/25 17:28:45
+登录系统	1482
+2015/5/25 17:31:15
+登录系统	1482
+2015/5/25 17:40:46
+登录系统	1482
+2015/5/25 17:56:46
+登录系统	1482
+2015/5/25 17:58:26
+登录系统	1482
+2015/5/25 18:01:03
+正常退出	1482
+2015/5/25 18:07:31
+登录系统	1482
+2015/5/25 18:10:48
+登录系统	1482
+2015/5/25 18:20:20
+登录系统	1482

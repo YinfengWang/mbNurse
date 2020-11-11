@@ -1,0 +1,337 @@
+2015/3/16 9:55:32
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 9:56:06
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 9:57:48
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 9:58:23
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 9:59:16
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 9:59:40
+登录系统	1482
+2015/3/16 10:49:53
+登录系统	1482
+2015/3/16 11:04:03
+登录系统	1482
+2015/3/16 11:12:46
+登录系统	1482
+2015/3/16 11:13:54
+正常退出	1482
+2015/3/16 11:15:42
+登录系统	1482
+2015/3/16 11:19:47
+登录系统	1482
+2015/3/16 11:20:51
+登录系统	1482
+2015/3/16 11:22:53
+登录系统	1482
+2015/3/16 11:23:35
+正常退出	1482
+2015/3/16 11:25:04
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 11:25:07
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/3/16 11:25:15
+登录系统	1482
+2015/3/16 11:34:39
+登录系统	1482
+2015/3/16 11:35:31
+登录系统	1482
+2015/3/16 11:42:50
+登录系统	1482
+2015/3/16 11:43:21
+正常退出	1482
+2015/3/16 11:44:56
+登录系统	1482
+2015/3/16 11:45:40
+正常退出	1482
+2015/3/16 11:49:06
+登录系统	1482
+2015/3/16 11:51:25
+登录系统	1482
+2015/3/16 11:55:17
+登录系统	1482
+2015/3/16 11:56:21
+登录系统	1482
+2015/3/16 11:57:53
+正常退出	1482
+2015/3/16 11:58:57
+登录系统	1482
+2015/3/16 13:01:31
+正常退出	1482
+2015/3/16 13:01:51
+登录系统	1482
+2015/3/16 13:06:50
+登录系统	1482
+2015/3/16 13:10:26
+正常退出	1482
+2015/3/16 13:11:17
+登录系统	1482
+2015/3/16 14:12:14
+正常退出	1482
+2015/3/16 14:12:32
+登录系统	1482
+2015/3/16 15:13:25
+正常退出	1482
+2015/3/16 15:34:32
+登录系统	1482
+2015/3/16 15:39:10
+登录系统	1482
+2015/3/16 15:52:56
+登录系统	1482
+2015/3/16 16:58:04
+登录系统	1482
+2015/3/16 16:58:36
+正常退出	1482
+2015/3/16 16:59:19
+登录系统	1482
+2015/3/16 17:01:34
+正常退出	1482
+2015/3/16 17:06:52
+登录系统	1482
+2015/3/16 17:07:55
+登录系统	1482
+2015/3/16 17:09:08
+正常退出	1482
+2015/3/16 17:09:39
+登录系统	1482
+2015/3/16 17:10:24
+登录系统	1482
+2015/3/16 17:10:57
+could not execute query
+[ SELECT this_.ID as ID241_4_, this_.PARENT_ID as PARENT2_241_4_, this_.SORT_ID as SORT3_241_4_, this_.ELEMENT_NAME as ELEMENT4_241_4_, this_.DISPLAY_NAME as DISPLAY5_241_4_, this_.NAME_FONT as NAME6_241_4_, this_.CONTROL_STATUS_ID as CONTROL7_241_4_, this_.CONTROL_FONT as CONTROL8_241_4_, this_.CONTROL_WIDTH as CONTROL9_241_4_, this_.CONTROL_HEIGHT as CONTROL10_241_4_, this_.CONTROL_OFFSET as CONTROL11_241_4_, this_.CONTROL_PREFIX as CONTROL12_241_4_, this_.CONTROL_SUFFIX as CONTROL13_241_4_, this_.NEW_LINE as NEW14_241_4_, this_.ROW_SPACING as ROW15_241_4_, this_.CHILDREN_INDENT as CHILDREN16_241_4_, this_.DATA_TYPE as DATA17_241_4_, this_.SCORE as SCORE241_4_, this_.RELATION_TYPE as RELATION19_241_4_, this_.RELATION_CODE as RELATION20_241_4_, this_.CREATE_TIMESTAMP as CREATE21_241_4_, this_.UPDATE_TIMESTAMP as UPDATE22_241_4_, this_.CONTROL_TEMPLATE_ID as CONTROL23_241_4_, this_.TEMPLATE_ID as TEMPLATE24_241_4_, doccontrol2_.ID as ID246_0_, doccontrol2_.NAME as NAME246_0_, doccontrol2_.CONTROL_FONT as CONTROL3_246_0_, doccontrol2_.CONTROL_WIDTH as CONTROL4_246_0_, doccontrol2_.CONTROL_HEIGHT as CONTROL5_246_0_, doccontrol2_.CONTROL_OFFSET as CONTROL6_246_0_, doccontrol2_.IS_ENABLED as IS7_246_0_, doccontrol2_.REMARK as REMARK246_0_, doccontrol2_.CREATE_TIMESTAMP as CREATE9_246_0_, doccontrol2_.UPDATE_TIMESTAMP as UPDATE10_246_0_, doccontrol2_.CONTROL_TYPE_ID as CONTROL11_246_0_, doccontrol3_.ID as ID244_1_, doccontrol3_.CODE as CODE244_1_, doccontrol3_.NAME as NAME244_1_, doccontrol3_.REMARK as REMARK244_1_, doccontrol3_.CREATE_TIMESTAMP as CREATE5_244_1_, doccontrol3_.UPDATE_TIMESTAMP as UPDATE6_244_1_, doctemplat4_.TEMPLATE_ID as TEMPLATE1_249_2_, doctemplat4_.TEMPLATE_TYPE_ID as TEMPLATE2_249_2_, doctemplat4_.TEMPLATE_NAME as TEMPLATE3_249_2_, doctemplat4_.DISPLAY_NAME as DISPLAY4_249_2_, doctemplat4_.IS_GLOBAL as IS5_249_2_, doctemplat4_.CREATE_TIMESTAMP as CREATE6_249_2_, doctemplat4_.CREATE_USER as CREATE7_249_2_, doctemplat4_.UPDATE_TIMESTAMP as UPDATE8_249_2_, doctemplat4_.UPDATE_USER as UPDATE9_249_2_, doctemplat4_.IS_ENABLED as IS10_249_2_, doctemplat4_.FREQ as FREQ249_2_, doctemplat4_.REMARK as REMARK249_2_, doctemplat4_.REPORT_TYPE_ID as REPORT13_249_2_, doctemplat4_.HAS_INOUT_STAT as HAS14_249_2_, doctemplat4_.WRIST_SCAN as WRIST15_249_2_, doctemplat4_.TEMPLATE_CLASS_ID as TEMPLATE16_249_2_, doctemplat5_.ID as ID245_3_, doctemplat5_.NAME as NAME245_3_, doctemplat5_.PARENT_ID as PARENT3_245_3_, doctemplat5_.SORT_ID as SORT4_245_3_, doctemplat5_.CREATE_TIMESTAMP as CREATE5_245_3_, doctemplat5_.UPDATE_TIMESTAMP as UPDATE6_245_3_, doctemplat5_.ENABLED as ENABLED245_3_ FROM DOC_TEMPLATE_ELEMENT this_ inner join DOC_CONTROL_TEMPLATE doccontrol2_ on this_.CONTROL_TEMPLATE_ID=doccontrol2_.ID left outer join DOC_CONTROL_TYPE doccontrol3_ on doccontrol2_.CONTROL_TYPE_ID=doccontrol3_.ID inner join DOC_TEMPLATE doctemplat4_ on this_.TEMPLATE_ID=doctemplat4_.TEMPLATE_ID left outer join DOC_TEMPLATE_CLASS doctemplat5_ on doctemplat4_.TEMPLATE_CLASS_ID=doctemplat5_.ID WHERE this_.TEMPLATE_ID = :p0 ]
+Positional parameters:  #0>1568
+[SQL: SELECT this_.ID as ID241_4_, this_.PARENT_ID as PARENT2_241_4_, this_.SORT_ID as SORT3_241_4_, this_.ELEMENT_NAME as ELEMENT4_241_4_, this_.DISPLAY_NAME as DISPLAY5_241_4_, this_.NAME_FONT as NAME6_241_4_, this_.CONTROL_STATUS_ID as CONTROL7_241_4_, this_.CONTROL_FONT as CONTROL8_241_4_, this_.CONTROL_WIDTH as CONTROL9_241_4_, this_.CONTROL_HEIGHT as CONTROL10_241_4_, this_.CONTROL_OFFSET as CONTROL11_241_4_, this_.CONTROL_PREFIX as CONTROL12_241_4_, this_.CONTROL_SUFFIX as CONTROL13_241_4_, this_.NEW_LINE as NEW14_241_4_, this_.ROW_SPACING as ROW15_241_4_, this_.CHILDREN_INDENT as CHILDREN16_241_4_, this_.DATA_TYPE as DATA17_241_4_, this_.SCORE as SCORE241_4_, this_.RELATION_TYPE as RELATION19_241_4_, this_.RELATION_CODE as RELATION20_241_4_, this_.CREATE_TIMESTAMP as CREATE21_241_4_, this_.UPDATE_TIMESTAMP as UPDATE22_241_4_, this_.CONTROL_TEMPLATE_ID as CONTROL23_241_4_, this_.TEMPLATE_ID as TEMPLATE24_241_4_, doccontrol2_.ID as ID246_0_, doccontrol2_.NAME as NAME246_0_, doccontrol2_.CONTROL_FONT as CONTROL3_246_0_, doccontrol2_.CONTROL_WIDTH as CONTROL4_246_0_, doccontrol2_.CONTROL_HEIGHT as CONTROL5_246_0_, doccontrol2_.CONTROL_OFFSET as CONTROL6_246_0_, doccontrol2_.IS_ENABLED as IS7_246_0_, doccontrol2_.REMARK as REMARK246_0_, doccontrol2_.CREATE_TIMESTAMP as CREATE9_246_0_, doccontrol2_.UPDATE_TIMESTAMP as UPDATE10_246_0_, doccontrol2_.CONTROL_TYPE_ID as CONTROL11_246_0_, doccontrol3_.ID as ID244_1_, doccontrol3_.CODE as CODE244_1_, doccontrol3_.NAME as NAME244_1_, doccontrol3_.REMARK as REMARK244_1_, doccontrol3_.CREATE_TIMESTAMP as CREATE5_244_1_, doccontrol3_.UPDATE_TIMESTAMP as UPDATE6_244_1_, doctemplat4_.TEMPLATE_ID as TEMPLATE1_249_2_, doctemplat4_.TEMPLATE_TYPE_ID as TEMPLATE2_249_2_, doctemplat4_.TEMPLATE_NAME as TEMPLATE3_249_2_, doctemplat4_.DISPLAY_NAME as DISPLAY4_249_2_, doctemplat4_.IS_GLOBAL as IS5_249_2_, doctemplat4_.CREATE_TIMESTAMP as CREATE6_249_2_, doctemplat4_.CREATE_USER as CREATE7_249_2_, doctemplat4_.UPDATE_TIMESTAMP as UPDATE8_249_2_, doctemplat4_.UPDATE_USER as UPDATE9_249_2_, doctemplat4_.IS_ENABLED as IS10_249_2_, doctemplat4_.FREQ as FREQ249_2_, doctemplat4_.REMARK as REMARK249_2_, doctemplat4_.REPORT_TYPE_ID as REPORT13_249_2_, doctemplat4_.HAS_INOUT_STAT as HAS14_249_2_, doctemplat4_.WRIST_SCAN as WRIST15_249_2_, doctemplat4_.TEMPLATE_CLASS_ID as TEMPLATE16_249_2_, doctemplat5_.ID as ID245_3_, doctemplat5_.NAME as NAME245_3_, doctemplat5_.PARENT_ID as PARENT3_245_3_, doctemplat5_.SORT_ID as SORT4_245_3_, doctemplat5_.CREATE_TIMESTAMP as CREATE5_245_3_, doctemplat5_.UPDATE_TIMESTAMP as UPDATE6_245_3_, doctemplat5_.ENABLED as ENABLED245_3_ FROM DOC_TEMPLATE_ELEMENT this_ inner join DOC_CONTROL_TEMPLATE doccontrol2_ on this_.CONTROL_TEMPLATE_ID=doccontrol2_.ID left outer join DOC_CONTROL_TYPE doccontrol3_ on doccontrol2_.CONTROL_TYPE_ID=doccontrol3_.ID inner join DOC_TEMPLATE doctemplat4_ on this_.TEMPLATE_ID=doctemplat4_.TEMPLATE_ID left outer join DOC_TEMPLATE_CLASS doctemplat5_ on doctemplat4_.TEMPLATE_CLASS_ID=doctemplat5_.ID WHERE this_.TEMPLATE_ID = :p0]
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   在 NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   在 NHibernate.Impl.CriteriaImpl.List(IList results)
+   在 NHibernate.Impl.CriteriaImpl.List[T]()
+   在 HISPlus.Entity`1.FindByProperty(String propertyName, Object value) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\Entity.cs:行号 199
+   在 HISPlus.DesignTemplate.NewForm(Decimal templateId) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 442
+   在 HISPlus.DesignTemplate.ucGridView1_SelectionChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 244ORA-03113: end-of-file on communication channel
+Process ID: 11501
+Session ID: 16 Serial number: 909
+
+2015/3/16 17:11:27
+正常退出	1482
+2015/3/16 17:11:44
+登录系统	1482
+2015/3/16 17:16:40
+登录系统	1482
+2015/3/16 17:22:26
+登录系统	1482
+2015/3/16 17:25:52
+登录系统	1482
+2015/3/16 17:26:39
+正常退出	1482
+2015/3/16 17:27:03
+登录系统	1482
+2015/3/16 17:29:10
+登录系统	1482
+2015/3/16 17:31:21
+登录系统	1482
+2015/3/16 17:33:20
+正常退出	1482
+2015/3/16 17:33:38
+登录系统	1482
+2015/3/16 17:36:19
+正常退出	1482
+2015/3/16 17:36:46
+登录系统	1482
+2015/3/16 17:40:02
+登录系统	1482
+2015/3/16 17:41:53
+登录系统	1482
+2015/3/16 17:47:09
+登录系统	1482
+2015/3/16 17:51:51
+登录系统	1482
+2015/3/16 17:56:23
+登录系统	1482
+2015/3/16 18:03:22
+登录系统	1482
+2015/3/16 18:10:25
+could not insert: [HISPlus.DocTemplateElement#1398][SQL: INSERT INTO DOC_TEMPLATE_ELEMENT (PARENT_ID, SORT_ID, ELEMENT_NAME, DISPLAY_NAME, NAME_FONT, CONTROL_STATUS_ID, CONTROL_FONT, CONTROL_WIDTH, CONTROL_HEIGHT, CONTROL_OFFSET, CONTROL_PREFIX, CONTROL_SUFFIX, NEW_LINE, ROW_SPACING, CHILDREN_INDENT, DATA_TYPE, SCORE, RELATION_TYPE, RELATION_CODE, CREATE_TIMESTAMP, UPDATE_TIMESTAMP, CONTROL_TEMPLATE_ID, TEMPLATE_ID, ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Save[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 53
+   在 HISPlus.DocSetting1.CreateNode(Int32 parentId, Int32 sortId, TreeListNode node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 759
+   在 HISPlus.DocSetting1.btnAddSibling_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 653ORA-00001: unique constraint (MOBILE.PK_DOC_TEMPLATE_ELEMENT) violated
+
+2015/3/16 18:10:34
+could not insert: [HISPlus.DocTemplateElement#1399][SQL: INSERT INTO DOC_TEMPLATE_ELEMENT (PARENT_ID, SORT_ID, ELEMENT_NAME, DISPLAY_NAME, NAME_FONT, CONTROL_STATUS_ID, CONTROL_FONT, CONTROL_WIDTH, CONTROL_HEIGHT, CONTROL_OFFSET, CONTROL_PREFIX, CONTROL_SUFFIX, NEW_LINE, ROW_SPACING, CHILDREN_INDENT, DATA_TYPE, SCORE, RELATION_TYPE, RELATION_CODE, CREATE_TIMESTAMP, UPDATE_TIMESTAMP, CONTROL_TEMPLATE_ID, TEMPLATE_ID, ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Save[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 53
+   在 HISPlus.DocSetting1.CreateNode(Int32 parentId, Int32 sortId, TreeListNode node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 759
+   在 HISPlus.DocSetting1.btnAddSibling_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 653ORA-00001: unique constraint (MOBILE.PK_DOC_TEMPLATE_ELEMENT) violated
+
+2015/3/16 18:10:44
+could not insert: [HISPlus.DocTemplateElement#1400][SQL: INSERT INTO DOC_TEMPLATE_ELEMENT (PARENT_ID, SORT_ID, ELEMENT_NAME, DISPLAY_NAME, NAME_FONT, CONTROL_STATUS_ID, CONTROL_FONT, CONTROL_WIDTH, CONTROL_HEIGHT, CONTROL_OFFSET, CONTROL_PREFIX, CONTROL_SUFFIX, NEW_LINE, ROW_SPACING, CHILDREN_INDENT, DATA_TYPE, SCORE, RELATION_TYPE, RELATION_CODE, CREATE_TIMESTAMP, UPDATE_TIMESTAMP, CONTROL_TEMPLATE_ID, TEMPLATE_ID, ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Save[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 53
+   在 HISPlus.DocSetting1.CreateNode(Int32 parentId, Int32 sortId, TreeListNode node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 759
+   在 HISPlus.DocSetting1.btnAddSibling_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 653ORA-00001: unique constraint (MOBILE.PK_DOC_TEMPLATE_ELEMENT) violated
+
+2015/3/16 18:11:22
+could not insert: [HISPlus.DocTemplateElement#1401][SQL: INSERT INTO DOC_TEMPLATE_ELEMENT (PARENT_ID, SORT_ID, ELEMENT_NAME, DISPLAY_NAME, NAME_FONT, CONTROL_STATUS_ID, CONTROL_FONT, CONTROL_WIDTH, CONTROL_HEIGHT, CONTROL_OFFSET, CONTROL_PREFIX, CONTROL_SUFFIX, NEW_LINE, ROW_SPACING, CHILDREN_INDENT, DATA_TYPE, SCORE, RELATION_TYPE, RELATION_CODE, CREATE_TIMESTAMP, UPDATE_TIMESTAMP, CONTROL_TEMPLATE_ID, TEMPLATE_ID, ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   在 NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   在 NHibernate.Impl.SessionImpl.Flush()
+   在 HISPlus.EntityOper.Save[T](T entity) 位置 E:\SVN\mobilenurse\MobileNurse\DocDao\EntityOper.cs:行号 53
+   在 HISPlus.DocSetting1.CreateNode(Int32 parentId, Int32 sortId, TreeListNode node) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 759
+   在 HISPlus.DocSetting1.btnAddChild_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 678ORA-00001: unique constraint (MOBILE.PK_DOC_TEMPLATE_ELEMENT) violated
+
+2015/3/16 18:11:25
+正常退出	1482

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HISGlobalVariant">
+</Property><Property Name="解决方案文件" Value="D:\心医\orderSplit\OrderSplit\HISGlobalVariant\HISGlobalVariant.sln">
+</Property><Property Name="Date" Value="2015年12月17日">
+</Property><Property Name="Time" Value="14:49">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HISGlobalVariant.sln" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\HISGlobalVariant.sln">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="HISGlobalVariant.csproj" Description="项目文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\HISGlobalVariant.csproj">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="HISGlobalVariant.csproj.user" Description="项目用户文件成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\HISGlobalVariant.csproj.user">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="Application\App.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\Application\App.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="GVars.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\GVars.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="Person\PatientCls.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\Person\PatientCls.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="Person\PersonCls.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\Person\PersonCls.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="Person\UserCls.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\Person\UserCls.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 D:\心医\orderSplit\OrderSplit\HISGlobalVariant\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="HISGlobalVariant" Source="HISGlobalVariant.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="HISGlobalVariant" Source="HISGlobalVariant.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="HISGlobalVariant.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="HISGlobalVariant.sln" Description="Converted">
+</Event></UpgradeLog>

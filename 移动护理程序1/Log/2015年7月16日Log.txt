@@ -1,0 +1,29 @@
+2015/7/16 9:26:12
+登录系统	0351
+2015/7/16 9:26:28
+未能找到路径“E:\SVN\mobilenurse\移动护理程序1\Template\XML\T.xml”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   在 System.Threading.CompressedStack.runTryCode(Object userData)
+   在 System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   在 System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   在 System.Xml.XmlTextReaderImpl.OpenUrl()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlReader.MoveToContent()
+   在 System.Data.DataTable.ReadXml(XmlReader reader, Boolean denyResolving)
+   在 System.Data.DataTable.ReadXml(String fileName)
+   在 TemperatureBLL.DrawPic.XmlToDataTable(String xmlFilePath)
+   在 TemperatureBLL.DrawPic.Init()
+   在 TemperatureBLL.DrawPic..ctor(String patientId, Int32 visitId, Int32 pageIndex, String hospitalName, String savePath)
+   在 HISPlus.BodyTemperatureForm.e()
+2015/7/16 9:26:29
+未将对象引用设置到对象的实例。
+   在 HISPlus.BodyTemperatureForm.h()
+   在 HISPlus.BodyTemperatureForm.d()
+   在 HISPlus.BodyTemperatureForm.i(Object A_0, EventArgs A_1)
+2015/7/16 9:26:39
+正常退出	0351

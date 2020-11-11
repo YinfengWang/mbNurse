@@ -1,0 +1,208 @@
+2015/4/28 10:53:37
+登录系统	1482
+2015/4/28 10:56:07
+列“WARD_CODE”不允许 nulls。
+   在 System.Data.DataColumn.CheckNullable(DataRow row)
+   在 System.Data.DataColumn.CheckColumnConstraint(DataRow row, DataRowAction action)
+   在 System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   在 System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   在 System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   在 System.Data.DataRowCollection.Add(DataRow row)
+   在 HISPlus.FrmSetTour.saveData() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\FrmSetTour.cs:行号 99
+   在 HISPlus.FrmSetTour.bntServe_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\FrmSetTour.cs:行号 55
+2015/4/28 11:19:29
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 11:20:32
+登录系统	1482
+2015/4/28 11:39:43
+登录系统	1482
+2015/4/28 11:42:23
+正常退出	1482
+2015/4/28 11:43:53
+登录系统	1482
+2015/4/28 11:48:55
+登录系统	1482
+2015/4/28 11:49:35
+ORA-00936: missing expression
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 HISPlus.OracleAccess.SelectData(String sqlSel, String tableName, DataSet& ds, Boolean blnWithKey) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 80
+   在 HISPlus.DbAccess.SelectData(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 340
+   在 HISPlus.PatientDbI.GetInpPatientInfo_FromID(String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\PatientDbI\PatientDbI\PatientDbI.cs:行号 55
+   在 HISPlus.NursingReportFrm.getPatientInfo(String patientId, String visitId) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm_Data.cs:行号 91
+   在 HISPlus.NursingReportFrm.btnQuery_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingReport\NursingReport\NursingReportFrm.cs:行号 333
+2015/4/28 11:55:09
+登录系统	1482
+2015/4/28 12:14:05
+正常退出	1482
+2015/4/28 14:12:18
+登录系统	1482
+2015/4/28 15:55:29
+登录系统	1482
+2015/4/28 15:57:35
+正常退出	1482
+2015/4/28 15:57:54
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 15:58:25
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 15:58:59
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 16:00:06
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 16:01:58
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 16:02:25
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 16:05:09
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 393
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 200
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 57
+2015/4/28 16:13:03
+登录系统	1482
+2015/4/28 16:13:41
+未将对象引用设置到对象的实例。
+   在 HISPlus.NursingRecordFrm.initDisp_dataGrid() 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 895
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRecord\NursingRecord\NursingRecordFrm.cs:行号 104
+2015/4/28 16:19:47
+登录系统	1482
+2015/4/28 16:20:21
+正常退出	1482
+2015/4/28 16:21:07
+登录系统	1482
+2015/4/28 16:21:33
+正常退出	1482
+2015/4/28 16:22:17
+登录系统	1482
+2015/4/28 16:58:04
+登录系统	1482
+2015/4/28 16:58:28
+正常退出	1482
+2015/4/28 16:59:52
+登录系统	1482
+2015/4/28 17:03:03
+登录系统	1482
+2015/4/28 17:04:03
+正常退出	1482
+2015/4/28 17:05:34
+登录系统	1482
+2015/4/28 17:06:26
+正常退出	1482
+2015/4/28 17:07:33
+登录系统	1482
+2015/4/28 17:08:33
+正常退出	1482
+2015/4/28 17:12:00
+登录系统	1482
+2015/4/28 17:17:27
+登录系统	1482
+2015/4/28 17:48:09
+登录系统	1482
+2015/4/28 17:48:52
+登录系统	1482
+2015/4/28 17:49:14
+正常退出	1482
+2015/4/28 17:49:35
+登录系统	1482
+2015/4/28 17:50:09
+正常退出	1482
+2015/4/28 17:51:18
+登录系统	1482
+2015/4/28 17:51:46
+正常退出	1482
+2015/4/28 17:57:42
+登录系统	1482
+2015/4/28 18:00:00
+登录系统	1482
+2015/4/28 18:00:34
+正常退出	1482
+2015/4/28 18:01:18
+登录系统	1482
+2015/4/28 18:03:59
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/28 18:04:02
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/28 18:04:03
+登录系统	1482
+2015/4/28 18:05:44
+登录系统	1482
+2015/4/28 18:06:13
+正常退出	1482
+2015/4/28 18:07:49
+登录系统	1482
+2015/4/28 18:10:25
+正常退出	1482
+2015/4/28 18:15:48
+登录系统	1482
+2015/4/28 18:16:36
+正常退出	1482
+2015/4/28 18:19:16
+登录系统	1482
+2015/4/28 18:20:26
+登录系统	1482

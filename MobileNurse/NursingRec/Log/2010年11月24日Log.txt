@@ -1,0 +1,6 @@
+2010-11-24 15:12:06
+未将对象引用设置到对象的实例。
+   在 HISPlus.App.ReloadParameters() 位置 E:\移动护理项目1104\移动护理报表系统3.0\HISComm\HISGlobalVariant\Application\App.cs:行号 241
+   在 HISPlus.NursingViewRec.getParameters() 位置 F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\NursingRec\NursingRec\NursingViewRec.cs:行号 403
+   在 HISPlus.NursingViewRec.initFrmVal() 位置 F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\NursingRec\NursingRec\NursingViewRec.cs:行号 203
+   在 HISPlus.NursingViewRec.NursingRec_Load(Object sender, EventArgs e) 位置 F:\开发空间\源代码\桌面应用程序\移动护理报表系统3.0\NursingRec\NursingRec\NursingViewRec.cs:行号 60

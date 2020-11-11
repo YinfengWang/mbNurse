@@ -1,0 +1,14 @@
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.exe
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.pdb
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.exe
+C:\svnProject\mobileNurse\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.pdb
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.exe
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.pdb
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.exe
+C:\nurseCf\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.exe
+M:\移动护理\nurseCf\MobileNurse\Common\DeleteOldFile\bin\Debug\DeleteOldFile.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.exe
+M:\移动护理\nurseCf\MobileNurse\Common\DeleteOldFile\obj\x86\Debug\DeleteOldFile.pdb

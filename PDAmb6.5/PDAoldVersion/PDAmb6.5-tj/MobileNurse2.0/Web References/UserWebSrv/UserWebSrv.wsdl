@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetSysDate">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSysDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetSysDateResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkOracleUserPwd_Db">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkOracleUserPwd_DbResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChkOracleUserPwd_DbResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkOracleUserPwd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChkOracleUserPwdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChkOracleUserPwdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePwd_Db">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newPwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePwd_DbResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChangePwd_DbResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePwd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newPwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePwdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ChangePwdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dateTime" type="s:dateTime" />
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSysDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSysDate" />
+  </wsdl:message>
+  <wsdl:message name="GetSysDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSysDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbSoapIn">
+    <wsdl:part name="parameters" element="tns:ChkOracleUserPwd_Db" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbSoapOut">
+    <wsdl:part name="parameters" element="tns:ChkOracleUserPwd_DbResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdSoapIn">
+    <wsdl:part name="parameters" element="tns:ChkOracleUserPwd" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdSoapOut">
+    <wsdl:part name="parameters" element="tns:ChkOracleUserPwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangePwd_Db" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangePwd_DbResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangePwd" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangePwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSysDateHttpGetIn" />
+  <wsdl:message name="GetSysDateHttpGetOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="newPwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="newPwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetSysDateHttpPostIn" />
+  <wsdl:message name="GetSysDateHttpPostOut">
+    <wsdl:part name="Body" element="tns:dateTime" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwd_DbHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChkOracleUserPwdHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="newPwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwd_DbHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdHttpPostIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="newPwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChangePwdHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="UserWebSrvSoap">
+    <wsdl:operation name="GetSysDate">
+      <wsdl:input message="tns:GetSysDateSoapIn" />
+      <wsdl:output message="tns:GetSysDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <wsdl:input message="tns:ChkOracleUserPwd_DbSoapIn" />
+      <wsdl:output message="tns:ChkOracleUserPwd_DbSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <wsdl:input message="tns:ChkOracleUserPwdSoapIn" />
+      <wsdl:output message="tns:ChkOracleUserPwdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <wsdl:input message="tns:ChangePwd_DbSoapIn" />
+      <wsdl:output message="tns:ChangePwd_DbSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <wsdl:input message="tns:ChangePwdSoapIn" />
+      <wsdl:output message="tns:ChangePwdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <wsdl:input message="tns:GetUserInfoSoapIn" />
+      <wsdl:output message="tns:GetUserInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UserWebSrvHttpGet">
+    <wsdl:operation name="GetSysDate">
+      <wsdl:input message="tns:GetSysDateHttpGetIn" />
+      <wsdl:output message="tns:GetSysDateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <wsdl:input message="tns:ChkOracleUserPwd_DbHttpGetIn" />
+      <wsdl:output message="tns:ChkOracleUserPwd_DbHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <wsdl:input message="tns:ChkOracleUserPwdHttpGetIn" />
+      <wsdl:output message="tns:ChkOracleUserPwdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <wsdl:input message="tns:ChangePwd_DbHttpGetIn" />
+      <wsdl:output message="tns:ChangePwd_DbHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <wsdl:input message="tns:ChangePwdHttpGetIn" />
+      <wsdl:output message="tns:ChangePwdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <wsdl:input message="tns:GetUserInfoHttpGetIn" />
+      <wsdl:output message="tns:GetUserInfoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="UserWebSrvHttpPost">
+    <wsdl:operation name="GetSysDate">
+      <wsdl:input message="tns:GetSysDateHttpPostIn" />
+      <wsdl:output message="tns:GetSysDateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <wsdl:input message="tns:ChkOracleUserPwd_DbHttpPostIn" />
+      <wsdl:output message="tns:ChkOracleUserPwd_DbHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <wsdl:input message="tns:ChkOracleUserPwdHttpPostIn" />
+      <wsdl:output message="tns:ChkOracleUserPwdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <wsdl:input message="tns:ChangePwd_DbHttpPostIn" />
+      <wsdl:output message="tns:ChangePwd_DbHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <wsdl:input message="tns:ChangePwdHttpPostIn" />
+      <wsdl:output message="tns:ChangePwdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <wsdl:input message="tns:GetUserInfoHttpPostIn" />
+      <wsdl:output message="tns:GetUserInfoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserWebSrvSoap" type="tns:UserWebSrvSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSysDate">
+      <soap:operation soapAction="http://tempuri.org/GetSysDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <soap:operation soapAction="http://tempuri.org/ChkOracleUserPwd_Db" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <soap:operation soapAction="http://tempuri.org/ChkOracleUserPwd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <soap:operation soapAction="http://tempuri.org/ChangePwd_Db" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <soap:operation soapAction="http://tempuri.org/ChangePwd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <soap:operation soapAction="http://tempuri.org/GetUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserWebSrvSoap12" type="tns:UserWebSrvSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSysDate">
+      <soap12:operation soapAction="http://tempuri.org/GetSysDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <soap12:operation soapAction="http://tempuri.org/ChkOracleUserPwd_Db" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <soap12:operation soapAction="http://tempuri.org/ChkOracleUserPwd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <soap12:operation soapAction="http://tempuri.org/ChangePwd_Db" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <soap12:operation soapAction="http://tempuri.org/ChangePwd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserWebSrvHttpGet" type="tns:UserWebSrvHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetSysDate">
+      <http:operation location="/GetSysDate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <http:operation location="/ChkOracleUserPwd_Db" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <http:operation location="/ChkOracleUserPwd" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <http:operation location="/ChangePwd_Db" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <http:operation location="/ChangePwd" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <http:operation location="/GetUserInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserWebSrvHttpPost" type="tns:UserWebSrvHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetSysDate">
+      <http:operation location="/GetSysDate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd_Db">
+      <http:operation location="/ChkOracleUserPwd_Db" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChkOracleUserPwd">
+      <http:operation location="/ChkOracleUserPwd" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd_Db">
+      <http:operation location="/ChangePwd_Db" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePwd">
+      <http:operation location="/ChangePwd" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <http:operation location="/GetUserInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserWebSrv">
+    <wsdl:port name="UserWebSrvSoap" binding="tns:UserWebSrvSoap">
+      <soap:address location="http://localhost/MobileWebSrv/UserWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserWebSrvSoap12" binding="tns:UserWebSrvSoap12">
+      <soap12:address location="http://localhost/MobileWebSrv/UserWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserWebSrvHttpGet" binding="tns:UserWebSrvHttpGet">
+      <http:address location="http://localhost/MobileWebSrv/UserWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserWebSrvHttpPost" binding="tns:UserWebSrvHttpPost">
+      <http:address location="http://localhost/MobileWebSrv/UserWebSrv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

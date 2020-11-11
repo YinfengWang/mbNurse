@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.DocNursingRecord, DocModel" table="DOC_NURSING_RECORD" lazy="false">
+		<id name="Id" type="String" unsaved-value="0">
+			<column name="ID" sql-type="VARCHAR2" not-null="true" unique="true"/>
+			<generator class="uuid.hex" />
+		</id>
+		<property name="DocElementId" type="Decimal">
+			<column name="DOC_ELEMENT_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="NumberValue" type="Decimal">
+			<column name="NUMBER_VALUE" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="StringValue" type="String">
+			<column name="STRING_VALUE" length="4000" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<many-to-one name="DocNursing" class="HISPlus.DocNursing, DocModel">
+			<column name="DOC_NURSING_ID" sql-type="NUMBER" not-null="false"/>
+		</many-to-one>
+	</class>
+</hibernate-mapping>

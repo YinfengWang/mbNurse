@@ -1,0 +1,2 @@
+E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\obj\Debug\TextTemplateInput.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse\TextTemplateInput\TextTemplateInput\obj\Debug\TextTemplateInput.csproj.GenerateResource.Cache

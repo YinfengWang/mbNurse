@@ -1,0 +1,157 @@
+2015/3/6 9:11:43
+登录系统	1482
+2015/3/6 9:12:43
+未将对象引用设置到对象的实例。
+   在 HISPlus.DictItemContentFrm.ucTreeList1_AfterSelect(Object sender, NodeEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISDictManager\HISDictManager\DictItemContentFrm.cs:行号 346
+2015/3/6 9:13:32
+登录系统	1482
+2015/3/6 9:16:13
+登录系统	1482
+2015/3/6 9:33:12
+正常退出	1482
+2015/3/6 9:33:32
+登录系统	1482
+2015/3/6 9:51:27
+登录系统	1482
+2015/3/6 9:58:46
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.BodyTemperatureForm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 544
+2015/3/6 9:59:10
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.BodyTemperatureForm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 544
+2015/3/6 10:00:53
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.BodyTemperatureForm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 544
+2015/3/6 10:02:36
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.BodyTemperatureForm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 544
+2015/3/6 10:04:54
+登录系统	1482
+2015/3/6 10:15:07
+登录系统	1482
+2015/3/6 10:16:05
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.BodyTemperatureForm.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\BodyTemperature\BodyTemperature\BodyTemperatureForm.cs:行号 544
+2015/3/6 10:17:13
+未安装打印机。
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal(String printer)
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmodeInternal()
+   在 System.Drawing.Printing.PrinterSettings.GetHdevmode(PageSettings pageSettings)
+   在 System.Drawing.Printing.PrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   在 System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   在 System.Drawing.Printing.PrintDocument.Print()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 564
+   在 HISPlus.DesignTemplate.btnPrint_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 826
+2015/3/6 10:17:17
+未安装打印机。
+   在 System.Windows.Forms.PrintPreviewDialog.CreateHandle()
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 HISPlus.DesignTemplate.Print(String printerName, Boolean isPreview) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 574
+   在 HISPlus.DesignTemplate.btnShow_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DesignTemplate.cs:行号 808
+2015/3/6 10:27:59
+正常退出	1482
+2015/3/6 10:34:18
+登录系统	1482
+2015/3/6 10:46:16
+登录系统	1482
+2015/3/6 15:47:55
+登录系统	1482
+2015/3/6 15:48:06
+未将对象引用设置到对象的实例。
+   在 DXApplication2.XtraForm1.XtraForm1_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\XtraForm1.cs:行号 38
+2015/3/6 15:49:01
+正常退出	1482
+2015/3/6 15:49:05
+登录系统	1482
+2015/3/6 15:49:22
+未将对象引用设置到对象的实例。
+   在 DXApplication2.XtraForm1.XtraForm1_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\XtraForm1.cs:行号 38
+2015/3/6 15:58:28
+正常退出	1482
+2015/3/6 15:58:38
+登录系统	1482
+2015/3/6 15:58:51
+未将对象引用设置到对象的实例。
+   在 DXApplication2.XtraForm1.XtraForm1_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\XtraForm1.cs:行号 38
+2015/3/6 15:59:03
+正常退出	1482
+2015/3/6 15:59:09
+登录系统	1482
+2015/3/6 16:00:05
+登录系统	1482
+2015/3/6 16:00:32
+正常退出	1482
+2015/3/6 17:39:14
+登录系统	1482
+2015/3/6 17:48:25
+登录系统	1482
+2015/3/6 17:54:21
+登录系统	1482
+2015/3/6 17:54:25
+GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.FromHbitmap(IntPtr hbitmap, IntPtr hpalette)
+   在 System.Drawing.Image.FromHbitmap(IntPtr hbitmap)
+   在 DXApplication2.MdiFrm.MdiFrm_Load(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DXApplication2\MDIFrm.cs:行号 459
+2015/3/6 17:54:38
+正常退出	1482
+2015/3/6 17:55:42
+登录系统	1482
+2015/3/6 17:56:06
+正常退出	1482
+2015/3/6 17:56:10
+登录系统	1482
+2015/3/6 17:56:15
+正常退出	1482
+2015/3/6 17:56:20
+登录系统	1482
+2015/3/6 17:57:03
+登录系统	1482
+2015/3/6 17:58:45
+登录系统	1482
+2015/3/6 17:59:10
+正常退出	1482
+2015/3/6 18:01:06
+登录系统	1482
+2015/3/6 18:01:22
+正常退出	1482
+2015/3/6 18:02:09
+登录系统	1482
+2015/3/6 18:02:39
+正常退出	1482
+2015/3/6 18:03:32
+登录系统	1482
+2015/3/6 18:04:27
+登录系统	1482
+2015/3/6 18:04:40
+正常退出	1482
+2015/3/6 18:05:53
+登录系统	1482
+2015/3/6 18:06:09
+正常退出	1482
+2015/3/6 18:09:42
+登录系统	1482
+2015/3/6 18:10:06
+正常退出	1482

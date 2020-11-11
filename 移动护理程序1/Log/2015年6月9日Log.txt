@@ -1,0 +1,41 @@
+2015/6/9 15:14:50
+ORA-12154: TNS:could not resolve the connect identifier specified
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode)
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local()
+   在 HISPlus.frmLogin.loginSys()
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e)
+2015/6/9 15:14:55
+登录系统	0351
+2015/6/9 15:15:43
+正常退出	0351
+2015/6/9 15:16:02
+登录系统	0351
+2015/6/9 15:16:13
+正常退出	0351
+2015/6/9 16:37:31
+登录系统	0351
+2015/6/9 16:37:43
+正常退出	0351
+2015/6/9 16:47:10
+登录失败	
+2015/6/9 17:01:39
+登录系统	0351
+2015/6/9 17:01:51
+正常退出	0351
+2015/6/9 18:01:33
+登录系统	0351
+2015/6/9 18:01:46
+正常退出	0351

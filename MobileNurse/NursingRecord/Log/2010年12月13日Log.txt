@@ -1,0 +1,5 @@
+2010-12-13 16:06:54
+未将对象引用设置到对象的实例。
+   在 HISPlus.DbInfo.GetTableData(String tableName, String filter)
+   在 HISPlus.NursingRecordFrm.initFrmVal()
+   在 HISPlus.NursingRecordFrm.timer1_Tick(Object sender, EventArgs e)

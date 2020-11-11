@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.DocTemplate, DocModel" table="DOC_TEMPLATE" lazy="false">
+		<id name="Id" type="Decimal" unsaved-value="0">
+			<column name="TEMPLATE_ID" sql-type="NUMBER" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="TemplateTypeId" type="Decimal">
+			<column name="TEMPLATE_TYPE_ID" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="TemplateName" type="String">
+			<column name="TEMPLATE_NAME" length="40" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="DisplayName" type="String">
+			<column name="DISPLAY_NAME" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="IsGlobal" type="Byte">
+			<column name="IS_GLOBAL" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="CreateUser" type="String">
+			<column name="CREATE_USER" length="20" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="UpdateUser" type="String">
+			<column name="UPDATE_USER" length="20" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="IsEnabled" type="Byte">
+			<column name="IS_ENABLED" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="Freq" type="String">
+			<column name="FREQ" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="Remark" type="String">
+			<column name="REMARK" length="800" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ReportTypeId" type="Decimal">
+			<column name="REPORT_TYPE_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="HasInoutStat" type="Byte">
+			<column name="HAS_INOUT_STAT" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="WristScan" type="String">
+			<column name="WRIST_SCAN" length="10" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+    <property name="SerialNo" type="Decimal">
+      <column name="SERIAL_NO" sql-type="NUMBER" not-null="false"/>
+    </property>
+    <property name="MinScore" type="Decimal">
+      <column name="MIN_SCORE" sql-type="NUMBER" not-null="false"/>
+    </property>
+    <property name="MaxScore" type="Decimal">
+      <column name="MAX_SCORE" sql-type="NUMBER" not-null="false"/>
+    </property>
+		<many-to-one name="DocTemplateClass" class="HISPlus.DocTemplateClass, DocModel">
+			<column name="TEMPLATE_CLASS_ID" sql-type="NUMBER" not-null="true"/>
+		</many-to-one>
+	</class>
+</hibernate-mapping>

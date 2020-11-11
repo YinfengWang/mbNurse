@@ -1,0 +1,35 @@
+2015/5/15 10:41:44
+登录系统	1482
+2015/5/15 10:44:32
+登录系统	1482
+2015/5/15 11:09:03
+登录系统	1482
+2015/5/15 11:10:36
+登录系统	1482
+2015/5/15 11:16:00
+登录系统	1482
+2015/5/15 11:30:13
+登录系统	1482
+2015/5/15 11:32:52
+登录系统	1482
+2015/5/15 11:38:43
+登录系统	1482
+2015/5/15 11:51:05
+登录系统	1482
+2015/5/15 11:55:01
+登录系统	1482
+2015/5/15 11:59:22
+未将对象引用设置到对象的实例。
+   在 HISPlus.UserManagerFrm.gvUser_SelectionChanged(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm1.cs:行号 200
+2015/5/15 12:02:58
+登录系统	1482
+2015/5/15 12:05:47
+列“INPUT_CODE”不属于表 USER_DICT。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 HISPlus.UserManagerFrm.saveUserInfo() 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm1.cs:行号 327
+   在 HISPlus.UserManagerFrm.btnSave_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\UserManager\UserManager\UserManagerFrm1.cs:行号 78
+2015/5/15 12:07:28
+登录系统	1482
+2015/5/15 12:09:39
+正常退出	1482

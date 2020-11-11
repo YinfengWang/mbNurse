@@ -1,0 +1,22 @@
+2015/3/30 14:43:51
+登录系统	1482
+2015/3/30 14:47:38
+正常退出	1482
+2015/3/30 15:04:33
+登录系统	1482
+2015/3/30 15:04:52
+未将对象引用设置到对象的实例。
+   在 HISPlus.DocSetting1.TreeNodeClick() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1338
+   在 HISPlus.DocSetting1.treeElement_MouseClick(Object sender, MouseEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1290
+2015/3/30 15:09:39
+未将对象引用设置到对象的实例。
+   在 HISPlus.DocSetting1.TreeNodeClick() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1338
+   在 HISPlus.DocSetting1.treeElement_MouseClick(Object sender, MouseEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1290
+2015/3/30 15:09:43
+未将对象引用设置到对象的实例。
+   在 HISPlus.DocSetting1.TreeNodeClick() 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1338
+   在 HISPlus.DocSetting1.treeElement_MouseClick(Object sender, MouseEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\DocSetting\DocSetting.cs:行号 1290
+2015/3/30 15:10:56
+登录系统	1482
+2015/3/30 15:12:49
+正常退出	1482

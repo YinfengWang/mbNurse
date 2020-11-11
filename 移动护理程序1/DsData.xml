@@ -1,0 +1,886 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VITAL_SIGNS_REC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PATIENT_ID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VISIT_ID" type="xs:decimal" />
+                <xs:element name="RECORDING_DATE" type="xs:dateTime" />
+                <xs:element name="TIME_POINT" type="xs:dateTime" />
+                <xs:element name="VITAL_SIGNS" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VITAL_SIGNS_VALUES" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UNITS" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CLASS_CODE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VITAL_CODE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VITAL_SIGNS_CVALUES" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="60" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="WARD_CODE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NURSE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ATTRIBUTE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="OPERATION">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PATIENT_ID">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VISIT_ID" type="xs:decimal" />
+                <xs:element name="OPERATION_NO" type="xs:decimal" />
+                <xs:element name="OPERATION_DESC" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OPERATION_CODE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="10" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HEAL" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="WOUND_GRADE" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="2" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OPERATING_DATE" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ANAESTHESIA_METHOD" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="OPERATOR" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="FIRST_ASSISTANT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SECOND_ASSISTANT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ANESTHESIA_DOCTOR" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="20" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NURSE_ITEM_DICT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="WARD_CODE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="CLASS_CODE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VITAL_CODE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="4" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="VITAL_SIGNS">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="16" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="UNIT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="8" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="PROPORTION" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ATTRIBUTE">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="1" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="SHOW_ORDER" type="xs:decimal" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//VITAL_SIGNS_REC" />
+        <xs:field xpath="PATIENT_ID" />
+        <xs:field xpath="VISIT_ID" />
+        <xs:field xpath="RECORDING_DATE" />
+        <xs:field xpath="TIME_POINT" />
+        <xs:field xpath="CLASS_CODE" />
+        <xs:field xpath="VITAL_CODE" />
+      </xs:unique>
+      <xs:unique name="OPERATION_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//OPERATION" />
+        <xs:field xpath="PATIENT_ID" />
+        <xs:field xpath="VISIT_ID" />
+        <xs:field xpath="OPERATION_NO" />
+      </xs:unique>
+      <xs:unique name="NURSE_ITEM_DICT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//NURSE_ITEM_DICT" />
+        <xs:field xpath="WARD_CODE" />
+        <xs:field xpath="CLASS_CODE" />
+        <xs:field xpath="VITAL_CODE" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-14T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-14T14:22:54+08:00</TIME_POINT>
+    <VITAL_SIGNS>体重</VITAL_SIGNS>
+    <UNITS>Kg</UNITS>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2003</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>56</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>3</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-15T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-15T14:22:54+08:00</TIME_POINT>
+    <VITAL_SIGNS>体重</VITAL_SIGNS>
+    <UNITS>Kg</UNITS>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2003</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>57</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>3</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-16T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-16T14:22:10+08:00</TIME_POINT>
+    <VITAL_SIGNS>入院</VITAL_SIGNS>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3002</VITAL_CODE>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>4</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-16T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-16T15:02:16+08:00</TIME_POINT>
+    <VITAL_SIGNS>体重</VITAL_SIGNS>
+    <UNITS>Kg</UNITS>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2003</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>55.6</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>3</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-17T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-17T08:23:14+08:00</TIME_POINT>
+    <VITAL_SIGNS>脉搏</VITAL_SIGNS>
+    <UNITS>次/分</UNITS>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1001</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>56</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>0</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-17T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-17T08:40:14+08:00</TIME_POINT>
+    <VITAL_SIGNS>呼吸</VITAL_SIGNS>
+    <UNITS>次/分</UNITS>
+    <CLASS_CODE>E</CLASS_CODE>
+    <VITAL_CODE>5001</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>23</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>0</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-17T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-17T09:40:14+08:00</TIME_POINT>
+    <VITAL_SIGNS>输入液量</VITAL_SIGNS>
+    <UNITS>ml</UNITS>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2007</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>34</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>1</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <VITAL_SIGNS_REC>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <RECORDING_DATE>2008-09-17T00:00:00+08:00</RECORDING_DATE>
+    <TIME_POINT>2008-09-17T14:02:16+08:00</TIME_POINT>
+    <VITAL_SIGNS>体重</VITAL_SIGNS>
+    <UNITS>Kg</UNITS>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2003</VITAL_CODE>
+    <VITAL_SIGNS_CVALUES>57</VITAL_SIGNS_CVALUES>
+    <WARD_CODE>0601H</WARD_CODE>
+    <NURSE>移动护理</NURSE>
+    <ATTRIBUTE>3</ATTRIBUTE>
+  </VITAL_SIGNS_REC>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>32</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术（包括垂体瘤、鞍区颅咽管瘤、视神经胶质瘤）</OPERATION_DESC>
+    <OPERATION_CODE>3302010380</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-25T08:00:00+08:00</OPERATING_DATE>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>2</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>3</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>4</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>5</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>6</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>7</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>8</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>9</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>10</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>11</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>12</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>13</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>14</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>15</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>16</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>17</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>18</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>19</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>20</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>21</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>22</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>23</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>24</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>25</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>26</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>27</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>28</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>29</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>30</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>31</OPERATION_NO>
+    <OPERATION_DESC>鞍区占位病变切除术</OPERATION_DESC>
+    <OPERATION_CODE>330201038</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>乔瑞锋</OPERATOR>
+  </OPERATION>
+  <OPERATION>
+    <PATIENT_ID>Z1000167</PATIENT_ID>
+    <VISIT_ID>1</VISIT_ID>
+    <OPERATION_NO>1</OPERATION_NO>
+    <OPERATION_DESC>臂丛神经损伤神经移位术</OPERATION_DESC>
+    <OPERATION_CODE>331502004</OPERATION_CODE>
+    <OPERATING_DATE>2008-08-14T08:00:00+08:00</OPERATING_DATE>
+    <OPERATOR>卢静</OPERATOR>
+  </OPERATION>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1001</VITAL_CODE>
+    <VITAL_SIGNS>脉搏</VITAL_SIGNS>
+    <UNIT>次／分</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>1</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1002</VITAL_CODE>
+    <VITAL_SIGNS>心率</VITAL_SIGNS>
+    <UNIT>次/分</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>2</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1004</VITAL_CODE>
+    <VITAL_SIGNS>腋下体温</VITAL_SIGNS>
+    <UNIT>℃</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>3</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1006</VITAL_CODE>
+    <VITAL_SIGNS>降温</VITAL_SIGNS>
+    <UNIT>℃</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>8</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1007</VITAL_CODE>
+    <VITAL_SIGNS>血氧饱和度</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>9</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>A</CLASS_CODE>
+    <VITAL_CODE>1008</VITAL_CODE>
+    <VITAL_SIGNS>大便量</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>6</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2001</VITAL_CODE>
+    <VITAL_SIGNS>血压</VITAL_SIGNS>
+    <UNIT>mmHg</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>4</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2002</VITAL_CODE>
+    <VITAL_SIGNS>大便</VITAL_SIGNS>
+    <UNIT>次</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>7</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2003</VITAL_CODE>
+    <VITAL_SIGNS>体重</VITAL_SIGNS>
+    <UNIT>kg</UNIT>
+    <ATTRIBUTE>3</ATTRIBUTE>
+    <SHOW_ORDER>1</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2006</VITAL_CODE>
+    <VITAL_SIGNS>尿量</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>1</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2007</VITAL_CODE>
+    <VITAL_SIGNS>输入液量</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>1</ATTRIBUTE>
+    <SHOW_ORDER>2</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2011</VITAL_CODE>
+    <VITAL_SIGNS>口入量</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>1</ATTRIBUTE>
+    <SHOW_ORDER>1</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2012</VITAL_CODE>
+    <VITAL_SIGNS>腹腔引流</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>2</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2013</VITAL_CODE>
+    <VITAL_SIGNS>胸腔引流</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>3</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2014</VITAL_CODE>
+    <VITAL_SIGNS>胃肠减压</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>4</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2015</VITAL_CODE>
+    <VITAL_SIGNS>呕吐量</VITAL_SIGNS>
+    <UNIT>ml</UNIT>
+    <ATTRIBUTE>2</ATTRIBUTE>
+    <SHOW_ORDER>5</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2016</VITAL_CODE>
+    <VITAL_SIGNS>身高</VITAL_SIGNS>
+    <UNIT>cm</UNIT>
+    <ATTRIBUTE>3</ATTRIBUTE>
+    <SHOW_ORDER>2</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2017</VITAL_CODE>
+    <VITAL_SIGNS>碘试敏</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>3</ATTRIBUTE>
+    <SHOW_ORDER>3</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>B</CLASS_CODE>
+    <VITAL_CODE>2018</VITAL_CODE>
+    <VITAL_SIGNS>抗生素试敏</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>3</ATTRIBUTE>
+    <SHOW_ORDER>4</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3001</VITAL_CODE>
+    <VITAL_SIGNS>入院</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>1</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3002</VITAL_CODE>
+    <VITAL_SIGNS>手术</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>2</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3003</VITAL_CODE>
+    <VITAL_SIGNS>转科</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>3</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3005</VITAL_CODE>
+    <VITAL_SIGNS>分娩</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>4</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3006</VITAL_CODE>
+    <VITAL_SIGNS>出院</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>5</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>C</CLASS_CODE>
+    <VITAL_CODE>3008</VITAL_CODE>
+    <VITAL_SIGNS>心跳停止</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>9</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>D</CLASS_CODE>
+    <VITAL_CODE>4001</VITAL_CODE>
+    <VITAL_SIGNS>辅助呼吸</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>6</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>D</CLASS_CODE>
+    <VITAL_CODE>4002</VITAL_CODE>
+    <VITAL_SIGNS>停止辅助呼吸</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>7</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>D</CLASS_CODE>
+    <VITAL_CODE>4004</VITAL_CODE>
+    <VITAL_SIGNS>物理降温</VITAL_SIGNS>
+    <UNIT />
+    <ATTRIBUTE>4</ATTRIBUTE>
+    <SHOW_ORDER>8</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+  <NURSE_ITEM_DICT>
+    <WARD_CODE>0601H</WARD_CODE>
+    <CLASS_CODE>E</CLASS_CODE>
+    <VITAL_CODE>5001</VITAL_CODE>
+    <VITAL_SIGNS>呼吸</VITAL_SIGNS>
+    <UNIT>次/分</UNIT>
+    <ATTRIBUTE>0</ATTRIBUTE>
+    <SHOW_ORDER>4</SHOW_ORDER>
+  </NURSE_ITEM_DICT>
+</NewDataSet>

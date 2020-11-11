@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationManager", "ApplicationManager\ApplicationManager.csproj", "{C156C8A4-170A-4153-9B92-92DADF487C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppManagerDbI", "..\AppManagerDbI\AppManagerDbI\AppManagerDbI.csproj", "{38B2A288-E7DC-4F26-A157-181D0695B48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C156C8A4-170A-4153-9B92-92DADF487C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C156C8A4-170A-4153-9B92-92DADF487C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C156C8A4-170A-4153-9B92-92DADF487C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C156C8A4-170A-4153-9B92-92DADF487C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B2A288-E7DC-4F26-A157-181D0695B48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B2A288-E7DC-4F26-A157-181D0695B48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B2A288-E7DC-4F26-A157-181D0695B48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B2A288-E7DC-4F26-A157-181D0695B48B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

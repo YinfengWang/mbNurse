@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Database.Provider</name>
+    </assembly>
+    <members>
+        <member name="T:System.Database.Provider.ECGHelper">
+            <summary>
+            EntitysCodeGenerate 自定义数据库代码生成帮助类
+            </summary>
+        </member>
+        <member name="M:System.Database.Provider.ECGHelper.GetAllTableAndComment">
+            <summary>
+            获取自定义数据库的所有表和表注释等信息(表名称，表类型，表注释，表模式名称)
+            数据表格式:table_name, table_type, comments, table_schema
+            </summary>
+            <returns>返回自定义数据库的所有表和表注释等信息的数据集</returns>
+        </member>
+        <member name="M:System.Database.Provider.ECGHelper.GetAllColumnAndCommentFromTable(System.String,System.String)">
+            <summary>
+            获取自定义数据库用户指定表的列和列的注释、类型等信息
+            (表名称，列名称，列注释，列数据类型，是否为空(Y:可空 N:非空)，数据类型的长度，数值型的刻度(即小数点前后的总位数)、精读(即小数数位)，列物理ID，列的约束类型(P:主键)
+            数据表格式:table_name, column_name, comments, data_type, nullable, data_length, data_precision, data_scale, column_id, constraint_type
+            </summary>
+            <param name="tableSchema">表模式名称</param>
+            <param name="tableName">表名称</param>
+            <returns>返回自定义数据库用户指定表的列和列的注释、类型等信息的数据集</returns>
+        </member>
+        <member name="T:System.Database.Provider.FixedLengthString">
+            <summary>
+            自定义数据类型：内容为固定长度的字符串
+            </summary>
+        </member>
+        <member name="T:System.Database.Provider.XmlString">
+            <summary>
+            自定义数据类型：内容为Xml格式的字符串
+            </summary>
+        </member>
+        <member name="T:System.Database.Provider.Currency">
+            <summary>
+            自定义数据类型：货币类型
+            </summary>
+        </member>
+        <member name="T:System.Database.Provider.SingletonProvider`1">
+            <summary>
+            单一实例提供类
+            ex:SingletonProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法,接口参数为布尔型
+            </summary>
+            <typeparam name="T">泛型类</typeparam>
+        </member>
+        <member name="P:System.Database.Provider.SingletonProvider`1.Instance">
+            <summary>
+            静态公共方法
+            用法ex:SingletonProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法
+            </summary>
+        </member>
+        <member name="T:System.Database.Provider.SingletonProvider`1.SingletonCreator">
+            <summary>
+            嵌套类
+            </summary>
+        </member>
+        <member name="F:System.Database.Provider.SingletonProvider`1.SingletonCreator.instance">
+            <summary>
+            静态只读字段
+            </summary>
+        </member>
+        <member name="M:System.Database.Provider.SingletonProvider`1.SingletonCreator.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="T:System.Database.Extend.SingleProvider`1">
+            <summary>
+            单一实例提供类
+            ex:SingleProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法
+            </summary>
+            <typeparam name="T">泛型类</typeparam>
+        </member>
+        <member name="P:System.Database.Extend.SingleProvider`1.Instance">
+            <summary>
+            静态公共方法
+            用法ex:SingleProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法
+            </summary>
+        </member>
+        <member name="T:System.Database.Extend.SingleProvider`1.SingletonCreator">
+            <summary>
+            嵌套类
+            </summary>
+        </member>
+        <member name="F:System.Database.Extend.SingleProvider`1.SingletonCreator.instance">
+            <summary>
+            静态只读字段
+            </summary>
+        </member>
+        <member name="M:System.Database.Extend.SingleProvider`1.SingletonCreator.#cctor">
+            <summary>
+            静态方法
+            </summary>
+        </member>
+        <member name="T:System.Database.Extend.SingletonProvider`1">
+            <summary>
+            单一实例提供类
+            ex:SingletonProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法,接口参数为布尔型
+            </summary>
+            <typeparam name="T">泛型类</typeparam>
+        </member>
+        <member name="P:System.Database.Extend.SingletonProvider`1.Instance">
+            <summary>
+            静态公共方法
+            用法ex:SingletonProvider《ExampleClass》.Instance.Method1(true);
+            Method1为ExampleClass类的一Public方法
+            </summary>
+        </member>
+        <member name="T:System.Database.Extend.SingletonProvider`1.SingletonCreator">
+            <summary>
+            嵌套类
+            </summary>
+        </member>
+        <member name="F:System.Database.Extend.SingletonProvider`1.SingletonCreator.instance">
+            <summary>
+            静态只读字段
+            </summary>
+        </member>
+        <member name="M:System.Database.Extend.SingletonProvider`1.SingletonCreator.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+    </members>
+</doc>

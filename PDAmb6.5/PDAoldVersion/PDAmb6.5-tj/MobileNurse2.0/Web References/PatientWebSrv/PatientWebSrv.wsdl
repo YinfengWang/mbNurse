@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetPatientInfo_Filter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filterName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientInfo_FilterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientInfo_FilterResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDeptCodeCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deptCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDeptCodeCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDeptCodeCountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPatientInfo_FilterSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientInfo_Filter" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientInfo_FilterSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientInfo_FilterResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountSoapIn">
+    <wsdl:part name="parameters" element="tns:getDeptCodeCount" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountSoapOut">
+    <wsdl:part name="parameters" element="tns:getDeptCodeCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientInfo_FilterHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="filterName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientInfo_FilterHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpGetIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientInfo_FilterHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+    <wsdl:part name="filterName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientInfo_FilterHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpPostIn">
+    <wsdl:part name="deptCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDeptCodeCountHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="PatientWebSrvSoap">
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <wsdl:input message="tns:GetPatientInfo_FilterSoapIn" />
+      <wsdl:output message="tns:GetPatientInfo_FilterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountSoapIn" />
+      <wsdl:output message="tns:getDeptCodeCountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PatientWebSrvHttpGet">
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <wsdl:input message="tns:GetPatientInfo_FilterHttpGetIn" />
+      <wsdl:output message="tns:GetPatientInfo_FilterHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountHttpGetIn" />
+      <wsdl:output message="tns:getDeptCodeCountHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PatientWebSrvHttpPost">
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <wsdl:input message="tns:GetPatientInfo_FilterHttpPostIn" />
+      <wsdl:output message="tns:GetPatientInfo_FilterHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <wsdl:input message="tns:getDeptCodeCountHttpPostIn" />
+      <wsdl:output message="tns:getDeptCodeCountHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PatientWebSrvSoap" type="tns:PatientWebSrvSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <soap:operation soapAction="http://tempuri.org/GetPatientInfo_Filter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <soap:operation soapAction="http://tempuri.org/getDeptCodeCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PatientWebSrvSoap12" type="tns:PatientWebSrvSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <soap12:operation soapAction="http://tempuri.org/GetPatientInfo_Filter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <soap12:operation soapAction="http://tempuri.org/getDeptCodeCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PatientWebSrvHttpGet" type="tns:PatientWebSrvHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <http:operation location="/GetPatientInfo_Filter" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <http:operation location="/getDeptCodeCount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PatientWebSrvHttpPost" type="tns:PatientWebSrvHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetPatientInfo_Filter">
+      <http:operation location="/GetPatientInfo_Filter" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDeptCodeCount">
+      <http:operation location="/getDeptCodeCount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PatientWebSrv">
+    <wsdl:port name="PatientWebSrvSoap" binding="tns:PatientWebSrvSoap">
+      <soap:address location="http://localhost/MobileWebSrv/PatientWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PatientWebSrvSoap12" binding="tns:PatientWebSrvSoap12">
+      <soap12:address location="http://localhost/MobileWebSrv/PatientWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PatientWebSrvHttpGet" binding="tns:PatientWebSrvHttpGet">
+      <http:address location="http://localhost/MobileWebSrv/PatientWebSrv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PatientWebSrvHttpPost" binding="tns:PatientWebSrvHttpPost">
+      <http:address location="http://localhost/MobileWebSrv/PatientWebSrv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

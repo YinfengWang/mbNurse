@@ -1,0 +1,5 @@
+C:\nurseCf\移动护理程序1\AutoUpdate.exe.config
+C:\nurseCf\移动护理程序1\AutoUpdate.exe
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Release\AutoUpdate.AutoUpdateFrm.resources
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Release\AutoUpdate.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\Common\AuotUpdate\obj\Release\AutoUpdate.exe

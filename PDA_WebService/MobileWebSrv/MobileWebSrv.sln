@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MobileWebSrv", "..\MobileWebSrv", "{E1599A5B-EF09-481D-A7FA-CD0194CA61D0}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/MobileWebSrv"
+		Debug.AspNetCompiler.PhysicalPath = "F:\开发空间\源代码\Web服务\MobileWebSrv\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MobileWebSrv\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MobileWebSrv"
+		Release.AspNetCompiler.PhysicalPath = "F:\开发空间\源代码\Web服务\MobileWebSrv\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MobileWebSrv\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12915"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1599A5B-EF09-481D-A7FA-CD0194CA61D0}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E1599A5B-EF09-481D-A7FA-CD0194CA61D0}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

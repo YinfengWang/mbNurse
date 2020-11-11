@@ -1,0 +1,24 @@
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\AllocationForms\obj\Debug\AllocationForms.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\AllocationForms\obj\Debug\AllocationForms.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse - 副本 (3)\AllocationForms\obj\Debug\AllocationForms.pdb
+E:\SVN\mobilenurse\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csprojResolveAssemblyReference.cache
+E:\SVN\mobilenurse\MobileNurse\AllocationForms\obj\Debug\HISPlus.AllocationForms.resources
+E:\SVN\mobilenurse\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csproj.GenerateResource.Cache
+E:\SVN\mobilenurse\MobileNurse\AllocationForms\obj\Debug\AllocationForms.dll
+E:\SVN\mobilenurse\MobileNurse\AllocationForms\obj\Debug\AllocationForms.pdb
+E:\SVN\mobilenurse\MobileNurse\AllocationForms.dll
+E:\SVN\mobilenurse\MobileNurse\AllocationForms.pdb
+M:\移动护理\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csprojResolveAssemblyReference.cache
+M:\移动护理\nurseCf\MobileNurse\AllocationForms\obj\Debug\HISPlus.AllocationForms.resources
+M:\移动护理\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.dll
+M:\移动护理\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.pdb
+M:\移动护理\nurseCf\MobileNurse\AllocationForms.dll
+M:\移动护理\nurseCf\MobileNurse\AllocationForms.pdb
+C:\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csprojResolveAssemblyReference.cache
+C:\nurseCf\MobileNurse\AllocationForms\obj\Debug\HISPlus.AllocationForms.resources
+C:\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.csproj.GenerateResource.Cache
+C:\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.dll
+C:\nurseCf\MobileNurse\AllocationForms\obj\Debug\AllocationForms.pdb
+C:\nurseCf\MobileNurse\AllocationForms.dll
+C:\nurseCf\MobileNurse\AllocationForms.pdb

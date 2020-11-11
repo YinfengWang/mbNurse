@@ -1,0 +1,629 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F56F95D7-A0EB-433E-A4C3-A7DB7622E8E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HISPlus</RootNamespace>
+    <AssemblyName>MobileNurse2</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>4118C335-430C-497f-BE48-11C3316B135E</PlatformID>
+    <OSVersion>5.1</OSVersion>
+    <DeployDirSuffix>MobileNurse2._0</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 5.0 Pocket PC SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PocketPC;SCANNER</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;PocketPC;SCANNER</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Symbol, Version=2.5.0.3, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Symbol.dll</HintPath>
+    </Reference>
+    <Reference Include="Symbol.Audio, Version=2.5.0.3, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Symbol.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="Symbol.Barcode, Version=2.5.0.5, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Symbol.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="symbol.notification, Version=2.5.0.3, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\symbol.notification.dll</HintPath>
+    </Reference>
+    <Reference Include="symbol.standardforms, Version=2.5.0.2, Culture=neutral, PublicKeyToken=68ec8db391f150ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\symbol.standardforms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="COMAPP\Application\AppCur.cs" />
+    <Compile Include="COMAPP\DBI\MsgDbI.cs" />
+    <Compile Include="COMAPP\DBI\PatientDbI.cs" />
+    <Compile Include="COMAPP\DBI\OrdersDbI.cs" />
+    <Compile Include="COMAPP\DBI\VitalSignsDbI.cs" />
+    <Compile Include="COMAPP\DBI\NurseDbI.cs" />
+    <Compile Include="COMAPP\DBI\EvaluationDbI.cs" />
+    <Compile Include="COMAPP\DBI\HealthEduDbI.cs" />
+    <Compile Include="COMAPP\DBI\XunShiDbI.cs" />
+    <Compile Include="COMAPP\Function\ComFunctionApp.cs" />
+    <Compile Include="COMAPP\Function\PatientNavigator.cs" />
+    <Compile Include="COMAPP\Function\SqlCeSync.cs" />
+    <Compile Include="COMAPP\Function\CeAPI.cs" />
+    <Compile Include="COMAPP\Function\SystemLog.cs" />
+    <Compile Include="COMAPP\GVars.cs" />
+    <Compile Include="COMAPP\OrderRemindList.cs" />
+    <Compile Include="COMAPP\Person\PatientCls.cs" />
+    <Compile Include="COMAPP\Person\PersonCls.cs" />
+    <Compile Include="COMAPP\Person\UserCls.cs" />
+    <Compile Include="COM\Application\App.cs" />
+    <Compile Include="COM\Constant\ComConst.cs" />
+    <Compile Include="COM\Database\DbAccess.cs" />
+    <Compile Include="COM\Database\SqlceAccess.cs" />
+    <Compile Include="COM\Database\SqlManager.cs" />
+    <Compile Include="COM\Error\ErrInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COM\Error\ErrInfo.designer.cs">
+      <DependentUpon>ErrInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COM\Error\Error.cs" />
+    <Compile Include="COM\Function\DataType.cs" />
+    <Compile Include="COM\Function\Message.cs" />
+    <Compile Include="COM\Function\UrlIp.cs" />
+    <Compile Include="FORMS\AddNurseEventFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\AddNurseEventFrm.Designer.cs">
+      <DependentUpon>AddNurseEventFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ContentShowFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ContentShowFrm.Designer.cs">
+      <DependentUpon>ContentShowFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ExamFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ExamFrm.Designer.cs">
+      <DependentUpon>ExamFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ExamReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ExamReportForm.designer.cs">
+      <DependentUpon>ExamReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\FilterValueFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FilterValueFrm.designer.cs">
+      <DependentUpon>FilterValueFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ItemValueInputFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ItemValueInputFrm.Designer.cs">
+      <DependentUpon>ItemValueInputFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\LabReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\LabReportForm.designer.cs">
+      <DependentUpon>LabReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\LabTestFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\LabTestFrm.Designer.cs">
+      <DependentUpon>LabTestFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\NurseRecordFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\NurseRecordFrm.Designer.cs">
+      <DependentUpon>NurseRecordFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\NurseRecordTemplateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\NurseRecordTemplateFrm.Designer.cs">
+      <DependentUpon>NurseRecordTemplateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\NurseWorkHandoffFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\NurseWorkHandoffFrm.Designer.cs">
+      <DependentUpon>NurseWorkHandoffFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OperationFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OperationFrm.Designer.cs">
+      <DependentUpon>OperationFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OrderDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OrderDetailForm.designer.cs">
+      <DependentUpon>OrderDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OrderRemindFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OrderRemindFrm.designer.cs">
+      <DependentUpon>OrderRemindFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OrderRemindPatientListFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OrderRemindPatientListFrm.Designer.cs">
+      <DependentUpon>OrderRemindPatientListFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OrdersExecuteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OrdersExecuteFrm.Designer.cs">
+      <DependentUpon>OrdersExecuteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\OrdersFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\OrdersFrm.Designer.cs">
+      <DependentUpon>OrdersFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\PatientDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\PatientDetailForm.designer.cs">
+      <DependentUpon>PatientDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\PatientFilterFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\PatientFilterFrm.designer.cs">
+      <DependentUpon>PatientFilterFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\PatientListFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\PatientListFrm.Designer.cs">
+      <DependentUpon>PatientListFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\SelectTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\SelectTime.Designer.cs">
+      <DependentUpon>SelectTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Sys\ChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Sys\ChangePwd.designer.cs">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Sys\LoginCom.cs" />
+    <Compile Include="FORMS\Sys\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Sys\LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Sys\SettingFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Sys\SettingFrm.designer.cs">
+      <DependentUpon>SettingFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Sys\NumInputPanelFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Sys\NumInputPanelFrm.designer.cs">
+      <DependentUpon>NumInputPanelFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\Sys\SysStatusFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Sys\SysStatusFrm.designer.cs">
+      <DependentUpon>SysStatusFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\VitalRecorderFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\VitalRecorderFrm.Designer.cs">
+      <DependentUpon>VitalRecorderFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HealthEduFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HealthEduFrm.Designer.cs">
+      <DependentUpon>HealthEduFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\HealthEduDoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\HealthEduDoFrm.Designer.cs">
+      <DependentUpon>HealthEduDoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\DateTimePickerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\DateTimePickerFrm.Designer.cs">
+      <DependentUpon>DateTimePickerFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\SpecimentFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\SpecimentFrm.Designer.cs">
+      <DependentUpon>SpecimentFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\XunShi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\XunShi.Designer.cs">
+      <DependentUpon>XunShi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COM\Error\ErrInfo.resx">
+      <DependentUpon>ErrInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\AddNurseEventFrm.resx">
+      <DependentUpon>AddNurseEventFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ContentShowFrm.resx">
+      <DependentUpon>ContentShowFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ExamFrm.resx">
+      <DependentUpon>ExamFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ExamReportForm.resx">
+      <DependentUpon>ExamReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FilterValueFrm.resx">
+      <DependentUpon>FilterValueFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ItemValueInputFrm.resx">
+      <DependentUpon>ItemValueInputFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\LabReportForm.resx">
+      <DependentUpon>LabReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\LabTestFrm.resx">
+      <DependentUpon>LabTestFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\NurseRecordFrm.resx">
+      <DependentUpon>NurseRecordFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\NurseRecordTemplateFrm.resx">
+      <DependentUpon>NurseRecordTemplateFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\NurseWorkHandoffFrm.resx">
+      <DependentUpon>NurseWorkHandoffFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OperationFrm.resx">
+      <DependentUpon>OperationFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OrderDetailForm.resx">
+      <DependentUpon>OrderDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OrderRemindFrm.resx">
+      <DependentUpon>OrderRemindFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OrderRemindPatientListFrm.resx">
+      <DependentUpon>OrderRemindPatientListFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OrdersExecuteFrm.resx">
+      <DependentUpon>OrdersExecuteFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\OrdersFrm.resx">
+      <DependentUpon>OrdersFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\PatientDetailForm.resx">
+      <DependentUpon>PatientDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\PatientFilterFrm.resx">
+      <DependentUpon>PatientFilterFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\PatientListFrm.resx">
+      <DependentUpon>PatientListFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\SelectTime.resx">
+      <DependentUpon>SelectTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Sys\ChangePwd.resx">
+      <DependentUpon>ChangePwd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Sys\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Sys\SettingFrm.resx">
+      <DependentUpon>SettingFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Sys\NumInputPanelFrm.resx">
+      <DependentUpon>NumInputPanelFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Sys\SysStatusFrm.resx">
+      <DependentUpon>SysStatusFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\VitalRecorderFrm.resx">
+      <DependentUpon>VitalRecorderFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HealthEduFrm.resx">
+      <DependentUpon>HealthEduFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\HealthEduDoFrm.resx">
+      <DependentUpon>HealthEduDoFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\DateTimePickerFrm.resx">
+      <DependentUpon>DateTimePickerFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\SpecimentFrm.resx">
+      <DependentUpon>SpecimentFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\XunShi.resx">
+      <DependentUpon>XunShi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\VitalRecordMemo.resx">
+      <DependentUpon>VitalRecordMemo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FORMS\VitalRecordMemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\VitalRecordMemo.Designer.cs">
+      <DependentUpon>VitalRecordMemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\AutoUpdateWebSrv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DataWebSrv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\HISDataWebSrv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PatientWebSrv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UserWebSrv\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <Content Include="MobileNurse.ico" />
+    <Content Include="xinx.ico" />
+    <None Include="Web References\HISDataWebSrv\HISDataWebSrv.disco" />
+    <None Include="Web References\DataWebSrv\DataWebSrv.disco" />
+    <None Include="Web References\DataWebSrv\DataWebSrv.wsdl" />
+    <None Include="Web References\DataWebSrv\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\HISDataWebSrv\HISDataWebSrv.wsdl" />
+    <None Include="Web References\HISDataWebSrv\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PatientWebSrv\PatientWebSrv.disco" />
+    <None Include="Web References\PatientWebSrv\PatientWebSrv.wsdl" />
+    <None Include="Web References\PatientWebSrv\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UserWebSrv\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UserWebSrv\UserWebSrv.disco" />
+    <None Include="Web References\AutoUpdateWebSrv\AutoUpdateWebSrv.disco" />
+    <None Include="Web References\AutoUpdateWebSrv\AutoUpdateWebSrv.wsdl" />
+    <None Include="Web References\AutoUpdateWebSrv\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UserWebSrv\UserWebSrv.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\AutoUpdateWebSrv\</RelPath>
+      <UpdateFromURL>http://localhost/MobileWebSrv/AutoUpdateWebSrv.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/MobileWebSrv/DataWebSrv.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\DataWebSrv\</RelPath>
+      <UpdateFromURL>http://localhost/MobileWebSrv/DataWebSrv.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/MobileWebSrv/HISDataWebSrv.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\HISDataWebSrv\</RelPath>
+      <UpdateFromURL>http://localhost/MobileWebSrv/HISDataWebSrv.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/MobileWebSrv/PatientWebSrv.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PatientWebSrv\</RelPath>
+      <UpdateFromURL>http://localhost/MobileWebSrv/PatientWebSrv.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost/MobileWebSrv/UserWebSrv.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\UserWebSrv\</RelPath>
+      <UpdateFromURL>http://localhost/MobileWebSrv/UserWebSrv.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

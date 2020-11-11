@@ -1,0 +1,17 @@
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISDictManager.dll
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISDictManager.pdb
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\DictDbI.dll
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISComm.dll
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISGlobalVariant.dll
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISComm.pdb
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\HISGlobalVariant.pdb
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\bin\x86\Debug\DictDbI.pdb
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISPlus.DictItemContentFrm.resources
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISPlus.DictSearchFrm.resources
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISPlus.NursingInterventionFrm.resources
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISPlus.DictManagerFrm.resources
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISDictManager.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISDictManager.dll.licenses
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISDictManager.dll
+M:\移动护理\nurseCf\MobileNurse\HISDictManager\HISDictManager\obj\x86\Debug\HISDictManager.pdb

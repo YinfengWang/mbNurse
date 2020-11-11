@@ -1,0 +1,208 @@
+2016/1/19 9:35:16
+登录系统	
+2016/1/19 9:35:21
+尝试加载 Oracle 客户端库时引发 BadImageFormatException。如果在安装 32 位 Oracle 客户端组件的情况下以 64 位模式运行，将出现此问题。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+2016/1/19 9:35:34
+登录系统	
+2016/1/19 9:49:21
+登录系统	
+2016/1/19 9:49:25
+尝试加载 Oracle 客户端库时引发 BadImageFormatException。如果在安装 32 位 Oracle 客户端组件的情况下以 64 位模式运行，将出现此问题。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+2016/1/19 9:49:38
+登录系统	
+2016/1/19 9:54:00
+登录系统	
+2016/1/19 9:57:23
+登录系统	
+2016/1/19 9:57:26
+ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56
+2016/1/19 9:57:36
+登录系统	
+2016/1/19 9:57:42
+ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56
+2016/1/19 9:59:36
+登录系统	
+2016/1/19 10:04:16
+登录系统	
+2016/1/19 10:04:36
+登录系统	
+2016/1/19 10:07:14
+主键冲突：(patient_id,visit_id,order_no,order_sub_no) = ('02731988',1,72,1)
+2016/1/19 10:07:45
+登录系统	
+2016/1/19 10:08:19
+登录系统	
+2016/1/19 10:08:42
+登录系统	
+2016/1/19 10:10:22
+登录系统	
+2016/1/19 10:11:09
+登录系统	
+2016/1/19 10:11:38
+登录系统	
+2016/1/19 10:12:04
+登录系统	
+2016/1/19 10:12:30
+主键冲突：(patient_id,visit_id,order_no,order_sub_no) = ('02732157',2,34,1)
+2016/1/19 10:12:48
+登录系统	
+2016/1/19 10:13:05
+主键冲突：(patient_id,visit_id,order_no,order_sub_no) = ('00489172',13,18,1)
+2016/1/19 10:13:18
+登录系统	
+2016/1/19 10:13:44
+登录系统	
+2016/1/19 10:14:09
+主键冲突：(patient_id,visit_id,order_no,order_sub_no) = ('03215455',1,5,1),('03215455',1,6,1),('03215455',1,10,1),('03215455',1,10,2),('03215455',1,11,1),('03215455',1,12,1),('03215455',1,12,2),('03215455',1,13,1),('03215455',1,14,1),('03215455',1,14,2),('03215455',1,14,3),('03215455',1,15,1),('03215455',1,15,2),('03215455',1,16,1),('03215455',1,17,1)
+2016/1/19 10:14:31
+主键冲突：(patient_id,visit_id,order_no,order_sub_no) = ('03215455',1,5,1),('03215455',1,6,1),('03215455',1,10,1),('03215455',1,10,2),('03215455',1,11,1),('03215455',1,12,1),('03215455',1,12,2),('03215455',1,13,1),('03215455',1,14,1),('03215455',1,14,2),('03215455',1,14,3),('03215455',1,15,1),('03215455',1,15,2),('03215455',1,16,1),('03215455',1,17,1)
+2016/1/19 10:14:41
+登录系统	
+2016/1/19 10:20:22
+登录系统	
+2016/1/19 10:22:44
+登录系统	
+2016/1/19 10:23:44
+登录系统	
+2016/1/19 10:24:14
+登录系统	
+2016/1/19 12:31:57
+登录系统	
+2016/1/19 12:32:02
+尝试加载 Oracle 客户端库时引发 BadImageFormatException。如果在安装 32 位 Oracle 客户端组件的情况下以 64 位模式运行，将出现此问题。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+2016/1/19 12:32:15
+登录系统	
+2016/1/19 20:10:15
+登录系统	
+2016/1/19 20:10:19
+尝试加载 Oracle 客户端库时引发 BadImageFormatException。如果在安装 32 位 Oracle 客户端组件的情况下以 64 位模式运行，将出现此问题。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+2016/1/19 20:10:37
+登录系统	
+2016/1/19 20:13:28
+登录系统	
+2016/1/19 20:16:47
+登录系统	
+2016/1/19 20:30:08
+正常退出	
+2016/1/19 20:31:19
+登录系统	
+2016/1/19 21:44:53
+登录系统	
+2016/1/19 21:44:56
+尝试加载 Oracle 客户端库时引发 BadImageFormatException。如果在安装 32 位 Oracle 客户端组件的情况下以 64 位模式运行，将出现此问题。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect()
+   在 HISPlus.DbAccess.SelectValue(String sqlSel)
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 D:\心医\项目\synchronize\Synchronize\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 59
+   在 HISPlus.LoginCom.LoadAppSetting_Local() 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\LoginCom.cs:行号 75
+   在 HISPlus.Program.Main(String[] args) 位置 D:\心医\项目\synchronize\Synchronize\Launcher\Launcher\Program.cs:行号 56试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+2016/1/19 21:45:49
+登录系统	

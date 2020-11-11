@@ -1,0 +1,76 @@
+2015/4/15 9:38:57
+ORA-12170: TNS:Connect timeout occurred
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 HISPlus.DbAccess.Connect() 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 152
+   在 HISPlus.DbAccess.SelectValue(String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\DbAccess.cs:行号 274
+   在 HISPlus.HospitalDbI.Get_DeptName(String deptCode) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\HospitalDbI\HospitalDbI\HospitalDbI.cs:行号 61
+   在 HISPlus.frmLoginCom.LoadAppSetting_Local() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLoginCom.cs:行号 95
+   在 HISPlus.frmLogin.loginSys() 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 465
+   在 HISPlus.frmLogin.lblLogin_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISLogin\HISLogin\frmLogin.cs:行号 358
+2015/4/15 9:39:08
+登录系统	1482
+2015/4/15 10:12:51
+登录系统	1482
+2015/4/15 10:15:59
+正常退出	1482
+2015/4/15 10:16:15
+登录系统	1482
+2015/4/15 10:16:42
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:16:45
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:16:46
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:16:46
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:18:51
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:19:24
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:20:35
+登录系统	1482
+2015/4/15 10:21:36
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:22:04
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:26:57
+登录系统	1482
+2015/4/15 10:27:20
+只能在具有 Unchanged DataRowState 的 DataRows 上调用 SetAdded 和 SetModified 。
+   在 System.Data.DataRow.SetModified()
+   在 HISPlus.NursingViewRec.lvwNursingRec_ItemChecked(Object sender, ItemCheckedEventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\NursingRec\NursingRec\NursingViewRec.cs:行号 140
+2015/4/15 10:30:05
+登录系统	1482
+2015/4/15 10:31:38
+登录系统	1482
+2015/4/15 16:08:03
+登录系统	1482
+2015/4/15 16:21:43
+登录系统	1482

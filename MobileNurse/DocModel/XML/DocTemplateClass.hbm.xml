@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.DocTemplateClass, DocModel" table="DOC_TEMPLATE_CLASS" lazy="false">
+		<id name="Id" type="Decimal" unsaved-value="0">
+			<column name="ID" sql-type="NUMBER" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="Name" type="String">
+			<column name="NAME" length="40" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="ParentId" type="Decimal">
+			<column name="PARENT_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="SortId" type="Decimal">
+			<column name="SORT_ID" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="Enabled" type="Byte">
+			<column name="ENABLED" sql-type="NUMBER" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="HISPlus.DocTemplateElement, DocModel" table="DOC_TEMPLATE_ELEMENT" lazy="false">
+		<id name="Id" type="Decimal" unsaved-value="0">
+			<column name="ID" sql-type="NUMBER" not-null="true" unique="true"/>
+			<generator class="native" />
+		</id>
+		<property name="ParentId" type="Decimal">
+			<column name="PARENT_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="SortId" type="Decimal">
+			<column name="SORT_ID" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="ElementName" type="String">
+			<column name="ELEMENT_NAME" length="200" sql-type="VARCHAR2" not-null="true"/>
+		</property>
+		<property name="DisplayName" type="String">
+			<column name="DISPLAY_NAME" length="4000" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="NameFont" type="String">
+			<column name="NAME_FONT" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ControlStatusId" type="Decimal">
+			<column name="CONTROL_STATUS_ID" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlFont" type="String">
+			<column name="CONTROL_FONT" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ControlWidth" type="Decimal">
+			<column name="CONTROL_WIDTH" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlHeight" type="Decimal">
+			<column name="CONTROL_HEIGHT" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlOffset" type="Decimal">
+			<column name="CONTROL_OFFSET" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ControlPrefix" type="String">
+			<column name="CONTROL_PREFIX" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="ControlSuffix" type="String">
+			<column name="CONTROL_SUFFIX" length="40" sql-type="VARCHAR2" not-null="false"/>
+		</property>
+		<property name="NewLine" type="Byte">
+			<column name="NEW_LINE" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="RowSpacing" type="Decimal">
+			<column name="ROW_SPACING" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="ChildrenIndent" type="Decimal">
+			<column name="CHILDREN_INDENT" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="DataType" type="Byte">
+			<column name="DATA_TYPE" sql-type="NUMBER" not-null="true"/>
+		</property>
+		<property name="Score" type="Single">
+			<column name="SCORE" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="RelationType" type="Decimal">
+			<column name="RELATION_TYPE" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="RelationCode" type="Decimal">
+			<column name="RELATION_CODE" sql-type="NUMBER" not-null="false"/>
+		</property>
+		<property name="CreateTimestamp" type="DateTime">
+			<column name="CREATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+		<property name="UpdateTimestamp" type="DateTime">
+			<column name="UPDATE_TIMESTAMP" sql-type="TIMESTAMP(6)" not-null="true"/>
+		</property>
+    <property name="MinScore" type="Decimal">
+      <column name="MIN_SCORE" sql-type="NUMBER" not-null="false"/>
+    </property>
+    <property name="MaxScore" type="Decimal">
+      <column name="MAX_SCORE" sql-type="NUMBER" not-null="false"/>
+    </property>
+		<many-to-one name="DocControlTemplate" class="HISPlus.DocControlTemplate, DocModel">
+			<column name="CONTROL_TEMPLATE_ID" sql-type="NUMBER" not-null="true"/>
+		</many-to-one>
+		<many-to-one name="DocTemplate" class="HISPlus.DocTemplate, DocModel">
+			<column name="TEMPLATE_ID" sql-type="NUMBER" not-null="true"/>
+		</many-to-one>
+	</class>
+</hibernate-mapping>

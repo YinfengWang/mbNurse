@@ -1,0 +1,31 @@
+2015/5/19 14:27:42
+登录系统	1482
+2015/5/19 14:30:11
+违反并发性: DeleteCommand 影响了预期 1 条记录中的 0 条。
+   在 HISPlus.OracleAccess.Update(DataSet& ds, String tableName, String sqlSel) 位置 E:\SVN\mobilenurse\MobileNurse\Common\HISComm\Database\OracleAccess.cs:行号 170
+   在 HISPlus.HISDictDbI.SaveDictGroupInfo(DataSet dsChanged) 位置 E:\SVN\mobilenurse\MobileNurse\Interface\DictDbI\DictDbI\HISDictDbI.cs:行号 40
+   在 HISPlus.DictManagerFrm.btnSaveDict_Click(Object sender, EventArgs e) 位置 E:\SVN\mobilenurse\MobileNurse\HISDictManager\HISDictManager\DictManagerFrm.cs:行号 264
+2015/5/19 14:31:38
+登录系统	1482
+2015/5/19 14:42:47
+登录系统	1482
+2015/5/19 14:46:11
+登录系统	1482
+2015/5/19 14:54:24
+登录系统	1482
+2015/5/19 14:58:39
+登录系统	1482
+2015/5/19 15:04:07
+登录系统	1482
+2015/5/19 15:05:04
+登录系统	1482
+2015/5/19 15:08:13
+登录系统	1482
+2015/5/19 15:10:15
+登录系统	1482
+2015/5/19 15:14:57
+登录系统	1482
+2015/5/19 15:20:37
+登录系统	1482
+2015/5/19 15:27:31
+正常退出	1482

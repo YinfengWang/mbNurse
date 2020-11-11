@@ -1,0 +1,9 @@
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\bin\x86\Debug\ExcelAccess.dll
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\bin\x86\Debug\ExcelAccess.pdb
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\bin\x86\Debug\Excel.dll
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\bin\x86\Debug\Office.dll
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\bin\x86\Debug\VBIDE.dll
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\obj\x86\Debug\HISPlus.Properties.Resources.resources
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\obj\x86\Debug\ExcelAccess.csproj.GenerateResource.Cache
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\obj\x86\Debug\ExcelAccess.dll
+M:\移动护理\nurseCf\MobileNurse\Common\ExcelAccess\ExcelAccess\obj\x86\Debug\ExcelAccess.pdb

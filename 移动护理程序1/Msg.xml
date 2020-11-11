@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MSG_DICT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MSG_ID" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="5" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="MSG_CONTENT" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MSG_DICT>
+    <MSG_ID>I0009</MSG_ID>
+    <MSG_CONTENT>{0}成功!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0004</MSG_ID>
+    <MSG_CONTENT>您确认要删除当前记录吗？</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0005</MSG_ID>
+    <MSG_CONTENT>删除成功!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0006</MSG_ID>
+    <MSG_CONTENT>该节点不存在!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0007</MSG_ID>
+    <MSG_CONTENT>请先确定角色!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0004</MSG_ID>
+    <MSG_CONTENT>下载成功!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>WD001</MSG_ID>
+    <MSG_CONTENT>{0} 已经启动!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID004</MSG_ID>
+    <MSG_CONTENT>三次登录失败，退出登录</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID003</MSG_ID>
+    <MSG_CONTENT>错误的用户名/密码。请重新输入！</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID001</MSG_ID>
+    <MSG_CONTENT>用户名不能为空, 请重新输入</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID002</MSG_ID>
+    <MSG_CONTENT>口令不能为空, 请重新输入</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID005</MSG_ID>
+    <MSG_CONTENT>登录系统</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID006</MSG_ID>
+    <MSG_CONTENT>登录失败</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID007</MSG_ID>
+    <MSG_CONTENT>正常退出</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ID008</MSG_ID>
+    <MSG_CONTENT>异常退出</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0001</MSG_ID>
+    <MSG_CONTENT>请设置 {0} 文件!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0002</MSG_ID>
+    <MSG_CONTENT>密码修改成功!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0003</MSG_ID>
+    <MSG_CONTENT>密码修改失败!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0010</MSG_ID>
+    <MSG_CONTENT>必须选择{0}!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0011</MSG_ID>
+    <MSG_CONTENT>没有需要续打的数据!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0012</MSG_ID>
+    <MSG_CONTENT>指定的页面不存在!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0013</MSG_ID>
+    <MSG_CONTENT>您没有{0}权限!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0014</MSG_ID>
+    <MSG_CONTENT>获取当前班次时间范围出错!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0015</MSG_ID>
+    <MSG_CONTENT>该班次时间未到!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0003</MSG_ID>
+    <MSG_CONTENT>您确认要退出本系统吗?</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0005</MSG_ID>
+    <MSG_CONTENT>您确认要删除当前记录吗?</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0006</MSG_ID>
+    <MSG_CONTENT>您确认要 {0} {1} 吗?</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>I0008</MSG_ID>
+    <MSG_CONTENT>时间输入不正确!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0009</MSG_ID>
+    <MSG_CONTENT>{0}成功了吗?</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>W0005</MSG_ID>
+    <MSG_CONTENT>该病人不存在!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>Q0007</MSG_ID>
+    <MSG_CONTENT>记录已经改, 要放弃保存吗?</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ED001</MSG_ID>
+    <MSG_CONTENT>找不到初始化文件。请确认{0}位于执行路径下</MSG_CONTENT>
+  </MSG_DICT>
+    <MSG_ID>E0001</MSG_ID>
+    <MSG_CONTENT>{0} 配置错误!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ED005</MSG_ID>
+    <MSG_CONTENT>系统错误</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>ED006</MSG_ID>
+    <MSG_CONTENT>您还没有使用本系统的权限!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0005</MSG_ID>
+    <MSG_CONTENT>{0}失败!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0008</MSG_ID>
+    <MSG_CONTENT>两次输入的密码不同! 请重新输入。</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0009</MSG_ID>
+    <MSG_CONTENT>密码错误!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0010</MSG_ID>
+    <MSG_CONTENT>窗体ID为: {0}, Menu.xml文件中定义为 {1}, 请修改Menu.xml文件!</MSG_CONTENT>
+  </MSG_DICT>  
+  <MSG_DICT>
+    <MSG_ID>E0011</MSG_ID>
+    <MSG_CONTENT>日期不能大于当前系统日期!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0012</MSG_ID>
+    <MSG_CONTENT>必须输入{0}!</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0013</MSG_ID>
+    <MSG_CONTENT>新增的记录已经存在, 如果要修改已存在的记录,必须先删除再新增.</MSG_CONTENT>
+  </MSG_DICT>
+  <MSG_DICT>
+    <MSG_ID>E0014</MSG_ID>
+    <MSG_CONTENT>{0}输入超长</MSG_CONTENT>
+  </MSG_DICT>
+</NewDataSet>
